@@ -1,35 +1,43 @@
 {
     "name": "Final Fantasy 1 Randomizer",
     "game_name": "Final Fantasy",
-    "game_variant": "Entroper (V4.0.0)",
+    "game_variant": "Entroper (V4.8.6)",
     "platform": "nes",
-    "package_version": "0.1b",
+    "package_version": "1.0a",
     "package_uid": "ff1_rando_ap",
-    "author": "jat2980, DarkmoonEX, HaateXIII",
+    "author": "jat2980, DarkmoonEX, HaateXIII, SunflashRune, meklin89",
     "variants": {
-        "standard": {
-            "display_name": "Standard Map Tracker",
-			"flags" : [
-				"ap"
-			]
-        },
-        "shardHunt": {
-            "display_name": "Shard Hunt Map Tracker",
-			"flags" : [
-				"ap"
-			]
-        },
         "standardNoMap": {
             "display_name": "Standard Tracker",
-			"flags" : [
-				"ap"
-			]
+            "ap"
         },
         "shardHuntNoMap": {
             "display_name": "Shard Hunt Tracker",
-			"flags" : [
-				"ap"
-			]
+            "ap"
+        },
+        "NOverworldNoMap": {
+            "display_name": "NOverworld",
+            "ap"
+        },
+        "shardHuntNOverworldNoMap": {
+            "display_name": "NOverworld Shard Hunt",
+            "ap"
+        },
+        "standard": {
+            "display_name": "Standard Map Tracker",
+            "ap"
+        },
+        "shardHunt": {
+            "display_name": "Shard Hunt Map Tracker",
+            "ap"
+        },
+        "NOverworld": {
+            "display_name": "NOverworld Map Tracker",
+            "ap"
+        },
+        "shardHuntNOverworld": {
+            "display_name": "NOverworld Shard Hunt Map Tracker",
+            "ap"
         }
     }
 }
