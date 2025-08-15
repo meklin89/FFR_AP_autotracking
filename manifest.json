@@ -9,35 +9,35 @@
     "variants": {
         "standardNoMap": {
             "display_name": "Standard Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "shardHuntNoMap": {
             "display_name": "Shard Hunt Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "NOverworldNoMap": {
             "display_name": "NOverworld",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "shardHuntNOverworldNoMap": {
             "display_name": "NOverworld Shard Hunt",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "standard": {
             "display_name": "Standard Map Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "shardHunt": {
             "display_name": "Shard Hunt Map Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "NOverworld": {
             "display_name": "NOverworld Map Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         },
         "shardHuntNOverworld": {
             "display_name": "NOverworld Shard Hunt Map Tracker",
-            "ap"
+            "flags" : [ "ap" ]
         }
     }
 }
