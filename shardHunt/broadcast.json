@@ -34,6 +34,24 @@
                             },
                             {
                                 "type": "group",
+                                "header": "Flags",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "shared_flags_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Incentives",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "shared_incentives_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
                                 "header": "Shards",
                                 "dock": "top",
                                 "content": {
