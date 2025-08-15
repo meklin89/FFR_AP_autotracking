@@ -5,7 +5,7 @@
         "children": [
             {
                 "name": "Coneria Castle",
-                "access_rules": [],
+				"access_rules": [],
                 "sections": [
                     {
                         "name": "Coneria Castle Chests",
@@ -20,7 +20,7 @@
                     },
                     {
                         "name": "King",
-                        "access_rules": [],
+                        "access_rules": [ "earlyKing", "garland" ],
                         "item_count": 1,
                         "hosted_item": "king"
                     },
@@ -33,7 +33,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1840,
                         "y": 1740
                     }
@@ -71,7 +71,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1540,
                         "y": 1300
                     }
@@ -107,7 +107,7 @@
                         ],
                         "map_locations": [
                             {
-                                "map": "overworld",
+                                "map": "locations",
                                 "x": 1540,
                                 "y": 1220
                             }
@@ -117,7 +117,12 @@
             },
             {
                 "name": "Dwarf Cave",
-                "access_rules": [ "openProgression", "ship", "airship", "extendedOpen" ],
+                "access_rules": [
+                    "openProgression",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
                 "sections": [
                     {
                         "name": "Free Chests",
@@ -136,7 +141,7 @@
                         "hosted_item": "smith"
                     },
                     {
-                        "name": "Nerrick",
+                        "name": "Nerrick (Vanilla Canal)",
                         "access_rules": [ "tnt" ],
                         "item_count": 1,
                         "hosted_item": "nerrick"
@@ -144,7 +149,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1220,
                         "y": 1730
                     }
@@ -152,7 +157,12 @@
             },
             {
                 "name": "North West Castle",
-                "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
                 "sections": [
                     {
                         "name": "Astos",
@@ -168,7 +178,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1230,
                         "y": 2070
                     }
@@ -181,7 +191,8 @@
                     "ship",
                     "airship",
                     "extendedOpen,canoe",
-                    "openProgression,canoe"
+                    "openProgression,canoe",
+					"lefeinBridge"
                 ],
                 "sections": [
                     {
@@ -198,7 +209,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2040,
                         "y": 1240
                     }
@@ -206,7 +217,12 @@
             },
             {
                 "name": "Elf Castle",
-                "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
                 "sections": [
                     {
                         "name": "Elf Prince",
@@ -222,7 +238,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1640,
                         "y": 2500
                     }
@@ -235,7 +251,8 @@
                     "ship",
                     "airship",
                     "extendedOpen,canoe",
-                    "openProgression,canoe"
+                    "openProgression,canoe",
+					"lefeinBridge"
                 ],
                 "sections": [
                     {
@@ -247,7 +264,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2530,
                         "y": 1650
                     }
@@ -255,7 +272,12 @@
             },
             {
                 "name": "Marsh Cave",
-                "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
                 "sections": [
                     {
                         "name": "Marsh Incentive",
@@ -317,7 +339,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1230,
                         "y": 2680
                     }
@@ -331,18 +353,22 @@
         "children": [
             {
                 "name": "Sarda's Cave",
-                "access_rules": [ "airship", "ruby,ship,canal" ],
+                "access_rules": [
+                    "airship",
+                    "ruby,ship,canal",
+                    "melmondRiver,canoe,ruby"
+                 ],
                 "sections": [
                     {
                         "name": "Sarda",
-                        "access_rules": [],
+                        "access_rules": [ "earlySarda", "vampire" ],
                         "item_count": 1,
                         "hosted_item": "sarda"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 370,
                         "y": 2150
                     }
@@ -350,7 +376,11 @@
             },
             {
                 "name": "Titan's Trove",
-                "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
+                "access_rules": [
+                    "ruby,airship",
+                    "ruby,ship,canal",
+                    "melmondRiver,canoe,ruby"
+                 ],
                 "sections": [
                     {
                         "name": "Incentive",
@@ -366,7 +396,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 400,
                         "y": 1950
                     }
@@ -374,7 +404,11 @@
             },
             {
                 "name": "Earth Cave",
-                "access_rules": [ "airship", "ship,canal" ],
+                "access_rules": [
+                    "airship",
+                    "ship,canal",
+                    "melmondRiver,canoe"
+                 ],
                 "sections": [
                     {
                         "name": "Earth Orb",
@@ -430,7 +464,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 790,
                         "y": 2080
                     }
@@ -438,7 +472,11 @@
             },
             {
                 "name": "Melmond",
-                "access_rules": [ "ship,canal,slab", "airship,slab" ],
+                "access_rules": [
+                    "ship,canal,slab",
+                    "airship,slab",
+                    "melmondRiver,canoe,slab"
+                 ],
                 "sections": [
                     {
                         "name": "Dr Unne",
@@ -447,7 +485,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 970,
                         "y": 1750
                     }
@@ -471,14 +509,14 @@
                 "sections": [
                     {
                         "name": "Sages",
-                        "access_rules": [],
+                        "access_rules": [ "earlySage", "earthorblit"],
                         "item_count": 1,
                         "hosted_item": "sages"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2630,
                         "y": 2450
                     }
@@ -528,7 +566,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2380,
                         "y": 2050
                     }
@@ -607,7 +645,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2280,
                         "y": 2280
                     }
@@ -615,7 +653,7 @@
             },
             {
                 "name": "Ryukahn Desert",
-                "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen" ],
+                "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen", "luffyDock,ship,canal"  ],
                 "sections": [
                     {
                         "name": "Floater Turn In",
@@ -625,7 +663,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2650,
                         "y": 2700
                     }
@@ -639,17 +677,26 @@
         "children": [
             {
                 "name": "Bahamut's Cave",
-                "access_rules": [ "airship","cardiaDock,ship,canal" ],
+                "access_rules": [
+                    "airship",
+                    "cardiaDock,ship,canal"
+                 ],
                 "sections": [
                     {
                         "name": "Bahamut",
                         "access_rules": [ "tail" ],
                         "hosted_item": "bahamut"
-                    }
+                    },
+					{
+						"name" : "Cardia Incentive - Hoard",
+						"visibility_rules" : [ "BahamutHoard" ],
+						"access_rules" : [],
+						"hosted_item" : "cardiaIncentive"
+					}
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1200,
                         "y": 480
                     }
@@ -657,17 +704,17 @@
             },
             {
                 "name": "Cardia Grassy",
-                "access_rules": [ "airship" ],
+				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
-                        "access_rules": [],
-                        "item_count": 3
+			"access_rules": [],
+                        "item_count": 3,
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 960,
                         "y": 440
                     }
@@ -675,17 +722,17 @@
             },
             {
                 "name": "Cardia Swampy",
-                "access_rules": [ "airship" ],
+				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
                         "access_rules": [],
-                        "item_count": 3
+                        "item_count": 3,
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1120,
                         "y": 550
                     }
@@ -709,7 +756,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1400,
                         "y": 650
                     }
@@ -723,11 +770,15 @@
         "children": [
             {
                 "name": "Ordeals",
-                "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
+                "access_rules": [
+                    "airship,canoe",
+                    "ship,canal,canoe",
+                    "lefeinBridge,hwyOrdeals,bridge,canoe"
+                ],
                 "sections": [
                     {
                         "name": "Incentive",
-                        "access_rules": [],
+                        "access_rules": [ "earlyOrdeals", "crown" ],
                         "item_count": 1,
                         "hosted_item": "ordeals"
                     },
@@ -739,7 +790,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 1570,
                         "y": 380
                     }
@@ -753,7 +804,13 @@
         "children": [
             {
                 "name": "Lefein",
-                "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
+                "access_rules": [
+                    "airship",
+                    "lefeinRiver,canoe,ship,canal",
+                    "lefeinBridge,bridge",
+                    "hwyOrdeals,ship,canal,canoe",
+                    "northernDocks,ship,canal,hwyOrdeals"
+                ],
                 "sections": [
                     {
                         "name": "Incentive",
@@ -764,7 +821,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2850,
                         "y": 1040
                     }
@@ -772,7 +829,13 @@
             },
             {
                 "name": "Gaia",
-                "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
+                "access_rules": [
+                    "airship",
+                    "gaiaMountain,ship,canoe,lefeinRiver,canal",
+                    "gaiaMountain,northernDocks,ship,canal",
+                    "gaiaMountain,hwyOrdeals,ship,canal,canoe",
+                    "lefeinBridge,gaiaMountain,bridge"
+                 ],
                 "sections": [
                     {
                         "name": "Fairy",
@@ -783,7 +846,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2650,
                         "y": 200
                     }
@@ -791,7 +854,12 @@
             },
             {
                 "name": "Mirage Tower",
-                "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
+                "access_rules": [
+                    "airship,chime",
+                    "northernDocks,chime,ship,canal",
+                    "lefeinBridge,bridge,hwyOrdeals,chime",
+                    "hwyOrdeals,ship,canoe,canal,chime"
+                ],
                 "sections": [
                     {
                         "name": "Floor 1",
@@ -806,7 +874,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2300,
                         "y": 660
                     }
@@ -814,7 +882,12 @@
             },
             {
                 "name": "Sky Palace",
-                "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+                "access_rules": [
+                    "airship,chime,cube",
+                    "northernDocks,chime,ship,canal,cube",
+                    "lefeinBridge,bridge,hwyOrdeals,chime,cube",
+                    "hwyOrdeals,ship,canal,canoe,chime,cube",
+                 ],
                 "sections": [
                     {
                         "name": "Air Orb",
@@ -870,7 +943,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 2300,
                         "y": 580
                     }
@@ -884,7 +957,10 @@
         "children": [
             {
                 "name": "Waterfall",
-                "access_rules": [ "airship,canoe", "northernDocks,ship,canal,canoe" ],
+                "access_rules": [
+                    "airship,canoe",
+                    "northernDocks,ship,canal,canoe"
+                ],
                 "sections": [
                     {
                         "name": "Robot",
@@ -900,7 +976,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 700,
                         "y": 380
                     }
@@ -908,7 +984,10 @@
             },
             {
                 "name": "Sea Shrine",
-                "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+                "access_rules": [
+                    "airship,canoe,oxyale",
+                    "northernDocks,ship,canal,oxyale"
+                ],
                 "sections": [
                     {
                         "name": "Water Orb",
@@ -954,31 +1033,30 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "overworld",
+                        "map": "locations",
                         "x": 740,
                         "y": 660
                     }
                 ]
+            },
+            {
+                "name": "I: Shop Item",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "I: Shop Item",
+                        "access_rules": [],
+                        "hosted_item": "shopItem"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "locations",
+                        "x": 310,
+                        "y": 460
+                    }
+                ]
             }
         ]
-    },
-    {
-        "name": "Anywhere",
-        "color": "#808080",
-        "children": [
-            {
-                "name": "Shop Item",
-				"access_rules": [],
-				"item_count": 1,
-				"hosted_item" : "shopItem"
-			}
-		],
-		"map_locations" : [
-			{
-				"map" : "overworld",
-				"x" : 0,
-				"y" : 0
-			}
-		]
-	}
+    }
 ]
