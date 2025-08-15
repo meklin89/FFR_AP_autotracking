@@ -1,40 +1,82 @@
 {
-    "shared_item_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [ "earthorb", "fireorb", "waterorb", "airorb", "lute" ],
-            [ "key", "rod", "oxyale", "chime", "cube" ],
-            [ "bridge", "ship", "canal", "canoe", "floater" ],
-            [ "adamant", "tnt", "crown", "crystal", "herb" ],
-            [ "garland", "ruby", "tail", "slab", "bottle" ]
-        ]
-    },
-    "shared_locations_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "v_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [ "king", "sara", "bikke", "nerrick", "smith" ],
-            [ "astos", "sarda", "sages", "matoya", "elfprince" ],
-            [ "marsh", "marshLocked", "fairy", "lefein", "coneriaLocked" ],
-            [ "robot", "iceCave", "ordeals", "titansTrove", "cardiaIncentive" ],
-            [ "shopItem", "earth", "volcano", "sea", "sky" ]
-        ]
-    },
-    "shared_flags_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "v_alignment": "center",
-        "item_margin": "1,2",
-        "rows": [
-            [ "extendedOpen", "npcsAreIncentive", "fetchQuestsAreIncentive" ],
-            [ "northernDocks", "gaiaMountain", "lefeinRiver" ,"cardiaDock" ],
-            [ "iceCaveIsIncentive", "ordealsIsIncentive", "marshIsIncentive", "titansTroveIsIncentive" ],
-            [ "earthIsIncentive", "volcanoIsIncentive", "seaIsIncentive", "skyIsIncentive" ],
-            [ "coneriaLockedIsIncentive", "marshLockedIsIncentive", "cardiaIsIncentive" ]
-        ]
-    }
+	"shared_item_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "lute", "earthorb", "fireorb", "waterorb", "airorb" ],
+				[ "key", "rod", "oxyale", "chime", "cube" ],
+				[ "bridge", "ship", "canal", "canoe", "floater" ],
+				[ "adamant", "tnt", "crown", "crystal", "herb" ],
+				[ "garland", "ruby", "tail", "slab", "bottle" ]
+			]
+		}
+	},
+	"shared_locations_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "king", "sara", "bikke", "nerrick", "smith" ],
+				[ "astos", "sarda", "sages", "matoya", "elfprince" ],
+				[ "marsh", "marshLocked", "fairy", "lefein", "coneriaLocked" ],
+				[ "robot", "iceCave", "ordeals", "titansTrove", "cardiaIncentive" ],
+				[ "shopItem", "earth", "volcano", "sea", "sky" ]
+			]
+		}
+	},
+	"NOverworld_item_grid" : {
+		"type" : "container",
+		"content" : {
+			"type" : "itemgrid",
+			"h_alignment" : "center",
+			"v_alignment": "center",
+			"item_margin" : "1,2",
+			"rows" : [
+				[ "lute", "earthorb", "fireorb", "waterorb", "airorb" ],
+				[ "key", "rod", "oxyale", "chime", "cube" ],
+				[ "mark", "sigil" ],
+				[ "adamant", "tnt", "crown", "crystal", "herb" ],
+				[ "garland", "ruby", "tail", "slab", "bottle" ]
+			]
+		}
+	},
+	"shared_flags_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "extendedOpen", "airBoat", ],
+				[ "northernDocks", "luffyDock", "earlyKing" ],
+				[ "cardiaDock", "lefeinRiver", "earlySarda" ],
+				[ "lefeinBridge", "gaiaMountain", "earlySage" ],
+				[ "hwyOrdeals", "melmondRiver", "earlyOrdeals" ]
+			]
+		}
+	},
+	"shared_incentives_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "npcsAreIncentive", "fetchQuestsAreIncentive" ],
+				[ "iceCaveIsIncentive", "ordealsIsIncentive", "marshIsIncentive", "titansTroveIsIncentive" ],
+				[ "earthIsIncentive", "volcanoIsIncentive", "seaIsIncentive", "skyIsIncentive" ],
+				[ "coneriaLockedIsIncentive", "marshLockedIsIncentive", "cardiaIsIncentive" ],
+				[ "loose", "dud" ]
+			]
+		}
+	}
 }
