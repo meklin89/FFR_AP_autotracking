@@ -17,6 +17,9 @@ ITEM_MAPPING = {
   [272] = {"oxyale", "toggle"},
   [277] = {"shards", "progressive"},
   [480] = {"ship", "toggle"},
+  [488] = {"bridge", "toggle"},
   [492] = {"canal", "toggle"},
   [498] = {"canoe", "toggle"},
+  [499] = {"sigil", "toggle"},
+  [500] = {"mark", "toggle"},
 }
