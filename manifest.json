@@ -7,35 +7,35 @@
     "package_uid": "ff1_rando_ap",
     "author": "jat2980, DarkmoonEX, HaateXIII, SunflashRune, meklin89",
     "variants": {
-        "standardNoMap": {
+        "1standardNoMap": {
             "display_name": "Standard Tracker",
             "flags" : [ "ap" ]
         },
-        "shardHuntNoMap": {
+        "2shardHuntNoMap": {
             "display_name": "Shard Hunt Tracker",
             "flags" : [ "ap" ]
         },
-        "NOverworldNoMap": {
+        "3NOverworldNoMap": {
             "display_name": "NOverworld",
             "flags" : [ "ap" ]
         },
-        "shardHuntNOverworldNoMap": {
+        "4shardHuntNOverworldNoMap": {
             "display_name": "NOverworld Shard Hunt",
             "flags" : [ "ap" ]
         },
-        "standard": {
+        "5standard": {
             "display_name": "Standard Map Tracker",
             "flags" : [ "ap" ]
         },
-        "shardHunt": {
+        "6shardHunt": {
             "display_name": "Shard Hunt Map Tracker",
             "flags" : [ "ap" ]
         },
-        "NOverworld": {
+        "7NOverworld": {
             "display_name": "NOverworld Map Tracker",
             "flags" : [ "ap" ]
         },
-        "shardHuntNOverworld": {
+        "8shardHuntNOverworld": {
             "display_name": "NOverworld Shard Hunt Map Tracker",
             "flags" : [ "ap" ]
         }
