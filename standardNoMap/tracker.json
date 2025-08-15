@@ -6,7 +6,7 @@
             "h_alignment": "center",
             "item_margin": "1,2",
             "rows": [
-                [ "earthorb", "fireorb", "waterorb", "airorb", "lute" ],
+                [ "lute", "earthorb", "fireorb", "waterorb", "airorb" ],
                 [ "key", "rod", "oxyale", "chime", "cube" ],
                 [ "bridge", "ship", "canal", "canoe", "floater" ],
                 [ "adamant", "tnt", "crown", "crystal", "herb" ],
@@ -16,36 +16,36 @@
     },
     "tracker_default": {
         "type": "container",
-        "width": 417,
-        "height": 250,
+        "width": 383,
+        "height": 227,
         "background": "#5f6393",
         "content": {
-            "type": "array",
-            "orientation": "horizontal",
-            "content": [
-                {
-                    "type": "group",
-                    "header": "Items",
-                    "margin": "0,0,3,0",
-                    "content": {
-                        "type": "layout",
-                        "h_alignment": "left",
-                        "v_alignment": "center",
-                        "key": "shared_item_grid"
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "margin": "0,0,3,0",
+                        "content": {
+                            "type": "layout",
+                            "h_alignment": "center",
+                            "v_alignment": "center",
+                            "key": "shared_item_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Locations",
+                        "margin": "0,0,3,0",
+                        "content": {
+                            "type": "layout",
+                            "h_alignment": "center",
+                            "v_alignment": "center",
+                            "key": "shared_locations_grid"
+                        }
                     }
-                },
-                {
-                    "type": "group",
-                    "header": "Locations",
-                    "margin": "0,0,3,0",
-                    "content": {
-                        "type": "layout",
-                        "h_alignment": "right",
-                        "v_alignment": "center",
-                        "key": "shared_locations_grid"
-                    }
-                }
-            ]
+                ]
         }
     }
 }
