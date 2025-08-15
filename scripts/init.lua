@@ -8,7 +8,7 @@ Tracker:AddItems("items/hosted_items.json")
 Tracker:AddItems("items/flags.json")
 Tracker:AddItems("shardHunt/shards.json")
 
-if Tracker.ActiveVariantUID == "NOverworld" or Tracker.ActiveVariantUID == "shardHuntNOverworld" then
+if Tracker.ActiveVariantUID == "7NOverworld" or Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
   Tracker:AddMaps("maps/NOverworldMaps.json")
 else
   Tracker:AddMaps("maps/maps.json")
@@ -16,7 +16,7 @@ end
 
 ScriptHost:LoadScript("scripts/logic.lua")
 
-if Tracker.ActiveVariantUID == "NOverworld" or Tracker.ActiveVariantUID == "shardHuntNOverworld" then
+if Tracker.ActiveVariantUID == "7NOverworld" or Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
     Tracker:AddLocations("locations/NOverworld/locations.json")
     Tracker:AddLocations("locations/NOverworld/incentives.json")
 else
@@ -25,33 +25,33 @@ else
 end
 
 Tracker:AddLayouts("layouts/shared.json")
-if Tracker.ActiveVariantUID == "shardHunt" then
+if Tracker.ActiveVariantUID == "6shardHunt" then
   Tracker:AddLayouts("shardHunt/tracker.json")
   Tracker:AddLayouts("shardHunt/broadcast.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "shardHuntNoMap" then
+elseif Tracker.ActiveVariantUID == "2shardHuntNoMap" then
   Tracker:AddLayouts("shardHuntNoMap/tracker.json")
   Tracker:AddLayouts("shardHuntNoMap/broadcastNoMap.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "shardHuntNOverworld" then
+elseif Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
   Tracker:AddLayouts("NOverworld/shardsTracker.json")
   Tracker:AddLayouts("NOverworld/broadcastShards.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "shardHuntNOverworldNoMap" then
+elseif Tracker.ActiveVariantUID == "4shardHuntNOverworldNoMap" then
   Tracker:AddLayouts("NOverworld/shardsTrackerNoMap.json")
   Tracker:AddLayouts("NOverworld/broadcastShardsNoMap.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "NOverworld" then
+elseif Tracker.ActiveVariantUID == "7NOverworld" then
   Tracker:AddLayouts("NOverworld/tracker.json")
   Tracker:AddLayouts("NOverworld/broadcast.json")
-elseif Tracker.ActiveVariantUID == "NOverworldNoMap" then
+elseif Tracker.ActiveVariantUID == "3NOverworldNoMap" then
   Tracker:AddLayouts("NOverworld/trackerNoMap.json")
   Tracker:AddLayouts("NOverworld/broadcastNoMap.json")
-elseif Tracker.ActiveVariantUID == "standardNoMap" then
+elseif Tracker.ActiveVariantUID == "1standardNoMap" then
   Tracker:AddLayouts("standardNoMap/tracker.json")
   Tracker:AddLayouts("standardNoMap/broadcastNoMap.json")
 else
