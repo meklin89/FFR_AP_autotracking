@@ -1,14 +1,320 @@
 [
     {
-        "name": "locations",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/overworld.png"
-    },
-    {
         "name": "incentives",
         "location_size": 80,
         "location_border_thickness": 10,
-        "img": "images/overworld.png"
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "overworld",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "con_castle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/con_castle.png"
+    },
+    {
+        "name": "elf_castle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/elf_castle.png"
+    },
+    {
+        "name": "nw_castle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/nw_castle.png"
+    },
+    {
+        "name": "ordeals1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals1F.png"
+    },
+    {
+        "name": "ordeals2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals2F.png"
+    },
+    {
+        "name": "ordeals3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals3F.png"
+    },
+    {
+        "name": "waterfall",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/waterfall.png"
+    },
+    {
+        "name": "dwarves",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/dwarves.png"
+    },
+    {
+        "name": "matoya",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/matoya.png"
+    },
+    {
+        "name": "sarda",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sarda.png"
+    },
+    {
+        "name": "cardia",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/cardia.png"
+    },
+    {
+        "name": "bahamut",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/bahamut.png"
+    },
+    {
+        "name": "marshB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/marshB1.png"
+    },
+    {
+        "name": "marshB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/marshB2.png"
+    },
+    {
+        "name": "marshB3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/marshB3.png"
+    },
+    {
+        "name": "iceB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/iceB1.png"
+    },
+    {
+        "name": "iceB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/iceB2.png"
+    },
+    {
+        "name": "iceB3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/iceB3.png"
+    },
+    {
+        "name": "earthB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earthB1.png"
+    },
+    {
+        "name": "earthB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earthB2.png"
+    },
+    {
+        "name": "earthB3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earthB3.png"
+    },
+    {
+        "name": "earthB4",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earthB4.png"
+    },
+    {
+        "name": "earthB5",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earthB5.png"
+    },
+    {
+        "name": "volcB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcB1.png"
+    },
+    {
+        "name": "volcB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcB2.png"
+    },
+    {
+        "name": "volcB3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcB3.png"
+    },
+    {
+        "name": "volcB4",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcB4.png"
+    },
+    {
+        "name": "volcB5",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/volcB5.png"
+    },
+    {
+        "name": "seaB5",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB5.png"
+    },
+    {
+        "name": "seaB4",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB4.png"
+    },
+    {
+        "name": "seaB3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB3.png"
+    },
+    {
+        "name": "seaB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB2.png"
+    },
+    {
+        "name": "seaB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB1.png"
+    },
+    {
+        "name": "mirage1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage1F.png"
+    },
+    {
+        "name": "mirage2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage2F.png"
+    },
+    {
+        "name": "mirage3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage3F.png"
+    },
+    {
+        "name": "sky1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky1F.png"
+    },
+    {
+        "name": "sky2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky2F.png"
+    },
+    {
+        "name": "sky3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky3F.png"
+    },
+    {
+        "name": "sky4F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky4F.png"
+    },
+    {
+        "name": "sky5F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky5F.png"
+    },
+    {
+        "name": "tof",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tof.png"
+    },
+    {
+        "name": "tofr1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr1F.png"
+    },
+    {
+        "name": "tofr2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr2F.png"
+    },
+    {
+        "name": "tofr3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr3F.png"
+    },
+    {
+        "name": "tofrEarth",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrEarth.png"
+    },
+    {
+        "name": "tofrFire",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrFire.png"
+    },
+    {
+        "name": "tofrWater",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrWater.png"
+    },
+    {
+        "name": "tofrAir",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrAir.png"
+    },
+    {
+        "name": "tofrChaos",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrChaos.png"
+    },
+    {
+        "name": "titans",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/titans.png"
     }
 ]
