@@ -150,6 +150,45 @@ function onLocation(location_id, location_name)
   end
 end
 
+--this is stuff to update the tabs using the AT, but will need to wait til AP/worlds/ff1 has some updates
+
+--[[function onNotify(key, value, old_value)
+	updateEvents(value)
+end
+
+function onNotifyLaunch(key, value)
+	updateEvents(value)
+end
+
+function updateEvents(value)
+    if value ~= nil then
+	    print(string.format("updateEvents %x",value))
+		--local tabswitch = Tracker:FindObjectForCode("tab_switch")
+        --Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+		--if tabswitch.Active then
+			local mapValue = MAP_VALUE and MAP_VALUE[value]
+            if mapValue then
+                -- Split by '/' and process each map name/tab
+                for str in string.gmatch(mapValue, "([^/]+)") do
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                        print(string.format("Updating ID %x to Tab %s", value, str))
+                        Tracker:UiHint("ActivateTab", str)
+                    end
+                end
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                    print(string.format("Value: %x --- Map: %s", value, mapValue))
+                end
+            else
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                    print("Overworld or unknown map value: ", value)
+                end
+            end
+		--end
+	end
+end]]
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+--Archipelago:AddSetReplyHandler("notify handler", onNotify)
+--Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
