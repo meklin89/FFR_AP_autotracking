@@ -15,22 +15,6 @@
 			]
 		}
 	},
-	"shared_locations_grid": {
-		"type" : "container",
-		"content" : {
-			"type": "itemgrid",
-			"h_alignment": "center",
-			"v_alignment": "center",
-			"item_margin": "1,2",
-			"rows": [
-				[ "king", "sara", "bikke", "nerrick", "smith" ],
-				[ "astos", "sarda", "sages", "matoya", "elfprince" ],
-				[ "marsh", "marshLocked", "fairy", "lefein", "coneriaLocked" ],
-				[ "robot", "iceCave", "ordeals", "titansTrove", "cardiaIncentive" ],
-				[ "shopItem", "earth", "volcano", "sea", "sky" ]
-			]
-		}
-	},
 	"NOverworld_item_grid" : {
 		"type" : "container",
 		"content" : {
@@ -47,6 +31,22 @@
 			]
 		}
 	},
+	"shared_locations_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "king", "sara", "bikke", "nerrick", "smith" ],
+				[ "astos", "sarda", "sages", "matoya", "elfprince" ],
+				[ "marsh", "marshLocked", "fairy", "lefein", "coneriaLocked" ],
+				[ "robot", "iceCave", "ordeals", "titansTrove", "cardiaIncentive" ],
+				[ "shopItem", "earth", "volcano", "sea", "sky" ]
+			]
+		}
+	},
 	"shared_flags_grid": {
 		"type" : "container",
 		"content" : {
@@ -55,7 +55,7 @@
 			"v_alignment": "center",
 			"item_margin": "1,2",
 			"rows": [
-				[ "extendedOpen", "airBoat", ],
+				[ "extendedOpen", "airBoat" ],
 				[ "northernDocks", "luffyDock", "earlyKing" ],
 				[ "cardiaDock", "lefeinRiver", "earlySarda" ],
 				[ "lefeinBridge", "gaiaMountain", "earlySage" ],
@@ -78,5 +78,23 @@
 				[ "loose", "dud" ]
 			]
 		}
-	}
+	},
+	"shared_shard_hunt_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "item_height": 50,
+        "item_width": 100,
+        "rows": [
+            [ "shardsRequired" ],
+            [ "shards" ]
+        ]
+    }
 }
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "width": 383,
+        "height": 227,
+        "background": "#5f6393",
+        "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Items",
+                    "margin": "0,0,3,0",
+                    "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "NOverworld_item_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Locations",
+                    "margin": "0,0,3,0",
+                    "content": {
+                        "type": "layout",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "key": "shared_locations_grid"
+                    }
+                }
+            ]
+        }
+    }
+}
