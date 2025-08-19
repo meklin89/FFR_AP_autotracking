@@ -19,6 +19,7 @@ CUR_INDEX = -1
 
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+--ScriptHost:LoadScript("scripts/mapValues.lua")
 
 function onClear()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
