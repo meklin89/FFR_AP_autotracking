@@ -153,7 +153,7 @@ end
 
 --this is stuff to update the tabs using the AT, but will need to wait til AP/worlds/ff1 has some updates
 
---[[function onNotify(key, value, old_value)
+function onNotify(key, value, old_value)
 	updateEvents(value)
 end
 
@@ -191,5 +191,5 @@ end]]
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
---Archipelago:AddSetReplyHandler("notify handler", onNotify)
---Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
