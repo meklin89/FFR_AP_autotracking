@@ -19,7 +19,7 @@ CUR_INDEX = -1
 
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
---ScriptHost:LoadScript("scripts/mapValues.lua")
+--ScriptHost:LoadScript("scripts/mapValues.lua")		//  for possible future auto-swappable map tabbing
 
 function onClear()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -161,7 +161,7 @@ function onNotifyLaunch(key, value)
 	updateEvents(value)
 end
 
-
+--[[  for possible future auto-swappable map tabbing
 
 function updateEvents(value)
     if value ~= nil then
@@ -190,7 +190,7 @@ function updateEvents(value)
 	end
 end
 
-
+]]--
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
