@@ -7,8 +7,8 @@ This is a pack for black-silver's Poptracker (https://github.com/black-sliver/Po
 Pretty simple to use, not 100% as fully functional as the EmoTracker pack, but works for Archipelago.
 
 Known Issues:
-~~- Map Logic is borked still. ~~
-  - Specifically, the northern continents show as available, even when they're not.
+<del>- Map Logic is borked still.
+  - Specifically, the northern continents show as available, even when they're not.</del> *Fixed
 
 Known Limitations:
 As the tracker doesn't read the rom's memory, it is only able to track the following things:
