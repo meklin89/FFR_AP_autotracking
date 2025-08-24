@@ -1,3 +1,5 @@
+-- for possible future auto-swappable map tabbing
+
 MAP_VALUE = {
 		[0] = "Overworld",
 		[1] = "Overworld",
