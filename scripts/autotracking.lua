@@ -161,12 +161,14 @@ function onNotifyLaunch(key, value)
 	updateEvents(value)
 end
 
+
+
 function updateEvents(value)
     if value ~= nil then
 	    print(string.format("updateEvents %x",value))
 		--local tabswitch = Tracker:FindObjectForCode("tab_switch")
         --Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
-		--if tabswitch.Active then
+		if tabswitch.Active then
 			local mapValue = MAP_VALUE and MAP_VALUE[value]
             if mapValue then
                 -- Split by '/' and process each map name/tab
@@ -184,9 +186,11 @@ function updateEvents(value)
                     print("Overworld or unknown map value: ", value)
                 end
             end
-		--end
+		end
 	end
-end]]
+end
+
+
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
