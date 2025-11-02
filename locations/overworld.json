@@ -8,12 +8,12 @@
 				"access_rules": [],
                 "sections": [
                     {
-                        "name": "Coneria Castle Chests",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 5
                     },
                     {
-                        "name": "Coneria Castle Incentive",
+                        "name": "Treasury Major",
                         "access_rules": [ "key" ],
                         "item_count": 1,
                         "hosted_item": "coneriaLocked"
@@ -49,22 +49,22 @@
                         "hosted_item": "garland"
                     },
                     {
-                        "name": "Top Left",
+                        "name": "Unlocked Duo",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Bottom Left",
+                        "name": "Unlocked Single",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Top Right",
+                        "name": "Locked Duo",
                         "access_rules": [ "key" ],
                         "item_count": 2
                     },
                     {
-                        "name": "Bottom Right",
+                        "name": "Locked Single",
                         "access_rules": [ "key" ],
                         "item_count": 1
                     }
@@ -125,12 +125,12 @@
                  ],
                 "sections": [
                     {
-                        "name": "Free Chests",
+                        "name": "Entrance",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Dwarf Armory",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 8
                     },
@@ -156,7 +156,7 @@
                 ]
             },
             {
-                "name": "North West Castle",
+                "name": "Northwest Castle",
                 "access_rules": [
                     "openProgression,canoe",
                     "ship",
@@ -171,7 +171,7 @@
                         "hosted_item": "astos"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 3
                     }
@@ -231,7 +231,7 @@
                         "hosted_item": "elfprince"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 4
                     }
@@ -280,59 +280,59 @@
                  ],
                 "sections": [
                     {
-                        "name": "Marsh Incentive",
+                        "name": "Bottom - Tetris-Z Incentive",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "marsh"
                     },
                     {
-                        "name": "Marsh Locked Incentive",
+                        "name": "Bottom - Locked Incentive",
                         "access_rules": [ "key" ],
                         "item_count": 1,
                         "hosted_item": "marshLocked"
                     },
                     {
-                        "name": "Top Floor Right",
+                        "name": "Top - Single",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Top Floor Top Left",
+                        "name": "Top - Corner",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Top Floor Bottom Left",
+                        "name": "Top - Duo"",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Bottom Floor 1,2",
+                        "name": "Bottom - Tetris-Z First",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Bottom Floor 2,2",
+                        "name": "Bottom - Tetris-Z Middle",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Bottom Floor 3,3",
+                        "name": "Bottom - Tetris-Z Last",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Bottom Floor 4,1",
+                        "name": "Bottom - Distant",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Key Locked Left",
+                        "name": "Bottom - Locked Corner",
                         "access_rules": [ "key" ],
                         "item_count": 1
                     },
                     {
-                        "name": "Key Locked Middle",
+                        "name": "Bottom - Locked Middle",
                         "access_rules": [ "key" ],
                         "item_count": 1
                     }
@@ -375,7 +375,7 @@
                 ]
             },
             {
-                "name": "Titan's Trove",
+                "name": "Titan's Tunnel",
                 "access_rules": [
                     "ruby,airship",
                     "ruby,ship,canal",
@@ -383,7 +383,7 @@
                  ],
                 "sections": [
                     {
-                        "name": "Incentive",
+                        "name": "Major",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "titansTrove"
@@ -416,48 +416,63 @@
                         "hosted_item": "earthorb"
                     },
                     {
-                        "name": "Earth Incentive",
+                        "name": "B3 - Incentive",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "earth"
                     },
                     {
-                        "name": "1 Top",
+                        "name": "B1 - Single",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "1 Bottom",
+                        "name": "B1 - Appendix",
                         "access_rules": [],
-                        "item_count": 4
+                        "item_count": 2
                     },
                     {
-                        "name": "2 Right",
+                        "name": "B1 - Side Path",
                         "access_rules": [],
-                        "item_count": 3
+                        "item_count": 2
                     },
                     {
-                        "name": "2 Bottom",
-                        "access_rules": [],
-                        "item_count": 3
-                    },
-                    {
-                        "name": "3 Chests",
+                        "name": "B2 - Side Room",
                         "access_rules": [],
                         "item_count": 3
                     },
                     {
-                        "name": "3 TFC",
+                        "name": "B2 - Gaurded",
+                        "access_rules": [],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "B3 - Vampire's Closet",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "4 Armory",
+                        "name": "B3 - Asher Trunk",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B3 - Side Room",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B3 - TFC",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4 - Armory",
                         "access_rules": [ "rod" ],
                         "item_count": 5
                     },
                     {
-                        "name": "4 Bottom",
+                        "name": "B4 - Lich's Closet",
                         "access_rules": [ "rod" ],
                         "item_count": 3
                     }
@@ -533,33 +548,33 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ice Cave Incentive",
+                        "name": "Incentive Floor - Major",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "iceCave"
                     },
                     {
-                        "name": "Incentive Floor Chests",
+                        "name": "Incentive Floor - Chests",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Middle Floor Left",
+                        "name": "Bottom Floor - IceD Room",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Middle Floor 6 Pack",
+                        "name": "Bottom Floor - Six-Pack",
                         "access_rules": [],
                         "item_count": 6
                     },
                     {
-                        "name": "Bottom Floor First Chests",
+                        "name": "Exit Floor - Greed Chests",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Bottom Floor 3 Pack",
+                        "name": "Exit Floor - Drop Room",
                         "access_rules": [],
                         "item_count": 3
                     }
@@ -587,58 +602,68 @@
                         "hosted_item": "fireorb"
                     },
                     {
-                        "name": "Volcano Incentive",
+                        "name": "B5 - Incentive",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "volcano"
                     },
                     {
-                        "name": "Armory Bottom Right",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Right Hairpins",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Left Hairpin",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Main",
-                        "access_rules": [],
-                        "item_count": 12
-                    },
-                    {
-                        "name": "Agama Top Right",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Agama Top Middle",
+                        "name": "B2 - Center",
                         "access_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Agama Top Left",
+                        "name": "B2 - Guarded",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2 - Hairpins",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2 - Shortpins",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B2 - Vertpins",
+                        "access_rules": [],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "B2 - Armory",
+                        "access_rules": [],
+                        "item_count": 12
+                    },
+                    {
+                        "name": "B4 - Entrance",
+                        "access_rules": [],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "B4 - First Greed",
+                        "access_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "B4 - Worm Room",
                         "access_rules": [],
                         "item_count": 5
                     },
                     {
-                        "name": "Agama Middle Middle",
+                        "name": "B4 - Second Greed",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Agama Middle Right",
+                        "name": "B4 - Side Room",
                         "access_rules": [],
                         "item_count": 2
                     },
                     {
-                        "name": "Agama Bottom Right",
+                        "name": "B4 - Grind Room",
                         "access_rules": [],
                         "item_count": 2
                     }
@@ -1061,3 +1086,4 @@
         ]
     }
 ]
+
