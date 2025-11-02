@@ -692,6 +692,12 @@
 						"visibility_rules" : [ "BahamutHoard" ],
 						"access_rules" : [],
 						"hosted_item" : "cardiaIncentive"
+					},
+					{
+						"name" : "Bahamut Hoard",
+						"visibility_rules" : [ "BahamutHoard" ],
+						"acces_rules": [],
+						"item_count": 12,
 					}
                 ],
                 "map_locations": [
@@ -708,7 +714,7 @@
                 "sections": [
                     {
                         "name": "Chests",
-			"access_rules": [],
+						"access_rules": [],
                         "item_count": 3,
                     }
                 ],
@@ -1061,6 +1067,7 @@
         ]
     }
 ]
+
 
 
 
