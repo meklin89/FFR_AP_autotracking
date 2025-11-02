@@ -647,7 +647,8 @@
 				"name" : "I: Sea Shrine",
 				"access_rules" : [
 					"airship,canoe,oxyale",
-					"northernDocks,ship,canal,oxyale"
+					"northernDocks,ship,canal,oxyale",
+					"northernDocks,airBoat,airship,ship,oxyale"
 				],
 				"sections" : [
 					{
