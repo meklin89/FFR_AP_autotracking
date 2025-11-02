@@ -1041,11 +1041,11 @@
                 ]
             },
             {
-                "name": "I: Shop Item",
+                "name": "Caravan or Town Shop",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "I: Shop Item",
+                        "name": "Shop Item",
                         "access_rules": [],
                         "hosted_item": "shopItem"
                     }
@@ -1061,12 +1061,3 @@
         ]
     }
 ]
-
-
-
-
-
-
-
-
-
