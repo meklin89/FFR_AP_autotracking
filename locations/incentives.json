@@ -672,11 +672,11 @@
 				]
 			},
 			{
-				"name": "Caravan or Town Shop",
+				"name": "I: Shop Item",
 				"access_rules": [],
 				"sections": [
 					{
-						"name": "Shop Item",
+						"name": "I: Shop Item",
 						"access_rules": [],
 						"hosted_item": "shopItem"
 					}
