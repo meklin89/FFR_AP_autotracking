@@ -24,3 +24,9 @@ It is unable to track the following:
 This is due to the fact that the tracker only interacts with the Archipelago server, and not with the Emulator's memory. 
 
 If PopTracker is updated to allow interaction with NES games, those limitations will be revisted. But for now, we get what we got.
+
+
+Introducing:  Maps!
+- This is in it's most basic form. These maps were mostly created and shared with the FFR community by DarkmoonEX.
+- Some of the maps are placeholders for the moment.
+- Hopefully with the next release maps with chest on them will have red/green tracker boxes on them.
