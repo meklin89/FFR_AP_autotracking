@@ -728,13 +728,18 @@
                 ]
             },
             {
-                "name": "Cardia Grassy",
+                "name": "Cardia - Grassy Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
-                        "name": "Chests",
+                        "name": "Entrance",
 						"access_rules": [],
-                        "item_count": 3,
+                        "item_count": 1,
+                    },
+					{
+                        "name": "Duo Room",
+						"access_rules": [],
+                        "item_count": 2,
                     }
                 ],
                 "map_locations": [
@@ -746,7 +751,7 @@
                 ]
             },
             {
-                "name": "Cardia Swampy",
+                "name": "Cardia - Swamp Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
@@ -764,19 +769,24 @@
                 ]
             },
             {
-                "name": "Cardia Forest",
+                "name": "Cardia - Forest Island",
                 "access_rules": [ "airship" ],
                 "sections": [
 					{
-                        "name": "Cardia Incentive",
+                        "name": "Incentive Major",
                         "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "cardiaIncentive"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Incentive",
                         "access_rules": [],
-                        "item_count": 6
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Entrance",
+                        "access_rules": [],
+                        "item_count": 3
                     }
                 ],
                 "map_locations": [
@@ -808,9 +818,19 @@
                         "hosted_item": "ordeals"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Single",
                         "access_rules": [],
-                        "item_count": 8
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Three-Pack",
+                        "access_rules": [],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Four-Pack",
+                        "access_rules": [],
+                        "item_count": 4
                     }
                 ],
                 "map_locations": [
@@ -1086,4 +1106,5 @@
         ]
     }
 ]
+
 
