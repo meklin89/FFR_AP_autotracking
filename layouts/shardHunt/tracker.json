@@ -566,6 +566,15 @@
 													"maps" : [ "waterfall" ]
 												}
 											]
+										},
+										{
+											"title" : "Titan's Tunnel",
+											"content" : [
+												{
+													"type" : "map",
+													"maps" : [ "titans" ]
+												}
+											]
 										}
 									]
 								}
