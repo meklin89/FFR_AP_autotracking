@@ -1,6 +1,6 @@
 [
     {
-        "name": "Inner Sea",
+        "name": "Overworld",
         "color": "#808080",
         "children": [
             {
@@ -79,39 +79,33 @@
             },
             {
                 "name": "Temple of Fiends Revisited",
-                "color": "#808080",
-                "children": [
+                "access_rules": [ "$canBreakOrb,lute,key" ],
+                "sections": [
                     {
-                        "name": "ToFR",
-                        "access_rules": [ "$canBreakOrb,lute,key" ],
-                        "sections": [
-                            {
-                                "name": "Chaos",
-                                "hosted_item": "chaos"
-                            },
-                            {
-                                "name": "Lute Plate Room",
-                                "access_rules": [],
-                                "item_count": 2
-                            },
-                            {
-                                "name": "Kary Floor",
-                                "access_rules": [],
-                                "item_count": 4
-                            },
-                            {
-                                "name": "Vanilla Masa",
-                                "access_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "overworld",
-                                "x": 1540,
-                                "y": 1220
-                            }
-                        ]
+                        "name": "Chaos",
+                        "hosted_item": "chaos"
+                    },
+                    {
+                        "name": "Lute Plate Room",
+                        "access_rules": [],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Kary Floor",
+                        "access_rules": [],
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Vanilla Masa",
+                        "access_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1540,
+                        "y": 1220
                     }
                 ]
             },
@@ -344,13 +338,7 @@
                         "y": 2680
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Melmond Continent",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Sarda's Cave",
                 "access_rules": [
@@ -416,12 +404,6 @@
                         "hosted_item": "earthorb"
                     },
                     {
-                        "name": "B3 - Incentive",
-                        "access_rules": [],
-                        "item_count": 1,
-                        "hosted_item": "earth"
-                    },
-                    {
                         "name": "B1 - Single",
                         "access_rules": [],
                         "item_count": 1
@@ -467,6 +449,12 @@
                         "item_count": 1
                     },
                     {
+                        "name": "B3 - Incentive",
+                        "access_rules": [],
+                        "item_count": 1,
+                        "hosted_item": "earth"
+                    },
+                    {
                         "name": "B4 - Armory",
                         "access_rules": [ "rod" ],
                         "item_count": 5
@@ -505,13 +493,7 @@
                         "y": 1750
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Crescent Lake Area",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Crescent Lake",
                 "access_rules": [
@@ -602,12 +584,6 @@
                         "hosted_item": "fireorb"
                     },
                     {
-                        "name": "B5 - Incentive",
-                        "access_rules": [],
-                        "item_count": 1,
-                        "hosted_item": "volcano"
-                    },
-                    {
                         "name": "B2 - Center",
                         "access_rules": [],
                         "item_count": 1
@@ -666,6 +642,12 @@
                         "name": "B4 - Grind Room",
                         "access_rules": [],
                         "item_count": 2
+                    },
+                    {
+                        "name": "B5 - Incentive",
+                        "access_rules": [],
+                        "item_count": 1,
+                        "hosted_item": "volcano"
                     }
                 ],
                 "map_locations": [
@@ -693,13 +675,7 @@
                         "y": 2700
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Cardia Islands",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Bahamut's Cave",
                 "access_rules": [
@@ -796,13 +772,7 @@
                         "y": 650
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Castle of Ordeals",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Ordeals",
                 "access_rules": [
@@ -811,12 +781,6 @@
                     "lefeinBridge,hwyOrdeals,bridge,canoe"
                 ],
                 "sections": [
-                    {
-                        "name": "Incentive",
-                        "access_rules": [ "earlyOrdeals", "crown" ],
-                        "item_count": 1,
-                        "hosted_item": "ordeals"
-                    },
                     {
                         "name": "Single",
                         "access_rules": [],
@@ -831,6 +795,12 @@
                         "name": "Four-Pack",
                         "access_rules": [],
                         "item_count": 4
+                    },
+					{
+                        "name": "Incentive",
+                        "access_rules": [ "earlyOrdeals", "crown" ],
+                        "item_count": 1,
+                        "hosted_item": "ordeals"
                     }
                 ],
                 "map_locations": [
@@ -840,13 +810,7 @@
                         "y": 380
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Gaia Area",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Lefein",
                 "access_rules": [
@@ -993,13 +957,7 @@
                         "y": 580
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Onrac Continent",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Waterfall",
                 "access_rules": [
@@ -1106,6 +1064,3 @@
         ]
     }
 ]
-
-
-
