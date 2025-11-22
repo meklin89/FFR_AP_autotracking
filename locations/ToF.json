@@ -8,22 +8,136 @@
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Temple of Fiends",
 				"sections": [
 					{
-						"name": "",
+						"name": "Unlocked Single",
 						"access_rules": [
 							""
 						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
-						"x": 1,
-						"y": 1
+						"map": "tof",
+						"x": 117,
+						"y": 521
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Unlocked Duo 1",
+						"access_rules": [
+							""
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 117,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Unlocked Duo 2",
+						"access_rules": [
+							""
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 133,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Single",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 709,
+						"y": 521
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Duo 1",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 693,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Duo 2",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 709,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Garland",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "garland",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 405,
+						"y": 341
 					}
 				]
 			}
