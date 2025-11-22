@@ -1,0 +1,32 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Ice Cave",
+		"access_rules": [
+			""
+		],
+		"children": [
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
+		]
+	}
+]
