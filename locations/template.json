@@ -1,14 +1,20 @@
 [
 	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "",
-		"access_rules": [ "" ],
+		"access_rules": [
+			""
+		],
 		"children": [
 			{
 				"name": "",
 				"sections": [
 					{
 						"name": "",
-						"access_rules": [ "" ],
+						"access_rules": [
+							""
+						],
 						"hosted_item": "",
 						"item_count": 1
 					}
