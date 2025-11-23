@@ -30,3 +30,33 @@
 		]
 	}
 ]
+
+
+
+		"children": [
+			{
+				"name": "",
+				"access_rules": [ "" ],
+				"children": [
+					{
+						"sections": [
+							{
+								"name": "",
+								"access_rules": [
+									""
+								],
+								"hosted_item": "",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "",
+								"x": 1,
+								"y": 1
+							}
+						]
+					}
+				]
+			}
+		]
