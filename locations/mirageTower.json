@@ -4,7 +4,10 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Mirage Tower",
 		"access_rules": [
-			""
+            "airship,chime",
+            "northernDocks,chime,ship,canal",
+            "lefeinBridge,bridge,hwyOrdeals,chime",
+            "hwyOrdeals,ship,canoe,canal,chime"
 		],
 		"children": [
 			{
