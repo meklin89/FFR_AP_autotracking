@@ -1,0 +1,293 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Cardia Islands",
+		"access_rules": [
+			"airship",
+			"cardiaDock,ship,canal"
+		],
+		"children": [
+			{
+				"name": "Cardia Grass Island",
+				"sections": [
+					{
+						"name": "Entrance",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Grass Island",
+				"sections": [
+					{
+						"name": "Duo Room 1",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Grass Island",
+				"sections": [
+					{
+						"name": "Duo Room 2",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Swamp Island",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Swamp Island",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Swamp Island",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Entrance 1",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Entrance 2",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Entrance 3",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Incentive 1",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Incentive 2",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Incentive 3",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Cardia Forest Island",
+				"sections": [
+					{
+						"name": "Incentive Major",
+						"visibility_rules": [
+							"BahamutHoard"
+						],
+						"hosted_item": "cardiaIncentive",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bahamut",
+				"sections": [
+					{
+						"name": "Promotion",
+						"access_rules": [
+							"tail"
+						],
+						"hosted_item": "bahamut",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "cardia",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
+		]
+	}
+]
