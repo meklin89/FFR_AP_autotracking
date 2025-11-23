@@ -4,8 +4,7 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Cardia Islands",
 		"access_rules": [
-			"airship",
-			"cardiaDock,BahamutHoard,ship,canal"
+			"airship"
 		],
 		"children": [
 			{
@@ -22,7 +21,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -42,7 +41,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -62,7 +61,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -82,7 +81,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -102,7 +101,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -122,7 +121,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -142,7 +141,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -162,7 +161,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -182,7 +181,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -202,7 +201,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -212,7 +211,7 @@
 				"name": "Cardia Forest Island",
 				"sections": [
 					{
-						"name": Incentive 2",
+						"name": "Incentive 2",
 						"access_rules": [
 							""
 						],
@@ -222,7 +221,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -232,7 +231,7 @@
 				"name": "Cardia Forest Island",
 				"sections": [
 					{
-						"name": Incentive 3",
+						"name": "Incentive 3",
 						"access_rules": [
 							""
 						],
@@ -242,7 +241,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
@@ -252,17 +251,17 @@
 				"name": "Cardia Forest Island",
 				"sections": [
 					{
-						"name": Incentive Major",
+						"name": "Incentive Major",
 						"access_rules": [
 							""
 						],
-						"hosted_item": "",
+						"hosted_item": "cardiaIncentive",
 						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "cardia",
 						"x": 1,
 						"y": 1
 					}
