@@ -4,14 +4,15 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Waterfall Cave",
 		"access_rules": [
-			""
+            "airship,canoe",
+            "northernDocks,ship,canal,canoe"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Waterfall Cave",
 				"sections": [
 					{
-						"name": "",
+						"name": "Chest 1",
 						"access_rules": [
 							""
 						],
@@ -21,7 +22,127 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 4",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 5",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 6",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Robot",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "robot",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
 						"x": 1,
 						"y": 1
 					}
