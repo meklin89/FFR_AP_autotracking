@@ -1,27 +1,27 @@
 [
 	{
-		"chest_unopened_img": "images/misc/chestUnopened.png",
-		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Sarda's Cave",
 		"access_rules": [
-			""
+            "airship",
+            "ruby,ship,canal",
+            "melmondRiver,canoe,ruby"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Sarda's Cave",
 				"sections": [
 					{
-						"name": "",
+						"name": "Sarda",
 						"access_rules": [
-							""
+							"earlySarda",
+							"vampire"
 						],
-						"hosted_item": "",
-						"item_count": 1
+						"hosted_item": "sarda",
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "sarda",
 						"x": 1,
 						"y": 1
 					}
