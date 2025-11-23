@@ -6,14 +6,14 @@
 		"access_rules": [
 			""
 		],
-		"children": [
+		"children": [,
 			{
-				"name": "",
+				"name": "Coneria Castle",
 				"sections": [
 					{
-						"name": "",
+						"name": "Treasury 1",
 						"access_rules": [
-							""
+							"key"
 						],
 						"hosted_item": "",
 						"item_count": 1
@@ -21,7 +21,146 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Treasury 2",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Treasury 3",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Treasury 4",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Treasury 5",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Treasury Major",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "coneriaLocked",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "Sara",
+						"access_rules": [
+							"garland"
+						],
+						"hosted_item": "sara",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Coneria Castle",
+				"sections": [
+					{
+						"name": "King",
+						"access_rules": [
+							"earlyKing",
+							"garland"
+						],
+						"hosted_item": "king",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "con_castle",
 						"x": 1,
 						"y": 1
 					}
