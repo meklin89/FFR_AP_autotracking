@@ -4,14 +4,19 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Matoya's Cave",
 		"access_rules": [
-			""
+        	"bridge",
+            "ship",
+            "airship",
+            "extendedOpen,canoe",
+            "openProgression,canoe",
+			"lefeinBridge"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Matoya's Cave",
 				"sections": [
 					{
-						"name": "",
+						"name": "Chest 1",
 						"access_rules": [
 							""
 						],
@@ -21,7 +26,66 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "matoya",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Matoya",
+						"access_rules": [
+							"crystal"
+						],
+						"hosted_item": "matoya",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
 						"x": 1,
 						"y": 1
 					}
