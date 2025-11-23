@@ -4,14 +4,16 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Titan's Tunnel",
 		"access_rules": [
-			""
+            "ruby,airship",
+            "ruby,ship,canal",
+            "melmondRiver,canoe,ruby"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Titan's Tunnel",
 				"sections": [
 					{
-						"name": "",
+						"name": "Chest 1",
 						"access_rules": [
 							""
 						],
@@ -21,7 +23,67 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "titans",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Titan's Tunnel",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "titans",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Titan's Tunnel",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "titans",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Titan's Tunnel",
+				"sections": [
+					{
+						"name": "Major",
+						"access_rules": [
+							""
+						],
+						"hosted_item": "titansTrove",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "titans",
 						"x": 1,
 						"y": 1
 					}
