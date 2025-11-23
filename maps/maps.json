@@ -96,10 +96,10 @@
         "img": "images/maps/marshB2.png"
     },
     {
-        "name": "marshB2",
+        "name": "marshB3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/marshB2.png"
+        "img": "images/maps/marshB3.png"
     },
     {
         "name": "iceB1",
@@ -114,10 +114,10 @@
         "img": "images/maps/iceB2.png"
     },
     {
-        "name": "iceB2",
+        "name": "iceB3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/iceB2.png"
+        "img": "images/maps/iceB3.png"
     },
     {
         "name": "earthB1",
@@ -132,10 +132,10 @@
         "img": "images/maps/earthB2.png"
     },
     {
-        "name": "earthB2",
+        "name": "earthB3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/earthB2.png"
+        "img": "images/maps/earthB3.png"
     },
     {
         "name": "earthB4",
@@ -162,10 +162,10 @@
         "img": "images/maps/volcB2.png"
     },
     {
-        "name": "volcB2",
+        "name": "volcB3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/volcB2.png"
+        "img": "images/maps/volcB3.png"
     },
     {
         "name": "volcB4",
@@ -192,10 +192,10 @@
         "img": "images/maps/seaB4.png"
     },
     {
-        "name": "seaB2",
+        "name": "seaB3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/seaB2.png"
+        "img": "images/maps/seaB3.png"
     },
     {
         "name": "seaB2",
@@ -222,10 +222,10 @@
         "img": "images/maps/mirage2F.png"
     },
     {
-        "name": "mirage2F",
+        "name": "mirage3F",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/mirage2F.png"
+        "img": "images/maps/mirage3F.png"
     },
     {
         "name": "sky1F",
@@ -240,10 +240,10 @@
         "img": "images/maps/sky2F.png"
     },
     {
-        "name": "sky2F",
+        "name": "sky3F",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/sky2F.png"
+        "img": "images/maps/sky3F.png"
     },
     {
         "name": "sky4F",
@@ -276,10 +276,10 @@
         "img": "images/maps/tofr2F.png"
     },
     {
-        "name": "tofr2F",
+        "name": "tofr3F",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/tofr2F.png"
+        "img": "images/maps/tofr3F.png"
     },
     {
         "name": "tofrEarth",
