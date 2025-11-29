@@ -12,10 +12,6 @@
 				"sections": [
 					{
 						"name": "Entrance",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -32,10 +28,6 @@
 				"sections": [
 					{
 						"name": "Duo Room 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -52,10 +44,6 @@
 				"sections": [
 					{
 						"name": "Duo Room 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -72,10 +60,6 @@
 				"sections": [
 					{
 						"name": "Chest 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -92,10 +76,6 @@
 				"sections": [
 					{
 						"name": "Chest 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -112,10 +92,6 @@
 				"sections": [
 					{
 						"name": "Chest 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -132,10 +108,6 @@
 				"sections": [
 					{
 						"name": "Entrance 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -152,10 +124,6 @@
 				"sections": [
 					{
 						"name": "Entrance 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -172,10 +140,6 @@
 				"sections": [
 					{
 						"name": "Entrance 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -192,10 +156,6 @@
 				"sections": [
 					{
 						"name": "Incentive 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -212,10 +172,6 @@
 				"sections": [
 					{
 						"name": "Incentive 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -232,10 +188,6 @@
 				"sections": [
 					{
 						"name": "Incentive 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -252,9 +204,6 @@
 				"sections": [
 					{
 						"name": "Incentive Major",
-						"access_rules": [
-							""
-						],
 						"hosted_item": "cardiaIncentive",
 						"item_count": 1
 					}
