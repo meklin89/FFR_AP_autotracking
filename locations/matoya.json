@@ -17,10 +17,6 @@
 				"sections": [
 					{
 						"name": "Chest 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -37,10 +33,6 @@
 				"sections": [
 					{
 						"name": "Chest 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -57,10 +49,6 @@
 				"sections": [
 					{
 						"name": "Chest 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
