@@ -4,38 +4,16 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Sea Shrine",
 		"access_rules": [
-			""
+            "airship,canoe,oxyale",
+            "northernDocks,ship,canal,oxyale",
+			"northernDocks,airBoat,airship,ship,oxyale"
 		],
 		"children": [
 			{
-				"name": "",
-				"sections": [
-					{
-						"name": "",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "",
-						"x": 1,
-						"y": 1
-					}
-				]
-			},
-			{
-				"name": "Sea Shrine Split Floor (B3)",
+				"name": "Split Floor (B3)",
 				"sections": [
 					{
 						"name": "Kraken Side",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -48,14 +26,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Split Floor (B3)",
+				"name": "Split Floor (B3)",
 				"sections": [
 					{
 						"name": "Mermaid Side",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -68,14 +42,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Greed Floor (B3)",
+				"name": "Greed Floor (B3)",
 				"sections": [
 					{
 						"name": "Chest 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -88,14 +58,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Greed Floor (B3)",
+				"name": "Greed Floor (B3)",
 				"sections": [
 					{
 						"name": "Chest 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -108,14 +74,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Dengbait 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -128,14 +90,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Dengbait 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -148,14 +106,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Side Corner 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -168,14 +122,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Side Corner 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -188,14 +138,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Side Corner 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -208,14 +154,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Exit",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -228,14 +170,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Greed Room 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -248,14 +186,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Greed Room 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -268,14 +202,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Greed Room 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -288,14 +218,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Sharknado Floor (B4)",
+				"name": "Sharknado Floor (B4)",
 				"sections": [
 					{
 						"name": "Greed Room 4",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -308,14 +234,13 @@
 				]
 			},
 			{
-				"name": "Sea Shrine TFC Floor (B2)",
+				"name": "TFC Floor (B2)",
 				"sections": [
 					{
 						"name": "TFC",
 						"access_rules": [
 							"key"
 						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -328,14 +253,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine TFC Floor (B2)",
+				"name": "TFC Floor (B2)",
 				"sections": [
 					{
 						"name": "TFC North",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -348,14 +269,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine TFC Floor (B2)",
+				"name": "TFC Floor (B2)",
 				"sections": [
 					{
 						"name": "Side Corner",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -368,14 +285,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine TFC Floor (B2)",
+				"name": "TFC Floor (B2)",
 				"sections": [
 					{
 						"name": "First Greed",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -388,14 +301,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine TFC Floor (B2)",
+				"name": "TFC Floor (B2)",
 				"sections": [
 					{
 						"name": "Second Greed",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -408,14 +317,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Passby",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -428,14 +333,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Bubbles 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -448,14 +349,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Bubbles 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -468,14 +365,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Incentive 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -488,14 +381,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Incentive 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -508,13 +397,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Incentive Major",
-						"access_rules": [
-							""
-						],
 						"hosted_item": "sea",
 						"item_count": 1
 					}
@@ -528,14 +414,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Entrance 1",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -548,14 +430,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Entrance 2",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -568,14 +446,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Entrance 3",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -588,14 +462,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Four-Corner First",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -608,14 +478,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Four-Corner Second",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -628,14 +494,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Four-Corner Third",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -648,14 +510,10 @@
 				]
 			},
 			{
-				"name": "Sea Shrine Mermaids (B1)",
+				"name": "Mermaids (B1)",
 				"sections": [
 					{
 						"name": "Four-Corner Fourth",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -672,10 +530,7 @@
 				"sections": [
 					{
 						"name": "Water Orb",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "waterOrb",
+						"hosted_item": "waterorb",
 					}
 				],
 				"map_locations": [
