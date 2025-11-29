@@ -15,9 +15,6 @@
 				"sections": [
 					{
 						"name": "Entrance 1",
-						"access_rules": [
-							""
-						],
 						"item_count": 1
 					}
 				],
@@ -34,9 +31,6 @@
 				"sections": [
 					{
 						"name": "Entrance 2",
-						"access_rules": [
-							""
-						],
 						"item_count": 1
 					}
 				],
@@ -49,170 +43,154 @@
 				]
 			},
 			{
-				"name": "Dwarf Locked",
-				"access_rules": [
-					"key"
+				"name": "Dwarf Cave",
+				"sections": [
+					{
+						"name": "Treasury 1",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
 				],
-				"children": [
+				"map_locations": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 75,
-								"y": 645
-							}
-						]
-					},
+						"map": "dwarves",
+						"x": 75,
+						"y": 645
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
+						"name": "Treasury 2",
+						"access_rules": [
+							"key"
 						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 91,
-								"y": 645
-							}
-						]
-					},
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 3",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 155,
-								"y": 693
-							}
-						]
-					},
+						"map": "dwarves",
+						"x": 91,
+						"y": 645
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 4",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
+						"name": "Treasury 3",
+						"access_rules": [
+							"key"
 						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 171,
-								"y": 693
-							}
-						]
-					},
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 5",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 187,
-								"y": 693
-							}
-						]
-					},
+						"map": "dwarves",
+						"x": 155,
+						"y": 693
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 6",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
+						"name": "Treasury 4",
+						"access_rules": [
+							"key"
 						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 251,
-								"y": 693
-							}
-						]
-					},
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 7",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 267,
-								"y": 693
-							}
-						]
-					},
+						"map": "dwarves",
+						"x": 171,
+						"y": 693
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
 					{
-						"name": "Dwarf Cave",
-						"sections": [
-							{
-								"name": "Treasury 8",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
+						"name": "Treasury 5",
+						"access_rules": [
+							"key"
 						],
-						"map_locations": [
-							{
-								"map": "dwarves",
-								"x": 283,
-								"y": 693
-							}
-						]
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "dwarves",
+						"x": 187,
+						"y": 693
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
+					{
+						"name": "Treasury 6",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "dwarves",
+						"x": 251,
+						"y": 693
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
+					{
+						"name": "Treasury 7",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "dwarves",
+						"x": 267,
+						"y": 693
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"sections": [
+					{
+						"name": "Treasury 8",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "dwarves",
+						"x": 283,
+						"y": 693
 					}
 				]
 			},
