@@ -4,24 +4,265 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Ice Cave",
 		"access_rules": [
-			""
+            "airship",
+            "ship,canoe",
+            "bridge,canoe",
+            "openProgression,canoe",
+            "extendedOpen,canoe"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Bottom (B3)",
 				"sections": [
 					{
-						"name": "",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
+						"name": "IceD Room 1",
 						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "IceD Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Bottom (B3)",
+				"sections": [
+					{
+						"name": "Six-Pack 6",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Incentive Floor (B2)",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Incentive Floor (B2)",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Incentive Floor (B2)",
+				"sections": [
+					{
+						"name": "Major",
+						"hosted_item": "ice",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Exit Floor (B1)",
+				"sections": [
+					{
+						"name": "Greeds Checks 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Exit Floor (B1)",
+				"sections": [
+					{
+						"name": "Greeds Checks 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Exit Floor (B1)",
+				"sections": [
+					{
+						"name": "Drop Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Exit Floor (B1)",
+				"sections": [
+					{
+						"name": "Drop Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Exit Floor (B1)",
+				"sections": [
+					{
+						"name": "Drop Room 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "iceB1",
 						"x": 1,
 						"y": 1
 					}
