@@ -100,35 +100,35 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Earth Cave B1",
+															"title" : "Giant's Floor (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "earthB1" ]
 															}
 														},
 														{
-															"title" : "Earth Cave B2",
+															"title" : "(B2)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "earthB2" ]
 															}
 														},
 														{
-															"title" : "Earth Cave B3",
+															"title" : "Vampire Floor (B3)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "earthB3" ]
 															}
 														},
 														{
-															"title" : "Earth Cave B4",
+															"title" : "Rod Locked Floor (B4)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "earthB4" ]
 															}
 														},
 														{
-															"title" : "Earth Cave B5",
+															"title" : "Lich Floor (B5)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "earthB5" ]
@@ -145,35 +145,35 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Gurgu Volcano B1",
+															"title" : "(B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "volcB1" ]
 															}
 														},
 														{
-															"title" : "Gurgu Volcano B2",
+															"title" : "Armory Floor (B2)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "volcB2" ]
 															}
 														},
 														{
-															"title" : "Gurgu Volcano B3",
+															"title" : "(B3)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "volcB3" ]
 															}
 														},
 														{
-															"title" : "Gurgu Volcano B4",
+															"title" : "Agama Floor (B4)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "volcB4" ]
 															}
 														},
 														{
-															"title" : "Gurgu Volcano B5",
+															"title" : "Kary Floor (B5)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "volcB5" ]
@@ -190,35 +190,35 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Sea Shrine B5",
+															"title" : "Kraken Floor (B5)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "seaB5" ]
 															}
 														},
 														{
-															"title" : "Sea Shrine B4",
+															"title" : "Sharknado Floor (B4)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "seaB4" ]
 															}
 														},
 														{
-															"title" : "Sea Shrine B3",
+															"title" : "Split Floor / Greed Floor (B3)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "seaB3" ]
 															}
 														},
 														{
-															"title" : "Sea Shrine B2",
+															"title" : "TFC Floor (B2)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "seaB2" ]
 															}
 														},
 														{
-															"title" : "Sea Shrine B1",
+															"title" : "Mermaids (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "seaB1" ]
@@ -229,62 +229,72 @@
 											]
 										},
 										{
-											"title" : "Sky Palace",
+											"title" : "Mirage Tower",
 											"content" : [
 												{
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Mirage Tower 1F",
+															"title" : "(1F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "mirage1F" ]
 															}
 														},
 														{
-															"title" : "Mirage Tower 2F",
+															"title" : "(2F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "mirage2F" ]
 															}
 														},
 														{
-															"title" : "Mirage Tower 3F",
+															"title" : "(3F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "mirage3F" ]
 															}
-														},
+														}
+													]
+												}
+											]
+										},
+										{
+											"title" : "Sky Fortress",
+											"content" : [
+												{
+													"type" : "tabbed",
+													"tabs" : [
 														{
-															"title" : "Sky Palace 1F",
+															"title" : "Sky Plus (1F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "sky1F" ]
 															}
 														},
 														{
-															"title" : "Sky Palace 2F",
+															"title" : "Sky Spider (2F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "sky2F" ]
 															}
 														},
 														{
-															"title" : "Sky Palace 3F",
+															"title" : "Sky Provides (3F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "sky3F" ]
 															}
 														},
 														{
-															"title" : "Sky Palace 4F",
+															"title" : "Sky Maze (4F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "sky4F" ]
 															}
 														},
 														{
-															"title" : "Sky Palace 5F",
+															"title" : "Tiamat Floor (5F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "sky5F" ]
@@ -308,56 +318,56 @@
 															}
 														},
 														{
-															"title" : "ToFR 1F",
+															"title" : "Revisited (1F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr1F" ]
 															}
 														},
 														{
-															"title" : "ToFR 2F",
+															"title" : "Revisited (2F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr2F" ]
 															}
 														},
 														{
-															"title" : "ToFR 3F",
+															"title" : "Revisited (3F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr3F" ]
 															}
 														},
 														{
-															"title" : "ToFR Earth",
+															"title" : "Revisited Earth",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrEarth" ]
 															}
 														},
 														{
-															"title" : "ToFR Fire",
+															"title" : "Revisited Fire",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrFire" ]
 															}
 														},
 														{
-															"title" : "ToFR Water",
+															"title" : "Revisited Water",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrWater" ]
 															}
 														},
 														{
-															"title" : "ToFR Air",
+															"title" : "Revisited Air",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrAir" ]
 															}
 														},
 														{
-															"title" : "ToFR Chaos",
+															"title" : "Revisited Chaos",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrChaos" ]
@@ -391,14 +401,14 @@
 															}
 														},
 														{
-															"title" : "Marsh B1",
+															"title" : "Marsh Top (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "marshB2" ]
 															}
 														},
 														{
-															"title" : "Marsh B2",
+															"title" : "Marsh Bottom (B2)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "marshB3" ]
@@ -415,21 +425,21 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Ice Cave - Exit Floor",
+															"title" : "Exit Floor (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "iceB1" ]
 															}
 														},
 														{
-															"title" : "Ice Cave - Incentive Room",
+															"title" : "Incentive Floor (B2)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "iceB2" ]
 															}
 														},
 														{
-															"title" : "Ice Cave - Bottom Floor",
+															"title" : "Bottom (B3)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "iceB3" ]
@@ -446,21 +456,21 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Castle of Ordeals 1F",
+															"title" : "(1F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "ordeals1F" ]
 															}
 														},
 														{
-															"title" : "Castle of Ordeals 2F",
+															"title" : "Pillar Maze (2F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "ordeals2F" ]
 															}
 														},
 														{
-															"title" : "Castle of Ordeals 3F",
+															"title" : "Top Floor (3F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "ordeals3F" ]
@@ -484,7 +494,7 @@
 															}
 														},
 														{
-															"title" : "Bahamut's Lair",
+															"title" : "Bahamut's Cave",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "bahamut" ]
@@ -559,7 +569,7 @@
 											]
 										},
 										{
-											"title" : "Waterfall",
+											"title" : "Waterfall Cave",
 											"content" : [
 												{
 													"type" : "map",
