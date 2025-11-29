@@ -18,7 +18,6 @@
 						"access_rules": [
 							"key"
 						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -38,7 +37,6 @@
 						"access_rules": [
 							"key"
 						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -58,7 +56,6 @@
 						"access_rules": [
 							"key"
 						],
-						"hosted_item": "",
 						"item_count": 1
 					}
 				],
@@ -74,7 +71,7 @@
 				"name": "Northwest Castle",
 				"sections": [
 					{
-						"name": "Astos ",
+						"name": "Astos",
 						"access_rules": [
 							"crown"
 						],
