@@ -4,29 +4,155 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Castle of Ordeals",
 		"access_rules": [
-			""
+            "airship,canoe",
+            "ship,canal,canoe",
+            "lefeinBridge,hwyOrdeals,bridge,canoe"
 		],
 		"children": [
 			{
-				"name": "",
+				"name": "Top Floor (3F)",
 				"sections": [
 					{
-						"name": "",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "",
+						"name": "Single",
 						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "ordeals",
 						"x": 1,
 						"y": 1
 					}
 				]
-			}
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Three-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Three-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Three-Pack 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Four-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Four-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Four-Pack 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Four-Pack 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Top Floor (3F)",
+				"sections": [
+					{
+						"name": "Incentive",
+						"hosted_item": "ordeals"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ordeals",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
 		]
 	}
 ]
