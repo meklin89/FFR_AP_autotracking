@@ -11,699 +11,546 @@
 		],
 		"children": [
 			{
-				"name": "Gurgu Volcano Armory Floor (B2)",
-				"access_rules": [ "" ],
-				"children": [
+				"name": "Armory Floor (B2)",
+				"sections": [
 					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Guarded",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Guarded",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Center",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Hairpins",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Shortpins",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Vertpins 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Vertpins 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 3",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 4",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 5",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 6",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 7",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 8",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 9",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 10",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 11",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Armory Floor (B2)",
-						"sections": [
-							{
-								"name": "Armory 12",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB2",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
 					}
 				]
 			},
 			{
-				"name": "Gurgu Volcano Agama Floor (B4)",
-				"access_rules": [ "" ],
-				"children": [
+				"name": "Armory Floor (B2)",
+				"sections": [
 					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Entrance 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Center",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Entrance 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "First Greed",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Worm Room 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Worm Room 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Worm Room 3",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Worm Room 4",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Worm Room 5",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Second Greed 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Second Greed 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Side Room 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Side Room 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Grind Room 1",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Gurgu Volcano Agama Floor (B4)",
-						"sections": [
-							{
-								"name": "Grind Room 2",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB4",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
 					}
 				]
 			},
 			{
-				"name": "Gurgu Volcano Kary Floor (B5)",
-				"access_rules": [ "" ],
-				"children": [
+				"name": "Armory Floor (B2)",
+				"sections": [
 					{
-						"name": "Gurgu Volcano Kary Floor (B5)",
-						"sections": [
-							{
-								"name": "Incentive",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB5",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Hairpins",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Gurgu Volcano Kary Floor (B5)",
-						"sections": [
-							{
-								"name": "Kary",
-								"access_rules": [
-									""
-								],
-								"hosted_item": "fireOrb",
-							}
-						],
-						"map_locations": [
-							{
-								"map": "volcB5",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Shortpins",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Vertpins 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Vertpins 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 6",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 7",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 8",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 9",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 10",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 11",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B2)",
+				"sections": [
+					{
+						"name": "Armory 12",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Entrance 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Entrance 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "First Greed",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Worm Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Worm Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Worm Room 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Worm Room 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Worm Room 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Second Greed 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Second Greed 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Side Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Side Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Grind Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Agama Floor (B4)",
+				"sections": [
+					{
+						"name": "Grind Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Kary Floor (B5)",
+				"sections": [
+					{
+						"name": "Incentive",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB5",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Kary Floor (B5)",
+				"sections": [
+					{
+						"name": "Fire Orb",
+						"hosted_item": "fireorb",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcB5",
+						"x": 1,
+						"y": 1
 					}
 				]
 			}
