@@ -46,12 +46,10 @@
                 "sections": [
                     {
                         "name": "Garland",
-                        "access_rules": [],
                         "hosted_item": "garland"
                     },
                     {
                         "name": "Unlocked",
-                        "access_rules": [],
                         "item_count": 3
                     },
                     {
@@ -74,17 +72,14 @@
                 "sections": [
                     {
                         "name": "Lute Plate Room",
-                        "access_rules": [],
                         "item_count": 2
                     },
                     {
                         "name": "Kary Floor",
-                        "access_rules": [],
                         "item_count": 4
                     },
                     {
                         "name": "Vanilla Masa",
-                        "access_rules": [],
                         "item_count": 1
                     },
 					{
@@ -111,7 +106,6 @@
                 "sections": [
                     {
                         "name": "Entrance",
-                        "access_rules": [],
                         "item_count": 2
                     },
                     {
@@ -188,7 +182,6 @@
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -242,7 +235,6 @@
                 "sections": [
                     {
                         "name": "Bikke",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "bikke"
                     }
@@ -265,28 +257,24 @@
                  ],
                 "sections": [
                     {
-                        "name": "B1 - Top",
-                        "access_rules": [],
+                        "name": "Top (B1)",
                         "item_count": 4
                     },
                     {
-                        "name": "B2 - Bottom",
-                        "access_rules": [],
+                        "name": "Bottom (B2)",
                         "item_count": 5
                     },
 					{
-                        "name": "B2 - Bottom - Incentive",
-                        "access_rules": [],
+                        "name": "Bottom (B2) - Incentive",
                         "item_count": 1,
                         "hosted_item": "marsh"
                     },
                     {
-                        "name": "B2 - Bottom - Locked",
-                        "access_rules": [],
+                        "name": "Bottom (B2) - Locked",
                         "item_count": 2
                     },
                     {
-                        "name": "B2 - Bottom - Locked Incentive",
+                        "name": "Bottom (B2) - Locked Incentive",
                         "access_rules": [ "key" ],
                         "item_count": 1,
                         "hosted_item": "marshLocked"
@@ -333,13 +321,11 @@
                 "sections": [
                     {
                         "name": "Major",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "titansTrove"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -365,28 +351,24 @@
                         "hosted_item": "earthorb"
                     },
                     {
-                        "name": "B1 - Giant's Floor",
-                        "access_rules": [],
+                        "name": "Giant's Floor (B1)",
                         "item_count": 5
                     },
                     {
-                        "name": "B2",
-                        "access_rules": [],
+                        "name": "(B2)",
                         "item_count": 6
                     },
                     {
-                        "name": "B3 - Vampire Floor",
-                        "access_rules": [],
+                        "name": "Vampire Floor (B3)",
                         "item_count": 4
                     },
                     {
-                        "name": "B3 - Incentive",
-                        "access_rules": [],
+                        "name": "Earth Cave Incentive (B3)",
                         "item_count": 1,
                         "hosted_item": "earth"
                     },
                     {
-                        "name": "B4 - Rod Locked Floor",
+                        "name": "Rod Locked Floor (B4)",
                         "access_rules": [ "rod" ],
                         "item_count": 8
                     }
@@ -456,24 +438,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "B2 - Incentive Floor - Major",
-                        "access_rules": [],
+                        "name": "Incentive Floor (B2) - Major",
                         "item_count": 1,
                         "hosted_item": "iceCave"
                     },
                     {
-                        "name": "B2 - Incentive Floor",
-                        "access_rules": [],
+                        "name": "Incentive Floor (B2)",
                         "item_count": 2
                     },
                     {
-                        "name": "B3 - Bottom Floor",
-                        "access_rules": [],
+                        "name": "Bottom Floor (B3)",
                         "item_count": 8
                     },
                     {
-                        "name": "B1 - Exit Floor",
-                        "access_rules": [],
+                        "name": "Exit Floor (B1)",
                         "item_count": 5
                     }
                 ],
@@ -496,22 +474,18 @@
                 "sections": [
                     {
                         "name": "Fire Orb",
-                        "access_rules": [],
                         "hosted_item": "fireorb"
                     },
                     {
-                        "name": "B2 - Armory Floor",
-                        "access_rules": [],
+                        "name": "Armory Floor (B2)",
                         "item_count": 18
                     },
                     {
-                        "name": "B4 - Agama Floor",
-                        "access_rules": [],
+                        "name": "Agama Floor (B4)",
                         "item_count": 214
                     },
                     {
-                        "name": "B5 - Incentive",
-                        "access_rules": [],
+                        "name": "Volcano Incentive (B5)",
                         "item_count": 1,
                         "hosted_item": "volcano"
                     }
@@ -555,15 +529,13 @@
                         "hosted_item": "bahamut"
                     },
 					{
-						"name" : "Cardia Chests - Hoard",
+						"name" : "Bahamut's Hoard (Cardia Chests)",
 						"visibility_rules" : [ "BahamutHoard" ],
-						"access_rules" : [],
 						"item_count": 12
 					},
 					{
-						"name" : "Cardia Incentive - Hoard",
+						"name" : "Bahamut's Hoard (Cardia Incentive)",
 						"visibility_rules" : [ "BahamutHoard" ],
-						"access_rules" : [],
                         "item_count": 1,
 						"hosted_item" : "cardiaIncentive"
 					}
@@ -577,12 +549,11 @@
                 ]
             },
             {
-                "name": "Cardia - Grassy Island",
+                "name": "Cardia Grassy Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
-						"access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -595,12 +566,11 @@
                 ]
             },
             {
-                "name": "Cardia - Swamp Island",
+                "name": "Cardia Swamp Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -613,18 +583,16 @@
                 ]
             },
             {
-                "name": "Cardia - Forest Island",
+                "name": "Cardia Forest Island",
                 "access_rules": [ "airship" ],
                 "sections": [
 					{
                         "name": "Incentive Major",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "cardiaIncentive"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 6
                     }
                 ],
@@ -637,7 +605,7 @@
                 ]
             },
             {
-                "name": "Ordeals",
+                "name": "Temple of Ordeals",
                 "access_rules": [
                     "airship,canoe",
                     "ship,canal,canoe",
@@ -646,7 +614,6 @@
                 "sections": [
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 8
                     },
 					{
@@ -724,13 +691,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "1F",
-                        "access_rules": [],
+                        "name": "(1F)",
                         "item_count": 8
                     },
                     {
-                        "name": "2F - <> Floor",
-                        "access_rules": [],
+                        "name": "(2F)",
                         "item_count": 10
                     }
                 ],
@@ -743,7 +708,7 @@
                 ]
             },
             {
-                "name": "Sky Palace",
+                "name": "Sky Fortess",
                 "access_rules": [
                     "airship,chime,cube",
                     "northernDocks,chime,ship,canal,cube",
@@ -753,28 +718,23 @@
                 "sections": [
                     {
                         "name": "Air Orb",
-                        "access_rules": [],
                         "hosted_item": "airorb"
                     },
                     {
-                        "name": "1F - Sky Plus",
-                        "access_rules": [],
+                        "name": "Sky Plus (1F)",
                         "item_count": 10
                     },
                     {
-                        "name": "2F - Spider Floor",
-                        "access_rules": [],
+                        "name": "Spider Floor (2F)",
                         "item_count": 9
                     },
                     {
-                        "name": "2F - Sky Incentive",
-                        "access_rules": [],
+                        "name": "Sky Incentive (2F)",
                         "item_count": 1,
                         "hosted_item": "sky"
                     },
                     {
-                        "name": "3F - Sky Provides",
-                        "access_rules": [],
+                        "name": "Sky Provides (3F)",
                         "item_count": 14
                     }
                 ],
@@ -795,13 +755,11 @@
                 "sections": [
                     {
                         "name": "Robot",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "robot"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 6
                     }
                 ],
@@ -823,43 +781,36 @@
                 "sections": [
                     {
                         "name": "Water Orb",
-                        "access_rules": [],
                         "hosted_item": "waterorb"
                     },
                     {
-                        "name": "B3 - Split Floor",
-                        "access_rules": [],
+                        "name": "Split Floor (B3)",
                         "item_count": 2
                     },
                     {
-                        "name": "B2 - TFC Floor",
-                        "access_rules": [],
+                        "name": "TFC Floor (B2)",
                         "item_count": 4
                     },
                     {
-                        "name": "B2 - TFC",
+                        "name": "TFC (B2)",
                         "access_rules": [ "key" ],
                         "item_count": 1
                     },
                     {
-                        "name": "B1 - Mermaids",
-                        "access_rules": [],
+                        "name": "Mermaids (B1)",
                         "item_count": 12
                     },
                     {
-                        "name": "B1 - Sea Incentive",
-                        "access_rules": [],
+                        "name": "Sea Incentive (B1)",
                         "item_count": 1,
                         "hosted_item": "sea"
                     },
                     {
-                        "name": "B3 - Greed Floor",
-                        "access_rules": [],
+                        "name": "Greed Floor (B3)",
                         "item_count": 2
                     },
                     {
-                        "name": "B4 - Sharknado Floor",
-                        "access_rules": [],
+                        "name": "Sharknado Floor (B4)",
                         "item_count": 10
                     }
                 ],
@@ -877,7 +828,6 @@
                 "sections": [
                     {
                         "name": "Shop Item",
-                        "access_rules": [],
                         "hosted_item": "shopItem"
                     }
                 ],
@@ -892,5 +842,6 @@
         ]
     }
 ]
+
 
 
