@@ -12,9 +12,6 @@
 				"sections": [
 					{
 						"name": "Unlocked Single",
-						"access_rules": [
-							""
-						],
 						"item_count": 1
 					}
 				],
@@ -31,9 +28,6 @@
 				"sections": [
 					{
 						"name": "Unlocked Duo 1",
-						"access_rules": [
-							""
-						],
 						"item_count": 1
 					}
 				],
@@ -50,9 +44,6 @@
 				"sections": [
 					{
 						"name": "Unlocked Duo 2",
-						"access_rules": [
-							""
-						],
 						"item_count": 1
 					}
 				],
@@ -126,11 +117,7 @@
 				"sections": [
 					{
 						"name": "Garland",
-						"access_rules": [
-							""
-						],
-						"hosted_item": "garland",
-						"item_count": 1
+						"hosted_item": "garland"
 					}
 				],
 				"map_locations": [
