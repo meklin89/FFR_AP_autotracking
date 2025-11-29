@@ -11,576 +11,570 @@
 		],
 		"children": [
 			{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Solo",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+				"name": "Sky Plus (1F)",
+				"sections": [
 					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Five-Pack 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Solo",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Five-Pack 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Five-Pack 3",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Five-Pack 4",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Five-Pack 5",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Four-Pack 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Four-Pack 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Four-Pack 3",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"sections": [
-							{
-								"name": "Four-Pack 4",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky1F",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
 					}
 				]
 			},
 			{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Cheap Room 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+				"name": "Sky Plus (1F)",
+				"sections": [
 					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Cheap Room 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Five-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Vault 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Vault 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Gauntlet Room",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Ribbon Room 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Ribbon Room 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Wardrobe 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Wardrobe 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"sections": [
-							{
-								"name": "Incentive",
-								"hosted_item": "sky",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky2F",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
 					}
 				]
 			},
 			{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+				"name": "Sky Plus (1F)",
+				"sections": [
 					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
+						"name": "Five-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
 					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 3",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 4",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 5",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Six-Pack 6",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "CC's Gambit 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "CC's Gambit 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "CC's Gambit 3",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "CC's Gambit 4",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Greed 1",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Greed 2",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Greed 3",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"sections": [
-							{
-								"name": "Greed 4",
-								"item_count": 1
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky3F",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
 					}
 				]
 			},
 			{
-				"name": "Tiamat's Floor (5F)",
-				"access_rules": [ "" ],
-				"children": [
+				"name": "Sky Plus (1F)",
+				"sections": [
 					{
-						"name": "Tiamat",
-						"sections": [
-							{
-								"name": "Air Orb",
-								"hosted_item": "airorb",
-							}
-						],
-						"map_locations": [
-							{
-								"map": "sky5F",
-								"x": 1,
-								"y": 1
-							}
-						]
+						"name": "Five-Pack 3",
+						"item_count": 1
 					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Five-Pack 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Five-Pack 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Four-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Four-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Four-Pack 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Plus (1F)",
+				"sections": [
+					{
+						"name": "Four-Pack 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky1F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Cheap Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Cheap Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Vault 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Vault 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Gauntlet Room",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Ribbon Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Ribbon Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Wardrobe 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Wardrobe 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Spider (2F)",
+				"sections": [
+					{
+						"name": "Incentive",
+						"hosted_item": "sky",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky2F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Six-Pack 6",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "CC's Gambit 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "CC's Gambit 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "CC's Gambit 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "CC's Gambit 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Greed 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Greed 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Greed 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sky Provides (3F)",
+				"sections": [
+					{
+						"name": "Greed 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky3F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Tiamat's Floor (5)",
+				"sections": [
+					{
+						"name": "Air Orb",
+						"hosted_item": "airorb",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sky5F",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
 				]
 			}
 		]
