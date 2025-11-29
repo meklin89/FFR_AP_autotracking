@@ -42,10 +42,10 @@
         "img": "images/maps/ordeals2F.png"
     },
     {
-        "name": "ordeals2F",
+        "name": "ordeals3F",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/ordeals2F.png"
+        "img": "images/maps/ordeals3F.png"
     },
     {
         "name": "waterfall",
