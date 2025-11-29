@@ -127,6 +127,139 @@
 						"y": 341
 					}
 				]
+			},
+			{
+				"name": "Revisited (3F)",
+				"sections": [
+					{
+						"name": "Validation 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof3F",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited (3F)",
+				"sections": [
+					{
+						"name": "Validation 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof3F",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Greed Checks 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofFire",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Greed Checks 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofFire",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Katana Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofFire",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Vault",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofFire",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Revisited Tiamat Floor (8F)",
+				"sections": [
+					{
+						"name": "Masamune Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofAir",
+						"x": 708,
+						"y": 56
+					}
+				]
 			}
 		]
 	}
