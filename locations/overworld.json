@@ -349,8 +349,10 @@
                 "sections": [
                     {
                         "name": "Earth Orb",
+						"chest_unopened_img": "images/items/orb-earth-no.png",
+						"chest_opened_img": "images/items/orb-earth-yes.png",
                         "access_rules": [ "rod" ],
-                        "hosted_item": "earthorb"
+                        "item": "earthorb"
                     },
                     {
                         "name": "Giant's Floor (B1)",
@@ -476,7 +478,9 @@
                 "sections": [
                     {
                         "name": "Fire Orb",
-                        "hosted_item": "fireorb"
+						"chest_unopened_img": "images/items/orb-fire-no.png",
+						"chest_opened_img": "images/items/orb-fire-yes.png",
+                        "item": "fireorb"
                     },
                     {
                         "name": "Armory Floor (B2)",
@@ -720,7 +724,9 @@
                 "sections": [
                     {
                         "name": "Air Orb",
-                        "hosted_item": "airorb"
+						"chest_unopened_img": "images/items/orb-air-no.png",
+						"chest_opened_img": "images/items/orb-air-yes.png",
+                        "item": "airorb"
                     },
                     {
                         "name": "Sky Plus (1F)",
@@ -783,7 +789,9 @@
                 "sections": [
                     {
                         "name": "Water Orb",
-                        "hosted_item": "waterorb"
+						"chest_unopened_img": "images/items/orb-water-no.png",
+						"chest_opened_img": "images/items/orb-water-yes.png",
+                        "item": "waterorb"
                     },
                     {
                         "name": "Split Floor (B3)",
