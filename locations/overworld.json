@@ -352,7 +352,7 @@
 						"chest_unopened_img": "images/items/orb-earth-no.png",
 						"chest_opened_img": "images/items/orb-earth-yes.png",
                         "access_rules": [ "rod" ],
-                        "item": "earthorb"
+                        "hosted_item": "earthorb"
                     },
                     {
                         "name": "Giant's Floor (B1)",
