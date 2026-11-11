@@ -1,23 +1,13 @@
 [
     {
-        "name": "Inner Sea",
+        "name": "Overworld",
         "color": "#808080",
         "children": [
             {
                 "name": "Coneria Castle",
 				"access_rules": [],
                 "sections": [
-                    {
-                        "name": "Coneria Castle Chests",
-                        "access_rules": [ "key" ],
-                        "item_count": 5
-                    },
-                    {
-                        "name": "Coneria Castle Incentive",
-                        "access_rules": [ "key" ],
-                        "item_count": 1,
-                        "hosted_item": "coneriaLocked"
-                    },
+                    
                     {
                         "name": "King",
                         "access_rules": [ "earlyKing", "garland" ],
@@ -29,6 +19,17 @@
                         "access_rules": [ "garland" ],
                         "item_count": 1,
                         "hosted_item": "sara"
+                    },
+					{
+                        "name": "Treasury",
+                        "access_rules": [ "key" ],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Treasury Major",
+                        "access_rules": [ "key" ],
+                        "item_count": 1,
+                        "hosted_item": "coneriaLocked"
                     }
                 ],
                 "map_locations": [
@@ -45,28 +46,16 @@
                 "sections": [
                     {
                         "name": "Garland",
-                        "access_rules": [],
                         "hosted_item": "garland"
                     },
                     {
-                        "name": "Top Left",
-                        "access_rules": [],
-                        "item_count": 2
+                        "name": "Unlocked",
+                        "item_count": 3
                     },
                     {
-                        "name": "Bottom Left",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Top Right",
+                        "name": "Locked",
                         "access_rules": [ "key" ],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Bottom Right",
-                        "access_rules": [ "key" ],
-                        "item_count": 1
+                        "item_count": 3
                     }
                 ],
                 "map_locations": [
@@ -79,39 +68,30 @@
             },
             {
                 "name": "Temple of Fiends Revisited",
-                "color": "#808080",
-                "children": [
+                "access_rules": [ "$canBreakOrb,lute,key" ],
+                "sections": [
                     {
-                        "name": "ToFR",
-                        "access_rules": [ "$canBreakOrb,lute,key" ],
-                        "sections": [
-                            {
-                                "name": "Chaos",
-                                "hosted_item": "chaos"
-                            },
-                            {
-                                "name": "Lute Plate Room",
-                                "access_rules": [],
-                                "item_count": 2
-                            },
-                            {
-                                "name": "Kary Floor",
-                                "access_rules": [],
-                                "item_count": 4
-                            },
-                            {
-                                "name": "Vanilla Masa",
-                                "access_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "overworld",
-                                "x": 1540,
-                                "y": 1220
-                            }
-                        ]
+                        "name": "Lute Plate Room",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Kary Floor",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Vanilla Masa",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Chaos",
+                        "hosted_item": "chaos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1540,
+                        "y": 1220
                     }
                 ]
             },
@@ -125,12 +105,11 @@
                  ],
                 "sections": [
                     {
-                        "name": "Free Chests",
-                        "access_rules": [],
+                        "name": "Entrance",
                         "item_count": 2
                     },
                     {
-                        "name": "Dwarf Armory",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 8
                     },
@@ -156,7 +135,7 @@
                 ]
             },
             {
-                "name": "North West Castle",
+                "name": "Northwest Castle",
                 "access_rules": [
                     "openProgression,canoe",
                     "ship",
@@ -171,7 +150,7 @@
                         "hosted_item": "astos"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 3
                     }
@@ -203,7 +182,6 @@
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -231,7 +209,7 @@
                         "hosted_item": "elfprince"
                     },
                     {
-                        "name": "Chests",
+                        "name": "Treasury",
                         "access_rules": [ "key" ],
                         "item_count": 4
                     }
@@ -257,7 +235,6 @@
                 "sections": [
                     {
                         "name": "Bikke",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "bikke"
                     }
@@ -280,61 +257,27 @@
                  ],
                 "sections": [
                     {
-                        "name": "Marsh Incentive",
-                        "access_rules": [],
+                        "name": "Top (B1)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Bottom (B2)",
+                        "item_count": 5
+                    },
+					{
+                        "name": "Bottom (B2) - Incentive",
                         "item_count": 1,
                         "hosted_item": "marsh"
                     },
                     {
-                        "name": "Marsh Locked Incentive",
+                        "name": "Bottom (B2) - Locked",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Bottom (B2) - Locked Incentive",
                         "access_rules": [ "key" ],
                         "item_count": 1,
                         "hosted_item": "marshLocked"
-                    },
-                    {
-                        "name": "Top Floor Right",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Top Floor Top Left",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Top Floor Bottom Left",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Bottom Floor 1,2",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bottom Floor 2,2",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Bottom Floor 3,3",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bottom Floor 4,1",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Locked Left",
-                        "access_rules": [ "key" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Locked Middle",
-                        "access_rules": [ "key" ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -344,13 +287,7 @@
                         "y": 2680
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Melmond Continent",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Sarda's Cave",
                 "access_rules": [
@@ -375,7 +312,7 @@
                 ]
             },
             {
-                "name": "Titan's Trove",
+                "name": "Titan's Tunnel",
                 "access_rules": [
                     "ruby,airship",
                     "ruby,ship,canal",
@@ -383,14 +320,12 @@
                  ],
                 "sections": [
                     {
-                        "name": "Incentive",
-                        "access_rules": [],
+                        "name": "Major",
                         "item_count": 1,
                         "hosted_item": "titansTrove"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 3
                     }
                 ],
@@ -416,50 +351,26 @@
                         "hosted_item": "earthorb"
                     },
                     {
-                        "name": "Earth Incentive",
-                        "access_rules": [],
+                        "name": "Giant's Floor (B1)",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "(B2)",
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Vampire Floor (B3)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Earth Cave Incentive (B3)",
                         "item_count": 1,
                         "hosted_item": "earth"
                     },
                     {
-                        "name": "1 Top",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "1 Bottom",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "2 Right",
-                        "access_rules": [],
-                        "item_count": 3
-                    },
-                    {
-                        "name": "2 Bottom",
-                        "access_rules": [],
-                        "item_count": 3
-                    },
-                    {
-                        "name": "3 Chests",
-                        "access_rules": [],
-                        "item_count": 3
-                    },
-                    {
-                        "name": "3 TFC",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "4 Armory",
+                        "name": "Rod Locked Floor (B4)",
                         "access_rules": [ "rod" ],
-                        "item_count": 5
-                    },
-                    {
-                        "name": "4 Bottom",
-                        "access_rules": [ "rod" ],
-                        "item_count": 3
+                        "item_count": 8
                     }
                 ],
                 "map_locations": [
@@ -490,13 +401,7 @@
                         "y": 1750
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Crescent Lake Area",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Crescent Lake",
                 "access_rules": [
@@ -533,35 +438,21 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ice Cave Incentive",
-                        "access_rules": [],
+                        "name": "Incentive Floor (B2) - Major",
                         "item_count": 1,
                         "hosted_item": "iceCave"
                     },
                     {
-                        "name": "Incentive Floor Chests",
-                        "access_rules": [],
+                        "name": "Incentive Floor (B2)",
                         "item_count": 2
                     },
                     {
-                        "name": "Middle Floor Left",
-                        "access_rules": [],
-                        "item_count": 2
+                        "name": "Bottom Floor (B3)",
+                        "item_count": 8
                     },
                     {
-                        "name": "Middle Floor 6 Pack",
-                        "access_rules": [],
-                        "item_count": 6
-                    },
-                    {
-                        "name": "Bottom Floor First Chests",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Bottom Floor 3 Pack",
-                        "access_rules": [],
-                        "item_count": 3
+                        "name": "Exit Floor (B1)",
+                        "item_count": 5
                     }
                 ],
                 "map_locations": [
@@ -583,64 +474,20 @@
                 "sections": [
                     {
                         "name": "Fire Orb",
-                        "access_rules": [],
                         "hosted_item": "fireorb"
                     },
                     {
-                        "name": "Volcano Incentive",
-                        "access_rules": [],
+                        "name": "Armory Floor (B2)",
+                        "item_count": 18
+                    },
+                    {
+                        "name": "Agama Floor (B4)",
+                        "item_count": 14
+                    },
+                    {
+                        "name": "Volcano Incentive (B5)",
                         "item_count": 1,
                         "hosted_item": "volcano"
-                    },
-                    {
-                        "name": "Armory Bottom Right",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Right Hairpins",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Left Hairpin",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Armory Main",
-                        "access_rules": [],
-                        "item_count": 12
-                    },
-                    {
-                        "name": "Agama Top Right",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Agama Top Middle",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Agama Top Left",
-                        "access_rules": [],
-                        "item_count": 5
-                    },
-                    {
-                        "name": "Agama Middle Middle",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Agama Middle Right",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Agama Bottom Right",
-                        "access_rules": [],
-                        "item_count": 2
                     }
                 ],
                 "map_locations": [
@@ -668,13 +515,7 @@
                         "y": 2700
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Cardia Islands",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Bahamut's Cave",
                 "access_rules": [
@@ -688,9 +529,14 @@
                         "hosted_item": "bahamut"
                     },
 					{
-						"name" : "Cardia Incentive - Hoard",
+						"name" : "Bahamut's Hoard (Cardia Chests)",
 						"visibility_rules" : [ "BahamutHoard" ],
-						"access_rules" : [],
+						"item_count": 12
+					},
+					{
+						"name" : "Bahamut's Hoard (Cardia Incentive)",
+						"visibility_rules" : [ "BahamutHoard" ],
+                        "item_count": 1,
 						"hosted_item" : "cardiaIncentive"
 					}
                 ],
@@ -703,13 +549,12 @@
                 ]
             },
             {
-                "name": "Cardia Grassy",
+                "name": "Cardia Grassy Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
-			"access_rules": [],
-                        "item_count": 3,
+                        "item_count": 3
                     }
                 ],
                 "map_locations": [
@@ -721,13 +566,12 @@
                 ]
             },
             {
-                "name": "Cardia Swampy",
+                "name": "Cardia Swamp Island",
 				"access_rules": [ "airship" ],
                 "sections": [
                     {
                         "name": "Chests",
-                        "access_rules": [],
-                        "item_count": 3,
+                        "item_count": 3
                     }
                 ],
                 "map_locations": [
@@ -739,18 +583,16 @@
                 ]
             },
             {
-                "name": "Cardia Forest",
+                "name": "Cardia Forest Island",
                 "access_rules": [ "airship" ],
                 "sections": [
 					{
-                        "name": "Cardia Incentive",
-                        "access_rules": [],
+                        "name": "Incentive Major",
                         "item_count": 1,
                         "hosted_item": "cardiaIncentive"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 6
                     }
                 ],
@@ -761,15 +603,9 @@
                         "y": 650
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Castle of Ordeals",
-        "color": "#808080",
-        "children": [
+            },
             {
-                "name": "Ordeals",
+                "name": "Temple of Ordeals",
                 "access_rules": [
                     "airship,canoe",
                     "ship,canal,canoe",
@@ -777,15 +613,14 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "item_count": 8
+                    },
+					{
                         "name": "Incentive",
                         "access_rules": [ "earlyOrdeals", "crown" ],
                         "item_count": 1,
                         "hosted_item": "ordeals"
-                    },
-                    {
-                        "name": "Chests",
-                        "access_rules": [],
-                        "item_count": 8
                     }
                 ],
                 "map_locations": [
@@ -795,13 +630,7 @@
                         "y": 380
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Gaia Area",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Lefein",
                 "access_rules": [
@@ -862,13 +691,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Floor 1",
-                        "access_rules": [],
+                        "name": "(1F)",
                         "item_count": 8
                     },
                     {
-                        "name": "< >",
-                        "access_rules": [],
+                        "name": "(2F)",
                         "item_count": 10
                     }
                 ],
@@ -881,64 +708,34 @@
                 ]
             },
             {
-                "name": "Sky Palace",
+                "name": "Sky Fortess",
                 "access_rules": [
                     "airship,chime,cube",
                     "northernDocks,chime,ship,canal,cube",
                     "lefeinBridge,bridge,hwyOrdeals,chime,cube",
-                    "hwyOrdeals,ship,canal,canoe,chime,cube",
+                    "hwyOrdeals,ship,canal,canoe,chime,cube"
                  ],
                 "sections": [
                     {
                         "name": "Air Orb",
-                        "access_rules": [],
                         "hosted_item": "airorb"
                     },
                     {
-                        "name": "Sky Incentive",
-                        "access_rules": [],
+                        "name": "Sky Plus (1F)",
+                        "item_count": 10
+                    },
+                    {
+                        "name": "Spider Floor (2F)",
+                        "item_count": 9
+                    },
+                    {
+                        "name": "Sky Incentive (2F)",
                         "item_count": 1,
                         "hosted_item": "sky"
                     },
                     {
-                        "name": "Floor 1 Left",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Floor 1 Right",
-                        "access_rules": [],
-                        "item_count": 5
-                    },
-                    {
-                        "name": "Floor 1 Bottom",
-                        "access_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Floor 2 Left",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Floor 2 Right",
-                        "access_rules": [],
-                        "item_count": 5
-                    },
-                    {
-                        "name": "Floor 3 Top",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Floor 3 Left",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Floor 3 Right",
-                        "access_rules": [],
-                        "item_count": 6
+                        "name": "Sky Provides (3F)",
+                        "item_count": 14
                     }
                 ],
                 "map_locations": [
@@ -948,13 +745,7 @@
                         "y": 580
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Onrac Continent",
-        "color": "#808080",
-        "children": [
+            },
             {
                 "name": "Waterfall",
                 "access_rules": [
@@ -964,13 +755,11 @@
                 "sections": [
                     {
                         "name": "Robot",
-                        "access_rules": [],
                         "item_count": 1,
                         "hosted_item": "robot"
                     },
                     {
                         "name": "Chests",
-                        "access_rules": [],
                         "item_count": 6
                     }
                 ],
@@ -992,44 +781,37 @@
                 "sections": [
                     {
                         "name": "Water Orb",
-                        "access_rules": [],
                         "hosted_item": "waterorb"
                     },
                     {
-                        "name": "Sea Incentive",
-                        "access_rules": [],
+                        "name": "Split Floor (B3)",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "TFC Floor (B2)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "TFC (B2)",
+                        "access_rules": [ "key" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mermaids (B1)",
+                        "item_count": 12
+                    },
+                    {
+                        "name": "Sea Incentive (B1)",
                         "item_count": 1,
                         "hosted_item": "sea"
                     },
                     {
-                        "name": "Sea Split",
-                        "access_rules": [],
+                        "name": "Greed Floor (B3)",
                         "item_count": 2
                     },
                     {
-                        "name": "Mermaids",
-                        "access_rules": [],
-                        "item_count": 12
-                    },
-                    {
-                        "name": "Sea Hallway",
-                        "access_rules": [],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Sharknado",
-                        "access_rules": [],
+                        "name": "Sharknado Floor (B4)",
                         "item_count": 10
-                    },
-                    {
-                        "name": "TFC Floor",
-                        "access_rules": [],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "TFC",
-                        "access_rules": [ "key" ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1041,12 +823,11 @@
                 ]
             },
             {
-                "name": "I: Shop Item",
+                "name": "Caravan or Town Shop",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "I: Shop Item",
-                        "access_rules": [],
+                        "name": "Shop Item",
                         "hosted_item": "shopItem"
                     }
                 ],
@@ -1061,10 +842,3 @@
         ]
     }
 ]
-
-
-
-
-
-
-
