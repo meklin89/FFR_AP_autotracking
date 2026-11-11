@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Sarda's Cave",
+		"access_rules": [
+            "airship",
+            "ruby,ship,canal",
+            "melmondRiver,canoe,ruby"
+		],
+		"children": [
+			{
+				"name": "Sarda's Cave",
+				"sections": [
+					{
+						"name": "Sarda",
+						"access_rules": [
+							"earlySarda",
+							"vampire"
+						],
+						"hosted_item": "sarda"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "sarda",
+						"x": 58,
+						"y": 56
+					}
+				]
+			}
+		]
+	}
+]

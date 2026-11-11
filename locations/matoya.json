@@ -1,0 +1,84 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Matoya's Cave",
+		"access_rules": [
+        	"bridge",
+            "ship",
+            "airship",
+            "extendedOpen,canoe",
+            "openProgression,canoe",
+			"lefeinBridge"
+		],
+		"children": [
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 23,
+						"y": 71
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 23,
+						"y": 87
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 23,
+						"y": 119
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"sections": [
+					{
+						"name": "Matoya",
+						"access_rules": [
+							"crystal"
+						],
+						"hosted_item": "matoya"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "matoya",
+						"x": 136,
+						"y": 23
+					}
+				]
+			}
+		]
+	}
+]

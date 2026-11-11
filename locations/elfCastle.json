@@ -1,0 +1,110 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Elf Castle",
+		"access_rules": [
+			"openProgression,canoe",
+			"ship",
+			"airship",
+			"extendedOpen"
+		],
+		"children": [
+			{
+				"name": "Elf Castle",
+				"sections": [
+					{
+						"name": "Treasury 1",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "elf_castle",
+						"x": 394,
+						"y": 46
+					}
+				]
+			},
+			{
+				"name": "Elf Castle",
+				"sections": [
+					{
+						"name": "Treasury 2",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "elf_castle",
+						"x": 410,
+						"y": 46
+					}
+				]
+			},
+			{
+				"name": "Elf Castle",
+				"sections": [
+					{
+						"name": "Treasury 3",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "elf_castle",
+						"x": 426,
+						"y": 46
+					}
+				]
+			},
+			{
+				"name": "Elf Castle",
+				"sections": [
+					{
+						"name": "Treasury 4",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "elf_castle",
+						"x": 442,
+						"y": 46
+					}
+				]
+			},
+			{
+				"name": "Elf Castle",
+				"sections": [
+					{
+						"name": "Elf Prince",
+						"access_rules": [
+							"herb"
+						],
+						"hosted_item": "elfprince"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "elf_castle",
+						"x": 187,
+						"y": 125
+					}
+				]
+			}
+		]
+	}
+]

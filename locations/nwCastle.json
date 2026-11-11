@@ -1,0 +1,91 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Northwest Castle",
+		"access_rules": [
+            "openProgression,canoe",
+            "ship",
+            "airship",
+            "extendedOpen"
+		],
+		"children": [
+			{
+				"name": "Northwest Castle",
+				"sections": [
+					{
+						"name": "Treasury 1",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "nw_castle",
+						"x": 143,
+						"y": 240
+					}
+				]
+			},
+			{
+				"name": "Northwest Castle",
+				"sections": [
+					{
+						"name": "Treasury 2",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "nw_castle",
+						"x": 175,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "Northwest Castle",
+				"sections": [
+					{
+						"name": "Treasury 3",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "nw_castle",
+						"x": 207,
+						"y": 240
+					}
+				]
+			},
+			{
+				"name": "Northwest Castle",
+				"sections": [
+					{
+						"name": "Astos",
+						"access_rules": [
+							"crown"
+						],
+						"hosted_item": "astos"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "nw_castle",
+						"x": 272,
+						"y": 125
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,266 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Temple of Fiends",
+		"access_rules": [
+			""
+		],
+		"children": [
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Unlocked Single",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 116,
+						"y": 520
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Unlocked Duo 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 116,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Unlocked Duo 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 132,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Single",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 708,
+						"y": 520
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Duo 1",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 692,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Locked Duo 2",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 708,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"sections": [
+					{
+						"name": "Garland",
+						"hosted_item": "garland"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 404,
+						"y": 341
+					}
+				]
+			},
+			{
+				"name": "Revisited (3F)",
+				"sections": [
+					{
+						"name": "Validation 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofr3F",
+						"x": 311,
+						"y": 268
+					}
+				]
+			},
+			{
+				"name": "Revisited (3F)",
+				"sections": [
+					{
+						"name": "Validation 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofr3F",
+						"x": 407,
+						"y": 268
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Greed Checks 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 129,
+						"y": 495
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Greed Checks 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 369,
+						"y": 495
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Katana Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 401,
+						"y": 847
+					}
+				]
+			},
+			{
+				"name": "Revisited Kary Floor (6F)",
+				"sections": [
+					{
+						"name": "Vault",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 881,
+						"y": 559
+					}
+				]
+			},
+			{
+				"name": "Revisited Tiamat Floor (8F)",
+				"sections": [
+					{
+						"name": "Masamune Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrAir",
+						"x": 835,
+						"y": 530
+					}
+				]
+			}
+		]
+	}
+]

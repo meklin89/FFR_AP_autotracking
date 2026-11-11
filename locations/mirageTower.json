@@ -1,0 +1,303 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Mirage Tower",
+		"access_rules": [
+            "airship,chime",
+            "northernDocks,chime,ship,canal",
+            "lefeinBridge,bridge,hwyOrdeals,chime",
+            "hwyOrdeals,ship,canoe,canal,chime"
+		],
+		"children": [
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 184,
+						"y": 289
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 264,
+						"y": 289
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 280,
+						"y": 289
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 296,
+						"y": 305
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 312,
+						"y": 289
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 6",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 312,
+						"y": 321
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 7",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 360,
+						"y": 289
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (1F)",
+				"sections": [
+					{
+						"name": "Chest 8",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage1F",
+						"x": 344,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Lesser 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 242,
+						"y": 242
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Lesser 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 226,
+						"y": 258
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Lesser 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 210,
+						"y": 274
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Lesser 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 226,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Lesser 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 242,
+						"y": 306
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Greater 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 290,
+						"y": 242
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Greater 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 306,
+						"y": 258
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Greater 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 322,
+						"y": 274
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Greater 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 306,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Mirage Tower (2F)",
+				"sections": [
+					{
+						"name": "Greater 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mirage2F",
+						"x": 290,
+						"y": 306
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,444 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Earth Cave",
+		"access_rules": [
+            "airship",
+            "ship,canal",
+            "melmondRiver,canoe"
+		],
+		"children": [
+			{
+				"name": "Giant's Floor (B1)",
+				"sections": [
+					{
+						"name": "Single",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB1",
+						"x": 483,
+						"y": 138
+					}
+				]
+			},
+			{
+				"name": "Giant's Floor (B1)",
+				"sections": [
+					{
+						"name": "Appendix 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB1",
+						"x": 404,
+						"y": 730
+					}
+				]
+			},
+			{
+				"name": "Giant's Floor (B1)",
+				"sections": [
+					{
+						"name": "Appendix 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB1",
+						"x": 420,
+						"y": 730
+					}
+				]
+			},
+			{
+				"name": "Giant's Floor (B1)",
+				"sections": [
+					{
+						"name": "Side Path 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB1",
+						"x": 580,
+						"y": 618
+					}
+				]
+			},
+			{
+				"name": "Giant's Floor (B1)",
+				"sections": [
+					{
+						"name": "Side Path 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB1",
+						"x": 596,
+						"y": 634
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Side Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 510,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Side Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 526,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Side Room 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 558,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Guarded 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 222,
+						"y": 545
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Guarded 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 238,
+						"y": 577
+					}
+				]
+			},
+			{
+				"name": "(B2)",
+				"sections": [
+					{
+						"name": "Guarded 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB2",
+						"x": 270,
+						"y": 577
+					}
+				]
+			},
+			{
+				"name": "Vampire Floor (B3)",
+				"sections": [
+					{
+						"name": "Side Room",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB3",
+						"x": 671,
+						"y": 517
+					}
+				]
+			},
+			{
+				"name": "Vampire Floor (B3)",
+				"sections": [
+					{
+						"name": "TFC",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB3",
+						"x": 670,
+						"y": 309
+					}
+				]
+			},
+			{
+				"name": "Vampire Floor (B3)",
+				"sections": [
+					{
+						"name": "Asher Trunk",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB3",
+						"x": 366,
+						"y": 133
+					}
+				]
+			},
+			{
+				"name": "Vampire Floor (B3)",
+				"sections": [
+					{
+						"name": "Vampire's Closet",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB3",
+						"x": 142,
+						"y": 325
+					}
+				]
+			},
+			{
+				"name": "Vampire Floor (B3)",
+				"sections": [
+					{
+						"name": "Incentive",
+						"hosted_item": "earth",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB3",
+						"x": 254,
+						"y": 517
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Armory 1",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 478,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Armory 2",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 494,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Armory 3",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 478,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Armory 4",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 558,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Armory 5",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 590,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Lich's Closet 1 ",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 158,
+						"y": 481
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Lich's Closet 2 ",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 190,
+						"y": 497
+					}
+				]
+			},
+			{
+				"name": "Rod Locked Floor (B4)",
+				"sections": [
+					{
+						"name": "Lich's Closet 3 ",
+						"access_rules": [
+							"rod"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB4",
+						"x": 142,
+						"y": 529
+					}
+				]
+			},
+			{
+				"name": "Lich's Floor (B5)",
+				"chest_unopened_img": "images/items/orb-earth-no.png",
+				"chest_opened_img": "images/items/orb-earth-yes.png",
+				"sections": [
+					{
+						"name": "Earth Orb",
+						"access_rules": [
+							"rod"
+						],
+						"item": "earthorb"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "earthB5",
+						"x": 79,
+						"y": 347
+					}
+				]
+			}
+		]
+	}
+]

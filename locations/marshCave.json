@@ -1,0 +1,233 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Marsh Cave",
+		"access_rules": [
+            "openProgression,canoe",
+            "ship",
+            "airship",
+            "extendedOpen"
+		],
+		"children": [
+			{
+				"name": "Top (B1)",
+				"sections": [
+					{
+						"name": "Single",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB2",
+						"x": 439,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "Top (B1)",
+				"sections": [
+					{
+						"name": "Corner",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB2",
+						"x": 215,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "Top (B1)",
+				"sections": [
+					{
+						"name": "Duo 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB2",
+						"x": 167,
+						"y": 354
+					}
+				]
+			},
+			{
+				"name": "Top (B1)",
+				"sections": [
+					{
+						"name": "Duo 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB2",
+						"x": 199,
+						"y": 354
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Distant",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 834,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Tetris-Z First",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 162,
+						"y": 384
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Tetris-Z Middle 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 370,
+						"y": 352
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Tetris-Z Middle 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 402,
+						"y": 384
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Tetris-Z Incentive",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 370,
+						"y": 608
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Tetris-Z Last",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 610,
+						"y": 624
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Locked Corner",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 194,
+						"y": 848
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Locked Middle",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 434,
+						"y": 832
+					}
+				]
+			},
+			{
+				"name": "Bottom (B2)",
+				"sections": [
+					{
+						"name": "Locked Incentive",
+						"access_rules": [
+							"key"
+						],
+						"hosted_item": "marsh",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "marshB3",
+						"x": 834,
+						"y": 832
+					}
+				]
+			}
+		]
+	}
+]

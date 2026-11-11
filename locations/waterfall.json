@@ -1,0 +1,126 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Waterfall Cave",
+		"access_rules": [
+            "airship,canoe",
+            "northernDocks,ship,canal,canoe",
+			"airBoat,northernDocks,ship,floater,canoe"
+		],
+		"children": [
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 247,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 263,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 279,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 295,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 5",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 311,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Chest 6",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 327,
+						"y": 838
+					}
+				]
+			},
+			{
+				"name": "Waterfall Cave",
+				"sections": [
+					{
+						"name": "Robot",
+						"hosted_item": "robot"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "waterfall",
+						"x": 328,
+						"y": 866
+					}
+				]
+			}
+		]
+	}
+]
