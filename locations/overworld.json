@@ -13,13 +13,11 @@
                     {
                         "name": "King",
                         "access_rules": [ "earlyKing", "garland" ],
-                        "item_count": 1,
                         "hosted_item": "king"
                     },
                     {
                         "name": "Sara",
                         "access_rules": [ "garland" ],
-                        "item_count": 1,
                         "hosted_item": "sara"
                     },
 					{
@@ -118,13 +116,11 @@
                     {
                         "name": "Smithy McBeardSmith",
                         "access_rules": [ "adamant" ],
-                        "item_count": 1,
                         "hosted_item": "smith"
                     },
                     {
                         "name": "Nerrick (Vanilla Canal)",
                         "access_rules": [ "tnt" ],
-                        "item_count": 1,
                         "hosted_item": "nerrick"
                     }
                 ],
@@ -148,7 +144,6 @@
                     {
                         "name": "Astos",
                         "access_rules": [ "crown" ],
-                        "item_count": 1,
                         "hosted_item": "astos"
                     },
                     {
@@ -179,7 +174,6 @@
                     {
                         "name": "Matoya",
                         "access_rules": [ "crystal" ],
-                        "item_count": 1,
                         "hosted_item": "matoya"
                     },
                     {
@@ -207,7 +201,6 @@
                     {
                         "name": "Elf Prince",
                         "access_rules": [ "herb" ],
-                        "item_count": 1,
                         "hosted_item": "elfprince"
                     },
                     {
@@ -237,7 +230,6 @@
                 "sections": [
                     {
                         "name": "Bikke",
-                        "item_count": 1,
                         "hosted_item": "bikke"
                     }
                 ],
@@ -301,7 +293,6 @@
                     {
                         "name": "Sarda",
                         "access_rules": [ "earlySarda", "vampire" ],
-                        "item_count": 1,
                         "hosted_item": "sarda"
                     }
                 ],
@@ -417,7 +408,6 @@
                     {
                         "name": "Sages",
                         "access_rules": [ "earlySage", "earthorblit"],
-                        "item_count": 1,
                         "hosted_item": "sages"
                     }
                 ],
@@ -646,7 +636,6 @@
                     {
                         "name": "Incentive",
                         "access_rules": [ "slabTranslated", "slabDone" ],
-                        "item_count": 1,
                         "hosted_item": "lefein"
                     }
                 ],
@@ -671,7 +660,6 @@
                     {
                         "name": "Fairy",
                         "access_rules": [ "bottle" ],
-                        "item_count": 1,
                         "hosted_item": "fairy"
                     }
                 ],
@@ -757,7 +745,6 @@
                 "sections": [
                     {
                         "name": "Robot",
-                        "item_count": 1,
                         "hosted_item": "robot"
                     },
                     {
