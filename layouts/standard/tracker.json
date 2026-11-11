@@ -299,56 +299,56 @@
 															}
 														},
 														{
-															"title" : "ToFR 1F",
+															"title" : "ToFR (1F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr1F" ]
 															}
 														},
 														{
-															"title" : "ToFR 2F",
+															"title" : "ToFR (2F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr2F" ]
 															}
 														},
 														{
-															"title" : "ToFR 3F",
+															"title" : "ToFR (3F)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofr3F" ]
 															}
 														},
 														{
-															"title" : "ToFR Earth",
+															"title" : "ToFR (Earth)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrEarth" ]
 															}
 														},
 														{
-															"title" : "ToFR Fire",
+															"title" : "ToFR (Fire)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrFire" ]
 															}
 														},
 														{
-															"title" : "ToFR Water",
+															"title" : "ToFR (Water)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrWater" ]
 															}
 														},
 														{
-															"title" : "ToFR Air",
+															"title" : "ToFR (Air)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrAir" ]
 															}
 														},
 														{
-															"title" : "ToFR Chaos",
+															"title" : "ToFR (Chaos)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "tofrChaos" ]
@@ -382,7 +382,7 @@
 															}
 														},
 														{
-															"title" : "Top & Middle (B1)",
+															"title" : "Top (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "marshB2" ]
