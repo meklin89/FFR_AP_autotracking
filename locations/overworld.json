@@ -456,7 +456,7 @@
                 ]
             },
             {
-                "name": "Volcano",
+                "name": "Gurgu Volcano",
                 "access_rules": [
                     "airship",
                     "openProgression,canoe",
