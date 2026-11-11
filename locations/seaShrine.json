@@ -527,10 +527,12 @@
 			},
 			{
 				"name": "Kraken's Floor (B5)",
+				"chest_unopened_img": "images/items/orb-sea-no.png",
+				"chest_opened_img": "images/items/orb-sea-yes.png",
 				"sections": [
 					{
 						"name": "Water Orb",
-						"hosted_item": "waterorb"
+						"item": "waterorb"
 					}
 				],
 				"map_locations": [
