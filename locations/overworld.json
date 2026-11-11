@@ -1,6 +1,8 @@
 [
     {
-        "name": "Overworld",
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Overworld",
         "color": "#808080",
         "children": [
             {
