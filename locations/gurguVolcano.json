@@ -540,10 +540,12 @@
 			},
 			{
 				"name": "Kary Floor (B5)",
+				"chest_unopened_img": "images/items/orb-fire-no.png",
+				"chest_opened_img": "images/items/orb-fire-yes.png",
 				"sections": [
 					{
 						"name": "Fire Orb",
-						"hosted_item": "fireorb"
+						"item": "fireorb"
 					}
 				],
 				"map_locations": [
