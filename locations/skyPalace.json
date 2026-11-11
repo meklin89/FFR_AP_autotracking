@@ -557,12 +557,10 @@
 			},
 			{
 				"name": "Tiamat's Floor (5)",
-				"chest_unopened_img": "images/items/orb-air-no.png",
-				"chest_opened_img": "images/items/orb-air-yes.png",
 				"sections": [
 					{
 						"name": "Air Orb",
-						"item": "airorb"
+						"hosted_item": "airorblit"
 					}
 				],
 				"map_locations": [
