@@ -80,16 +80,19 @@
 		}
 	},
 	"shared_shard_hunt_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_height": 50,
-        "item_width": 100,
-        "rows": [
-            [ "shardsRequired" ],
-            [ "shards" ]
-        ]
-    }
+        "type": "container",
+		"content": {
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"item_height": 50,
+			"item_width": 100,
+			"rows": [
+				[ "shardsRequired" ],
+				[ "shards" ]
+        	]
+    	}
+	}
 }
 
 
