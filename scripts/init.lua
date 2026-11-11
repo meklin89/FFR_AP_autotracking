@@ -20,8 +20,7 @@ if Tracker.ActiveVariantUID == "7NOverworld" or Tracker.ActiveVariantUID == "8sh
     Tracker:AddLocations("locations/NOverworld/locations.json")
     Tracker:AddLocations("locations/NOverworld/incentives.json")
 else
-    Tracker:AddLocations("locations/overworld.json")
-    Tracker:AddLocations("locations/incentives.json")
+    Tracker:AddLocations("locations/loadLocations.json")
 end
 
 Tracker:AddLayouts("layouts/shared.json")
