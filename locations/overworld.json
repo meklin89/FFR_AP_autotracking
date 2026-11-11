@@ -349,11 +349,8 @@
                 "sections": [
                     {
                         "name": "Earth Orb",
-						"chest_unopened_img": "images/misc/idk.png",
-						"chest_opened_img": "images/misc/idk.png",
                         "access_rules": [ "rod" ],
-                        "hosted_item": "earthorb",
-						"item_count": 1
+                        "hosted_item": "earthorblit"
                     },
                     {
                         "name": "Giant's Floor (B1)",
