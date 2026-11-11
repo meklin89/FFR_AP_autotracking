@@ -349,8 +349,8 @@
                 "sections": [
                     {
                         "name": "Earth Orb",
-						"chest_unopened_img": "images/items/orb-earth-no.png",
-						"chest_opened_img": "images/items/orb-earth-yes.png",
+						"chest_unopened_img": "images/misc/idk.png",
+						"chest_opened_img": "images/misc/idk.png",
                         "access_rules": [ "rod" ],
                         "hosted_item": "earthorb",
 						"item_count": 1
