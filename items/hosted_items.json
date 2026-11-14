@@ -27,15 +27,13 @@
         "name": "SmithyMcBeardSmith",
         "type": "toggle",
         "img": "images/locations/smith.png",
-        "codes": "smith",
-        "secondary_codes": "adamantTurnIn"
+        "codes": "smith"
     },
     {
         "name": "Nerrick (Vanilla Canal)",
         "type": "toggle",
         "img": "images/locations/nerrick.png",
-        "codes": "nerrick",
-        "secondary_codes": "tntTurnIn"
+        "codes": "nerrick"
     },
     {
         "name": "Astos",
@@ -113,7 +111,7 @@
         "name": "Titan's Trove",
         "type": "toggle",
         "img": "images/locations/titan.png",
-        "codes": "titansTrove"
+        "codes": "titanIncentive"
     },
     {
         "name": "Cardia Isle Incentive",

@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
 -------------------------------------------------------
@@ -26,7 +26,8 @@ function onClear()
     print(string.format("called onClear"))
   end
   CUR_INDEX = -1
-  for _, v in pairs(LOCATION_MAPPING) do
+  
+--[[  for _, v in pairs(LOCATION_MAPPING) do
     if v[1] then
       if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
         print(string.format("onClear: clearing location %s", v[1]))
@@ -42,6 +43,7 @@ function onClear()
         print(string.format("onClear: could not find object for code %s", v[1]))
       end
     end
+    ]]
 --     if v[2] then
 --       if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
 --         print(string.format("onClear: clearing location %s", v[2]))
@@ -53,9 +55,8 @@ function onClear()
 --         print(string.format("onClear: could not find object for code %s", v[1]))
 --       end
 --     end
-  end
   for _, v in pairs(ITEM_MAPPING) do
-    if v[1] and v[2] then
+    if v[1] then
       if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
         print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
       end
@@ -64,19 +65,47 @@ function onClear()
         if v[2] == "toggle" then
           obj.Active = false
         elseif v[2] == "progressive" then
-          obj.CurrentStage = 0
-          obj.Active = false
+          if obj.Active then
+            obj.CurrentStage = 0
+          end
+          --obj.Active = false
         elseif v[2] == "consumable" then
           obj.AcquiredCount = 0
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-          print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
+        else
+          if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
+          end
         end
-      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("onClear: could not find object for code %s", v[1]))
+      else
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+          print(string.format("onClear: could not find object for code %s", v[1]))
+        end
+      end
+    end
+  end
+
+  for _, location_array in pairs(LOCATION_MAPPING) do
+    for _, location in pairs(location_array) do
+      if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("onClear: clearing location %s", location))
+      end
+      if location then
+        local obj = Tracker:FindObjectForCode(location)
+        if obj then
+          if location:sub(1, 1) == "@" then
+            obj.AvailableChestCount = obj.ChestCount
+          else
+            obj.Active = false
+          end
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+          print(string.format("onClear: could not find object for code %s", location))
+        end
       end
     end
   end
 end
+
+
 
 function onItem(index, item_id, item_name)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -109,7 +138,7 @@ function onItem(index, item_id, item_name)
         obj.Active = true
       end
     elseif v[2] == "consumable" then
-      obj.AcquiredCount = obj.AcquiredCount + 1
+      obj.AcquiredCount = obj.AcquiredCount + obj.Increment
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
       print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
     end
@@ -122,33 +151,46 @@ function onLocation(location_id, location_name)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print(string.format("called onLocation: %s, %s", location_id, location_name))
   end
-  local v = LOCATION_MAPPING[location_id]
-  if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+  local location_array = LOCATION_MAPPING[location_id]
+  if not location_array and AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print(string.format("onLocation: could not find location mapping for id %s", location_id))
   end
-  if not v or not v[1] then
+  if not location_array or not location_array[1] then
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    end
     return
   end
-  local obj = Tracker:FindObjectForCode(v[1])
-  if obj then
-    if v[1]:sub(1, 1) == "@" then
-      obj.AvailableChestCount = obj.AvailableChestCount - 1
-    else
-      obj.Active = true
+
+  for _, location in pairs(location_array) do
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("onLocation: processing location %s", location))
     end
-  elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print(string.format("onLocation: could not find object for code %s", v[1]))
+    local obj = Tracker:FindObjectForCode(location)
+    if obj then
+      if location:sub(1,1) == "@" then
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+      else
+        obj.Active = true
+      end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("onLocation: could not find object for code %s", location))
+    end
+  end
+  --[[if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print(string.format("onLocation: could not find object for code %s", location_array[1]))
   end
   -- Update hosted item as well
-  if v[2] then
-      print(string.format("onLocation: found v2 %s", v[2]))
-    local obj = Tracker:FindObjectForCode(v[2])
+  if location_array[2] then
+      print(string.format("onLocation: found v2 %s", location_array[2]))
+    local obj = Tracker:FindObjectForCode(location_array[2])
     if obj then
       obj.Active = true
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("onLocation: could not find object for code %s", v[2]))
+        print(string.format("onLocation: could not find object for code %s", location_array[2]))
     end
   end
+  ]]
 end
 
 --this is stuff to update the tabs using the AT, but will need to wait til AP/worlds/ff1 has some updates

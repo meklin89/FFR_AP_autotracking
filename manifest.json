@@ -1,11 +1,13 @@
 {
-    "name": "Final Fantasy 1 Randomizer",
+    "name": "Final Fantasy 1 Randomizer AP",
     "game_name": "Final Fantasy",
-    "game_variant": "Entroper (V4.8.6)",
-    "platform": "nes",
-    "package_version": "1.1c",
+    "game_variant": "Entroper (V4.9.7)",
+    "package_version": "2.0.0",
     "package_uid": "ff1_rando_ap",
+    "platform": "nes",
     "author": "jat2980, DarkmoonEX, HaateXIII, SunflashRune, meklin89",
+    "min_poptracker_version": "0.36.0",
+    "target_poptracker_version": "0.36.0",
     "variants": {
         "1standardNoMap": {
             "display_name": "Standard Tracker",

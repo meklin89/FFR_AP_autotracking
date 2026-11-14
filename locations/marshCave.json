@@ -11,7 +11,7 @@
 		],
 		"children": [
 			{
-				"name": "Top (B1)",
+				"name": "Top (B1) - Single",
 				"sections": [
 					{
 						"name": "Single",
@@ -27,7 +27,7 @@
 				]
 			},
 			{
-				"name": "Top (B1)",
+				"name": "Top (B1) - Corner",
 				"sections": [
 					{
 						"name": "Corner",
@@ -43,7 +43,7 @@
 				]
 			},
 			{
-				"name": "Top (B1)",
+				"name": "Top (B1) - Duo 1",
 				"sections": [
 					{
 						"name": "Duo 1",
@@ -59,7 +59,7 @@
 				]
 			},
 			{
-				"name": "Top (B1)",
+				"name": "Top (B1) - Duo 2",
 				"sections": [
 					{
 						"name": "Duo 2",
@@ -75,7 +75,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Distant",
 				"sections": [
 					{
 						"name": "Distant",
@@ -91,7 +91,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Tetris-Z First",
 				"sections": [
 					{
 						"name": "Tetris-Z First",
@@ -107,7 +107,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Tetris-Z Middle 1",
 				"sections": [
 					{
 						"name": "Tetris-Z Middle 1",
@@ -123,7 +123,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Tetris-Z Middle 2",
 				"sections": [
 					{
 						"name": "Tetris-Z Middle 2",
@@ -139,7 +139,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Tetris-Z Incentive",
 				"sections": [
 					{
 						"name": "Tetris-Z Incentive",
@@ -155,7 +155,7 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Tetris-Z Last",
 				"sections": [
 					{
 						"name": "Tetris-Z Last",
@@ -171,12 +171,13 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Locked Corner",
 				"sections": [
 					{
 						"name": "Locked Corner",
 						"access_rules": [
-							"key"
+							"key,noLockpicking",
+							"[key],lockpicking"
 						],
 						"item_count": 1
 					}
@@ -190,12 +191,13 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Locked Middle",
 				"sections": [
 					{
 						"name": "Locked Middle",
 						"access_rules": [
-							"key"
+							"key,noLockpicking",
+							"[key],lockpicking"
 						],
 						"item_count": 1
 					}
@@ -209,15 +211,15 @@
 				]
 			},
 			{
-				"name": "Bottom (B2)",
+				"name": "Bottom (B2) - Locked Incentive",
 				"sections": [
 					{
 						"name": "Locked Incentive",
 						"access_rules": [
-							"key"
+							"key,noLockpicking",
+							"[key],lockpicking"
 						],
-						"hosted_item": "marsh",
-						"item_count": 1
+						"hosted_item": "marsh"
 					}
 				],
 				"map_locations": [

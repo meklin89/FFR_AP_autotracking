@@ -10,7 +10,7 @@
 		],
 		"children": [
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Single",
 				"sections": [
 					{
 						"name": "Single",
@@ -26,7 +26,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Three-Pack 1",
 				"sections": [
 					{
 						"name": "Three-Pack 1",
@@ -42,7 +42,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Three-Pack 2",
 				"sections": [
 					{
 						"name": "Three-Pack 2",
@@ -58,7 +58,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Three-Pack 3",
 				"sections": [
 					{
 						"name": "Three-Pack 3",
@@ -74,7 +74,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Four-Pack 1",
 				"sections": [
 					{
 						"name": "Four-Pack 1",
@@ -90,7 +90,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Four-Pack 2",
 				"sections": [
 					{
 						"name": "Four-Pack 2",
@@ -106,7 +106,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Four-Pack 3",
 				"sections": [
 					{
 						"name": "Four-Pack 3",
@@ -122,7 +122,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Four-Pack 4",
 				"sections": [
 					{
 						"name": "Four-Pack 4",
@@ -138,7 +138,7 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F)",
+				"name": "Top Floor (3F) - Incentive",
 				"sections": [
 					{
 						"name": "Incentive",

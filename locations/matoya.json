@@ -13,7 +13,7 @@
 		],
 		"children": [
 			{
-				"name": "Matoya's Cave",
+				"name": "Matoya's Cave - Chest 1",
 				"sections": [
 					{
 						"name": "Chest 1",
@@ -29,7 +29,7 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave",
+				"name": "Matoya's Cave - Chest 2",
 				"sections": [
 					{
 						"name": "Chest 2",
@@ -45,7 +45,7 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave",
+				"name": "Matoya's Cave - Chest 3",
 				"sections": [
 					{
 						"name": "Chest 3",
@@ -61,7 +61,7 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave",
+				"name": "Matoya's Cave - Matoya",
 				"sections": [
 					{
 						"name": "Matoya",

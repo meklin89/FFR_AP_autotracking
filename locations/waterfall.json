@@ -6,11 +6,13 @@
 		"access_rules": [
             "airship,canoe",
             "northernDocks,ship,canal,canoe",
-			"airBoat,northernDocks,ship,floater,canoe"
+			"landBridge,ship,canal,canoe",
+			"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",
+			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe"
 		],
 		"children": [
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 1",
 				"sections": [
 					{
 						"name": "Chest 1",
@@ -26,7 +28,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 2",
 				"sections": [
 					{
 						"name": "Chest 2",
@@ -42,7 +44,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 3",
 				"sections": [
 					{
 						"name": "Chest 3",
@@ -58,7 +60,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 4",
 				"sections": [
 					{
 						"name": "Chest 4",
@@ -74,7 +76,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 5",
 				"sections": [
 					{
 						"name": "Chest 5",
@@ -90,7 +92,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Chest 6",
 				"sections": [
 					{
 						"name": "Chest 6",
@@ -106,7 +108,7 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave",
+				"name": "Waterfall Cave - Robot",
 				"sections": [
 					{
 						"name": "Robot",

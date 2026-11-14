@@ -2,13 +2,14 @@
 	{
 		"name": "Sarda's Cave",
 		"access_rules": [
-            "airship",
+            "airship,noSardaForest",
             "ruby,ship,canal",
-            "melmondRiver,canoe,ruby"
+            "melmondRiver,canoe,ruby",
+            "sardaForest,airship,ruby"
 		],
 		"children": [
 			{
-				"name": "Sarda's Cave",
+				"name": "Sarda's Cave - Sarda",
 				"sections": [
 					{
 						"name": "Sarda",

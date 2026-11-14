@@ -17,6 +17,41 @@
         "img": "images/items/garland.png",
         "codes": "garland"
     },
+	{
+		"name" : "Vampire",
+		"type" : "toggle",
+		"img" : "images/locations/earth.png",
+		"codes" : "vampire"
+	},
+    {
+        "name": "Garland / Vampire",
+        "type": "composite_toggle",
+        "codes": "garvamp",
+        "item_left": "garland",
+        "item_right": "vampire",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/misc/garland_disabled_vampire_disabled.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/misc/garland_vampire_disabled.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/misc/garland_vampire.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/misc/garland_disabled_vampire.png"
+            }
+        ]
+    },
     {
         "name": "Adamant",
         "type": "progressive",

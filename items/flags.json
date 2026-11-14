@@ -1,11 +1,5 @@
 [
 	{
-		"name" : "Vampire",
-		"type" : "toggle",
-		"img" : "images/locations/earth.png",
-		"codes" : "vampire"
-	},
-	{
 		"name" : "Early King",
 		"type" : "toggle",
 		"img" : "images/locations/king.png",
@@ -110,9 +104,99 @@
 		"disabled_img" : "images/flags/noMelmondRiver.png"
     },
     {
+        "name": "Sarda's Forest",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/flags/noSardaForest.png",
+                "codes": "noSardaForest",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flags/sardaForest.png",
+                "codes": "sardaForest",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hiking Trail to Airship",
+        "type": "toggle",
+        "img": "images/flags/hikingTrail.png",
+        "codes": "hikingTrail",
+        "disabled_img": "images/flags/noHikingTrail.png"
+    },
+    {
+        "name": "Cardia Land Bridge",
+        "type": "toggle",
+        "img": "images/flags/cardiaLandBridge.png",
+        "codes": "landBridge",
+        "disabled_img": "images/flags/noCardiaLandBridge.png"
+    },
+    {
+        "name": "Ship in Drydock",
+        "type": "toggle",
+        "img": "images/flags/drydock.png",
+        "codes": "drydock",
+        "disabled_img": "images/flags/noDrydock.png"
+    },
+    {
+        "name": "Lockpicking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/flags/noLockpicking.png",
+                "codes": "noLockpicking",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flags/lockpicking.png",
+                "codes": "lockpicking",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mermaid Prison",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/flags/noPrison.png",
+                "codes": "noPrison",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flags/prison.png",
+                "codes": "prison",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Titan's Trove",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/flags/noTitanTrove.png",
+                "codes": "noTitanTrove",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flags/titanTrove.png",
+                "codes": "titanTrove",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "NPCs are Incentive",
         "type": "toggle",
-        "active": true,
         "img": "images/locations/king.png",
         "codes": "npcsAreIncentive"
     },
@@ -184,17 +268,15 @@
     },
     {
         "name": "Cardia Island is Incentive",
-        "type": "progressive",		
-        "stages" : [
-            {
-                "img" : "images/locations/cardiaIncentive.png",
-                "codes" : "cardiaIsIncentive"
-            },
-            {
-                "img" : "images/flags/BahamutHoard.png",
-                "codes" : "BahamutHoard"
-            }
-        ]
+        "type": "toggle",		
+        "img" : "images/locations/cardiaIncentive.png",
+        "codes" : "cardiaIsIncentive"
+    },
+    {
+        "name": "Bahamut Hoard",
+        "type": "toggle",
+        "img": "images/flags/BahamutHoard.png",
+        "codes": "BahamutHoard"
     },
 	{
         "name": "Loose Items",
