@@ -13,6 +13,7 @@ Known Issues:
   - <del> Map Logic is borked still. </del>
   - <del> Specifically, the northern continents show as available, even when they're not. </del>
   - *Fixed
+  - Some icons are a placeholder until actual artwork is made
 
 Known Limitations:
 As the tracker doesn't read the rom's memory, it is only able to track the following things:
