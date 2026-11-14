@@ -2,9 +2,12 @@
 
 Setting up a recieved item autotracker for FFR on Archipelago (https://github.com/ArchipelagoMW/Archipelago).
 
-This is a pack for black-silver's Poptracker (https://github.com/black-sliver/PopTracker/). 
+This is a pack for black-sliver's Poptracker (https://github.com/black-sliver/PopTracker/). 
 
 Pretty simple to use, not 100% as fully functional as the EmoTracker pack, but works for Archipelago.
+
+
+Auto settings are not a thing yet. Heavily recommended to set icons in the "Map Edits" and "Other Flags" for best experience
 
 Known Issues:
   - <del> Map Logic is borked still. </del>
@@ -21,12 +24,11 @@ It is unable to track the following:
 - Items turned in (i.e. you won't get the checkmark on the item when you've turned it in)
 - When the slab is translated vs when it's picked up. You'll have to manually click the slab to indicate you translated it.
 - Non-AP items chests.
-This is due to the fact that the tracker only interacts with the Archipelago server, and not with the Emulator's memory. 
-
-If PopTracker is updated to allow interaction with NES games, those limitations will be revisted. But for now, we get what we got.
+This is due to the fact that the tracker only interacts with the Archipelago server, and not with the Emulator's memory. I think this can be achieved eventually. Need to stare at more Tracker Packs.
 
 
 Introducing:  Maps!
 - This is in it's most basic form. These maps were mostly created and shared with the FFR community by DarkmoonEX.
 - Some of the maps are placeholders for the moment.
-- Hopefully with the next release maps with chest on them will have red/green tracker boxes on them.
+- <del> Hopefully with the next release maps with chest on them will have red/green tracker boxes on them. </del>
+- *Fixed, with lots of help from Sunflash
