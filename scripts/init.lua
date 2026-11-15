@@ -74,6 +74,8 @@ local earlySage = Tracker:FindObjectForCode("earlySage")
 earlySage.Active = true
 local earlyOrdeals = Tracker:FindObjectForCode("earlyOrdeals")
 earlyOrdeals.Active = true
+local titanTrove = Tracker:FindObjectForCode("titanTrove")
+titanTrove.CurrentStage = 2
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion>="0.18.0" then

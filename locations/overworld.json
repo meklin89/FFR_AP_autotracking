@@ -897,7 +897,7 @@
 			},
 			{
 				"name": "Overworld - Caravan or Town Shop",
-				"access_rules": [],
+				"access_rules": [ "{}" ],
 				"sections": [
 					{
 						"name": "Shop Item",
