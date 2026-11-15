@@ -5,6 +5,7 @@
 		"name": "Gurgu Volcano",
 		"access_rules": [
 			"airship",
+			"floater,airBoat,ship",
 			"openProgression,canoe",
 			"extendedOpen,canoe",
 			"ship,canoe"

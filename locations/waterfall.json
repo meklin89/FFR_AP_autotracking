@@ -5,6 +5,7 @@
 		"name": "Waterfall Cave",
 		"access_rules": [
 			"airship,canoe",
+			"floater,airBoat,canoe,ship",
 			"northernDocks,ship,canal,canoe",
 			"landBridge,ship,canal,canoe",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",

@@ -5,6 +5,7 @@
 		"name": "Mirage Tower",
 		"access_rules": [
 			"airship,chime",
+			"floater,airBoat,chime,ship",
 			"northernDocks,chime,ship,canal",
 			"lefeinBridge,bridge,hwyOrdeals,chime",
 			"hwyOrdeals,ship,canoe,canal,chime",

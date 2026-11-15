@@ -5,6 +5,7 @@
 		"name": "Bahamut's Hoard",
 		"access_rules": [
 			"airship",
+			"floater,airBoat,ship",
 			"cardiaDock,ship,canal",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge",
 			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",

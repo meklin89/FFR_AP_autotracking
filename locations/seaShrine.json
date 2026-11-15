@@ -5,8 +5,9 @@
 		"name": "Sea Shrine",
 		"access_rules": [
 			"airship,canoe,oxyale",
+			"floater,airBoat,canoe,oxyale,ship",
 			"northernDocks,ship,canal,oxyale",
-			"northernDocks,airBoat,airship,ship,oxyale",
+			"northernDocks,airBoat,floater,ship,oxyale",
 			"landBridge,ship,canal,canoe,oxyale",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
 			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale"

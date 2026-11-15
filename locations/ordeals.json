@@ -5,6 +5,7 @@
 		"name": "Castle of Ordeals",
 		"access_rules": [
 			"airship,canoe",
+			"floater,airBoat,canoe,ship",
 			"ship,canal,canoe",
 			"lefeinBridge,hwyOrdeals,bridge,canoe"
 		],

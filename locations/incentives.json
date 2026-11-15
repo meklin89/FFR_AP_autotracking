@@ -245,9 +245,11 @@
 				"name" : "Sarda's Cave",
 				"access_rules" : [
 					"airship,noSardaForest",
+					"floater,airBoat,noSardaForest,ship",
 					"ruby,ship,canal",
 					"melmondRiver,canoe,ruby",
-					"sardaForest,airship,ruby"
+					"sardaForest,airship,ruby",
+					"sardaForest,floater,airBoat,ruby,ship"
 				],
 				"sections" : [
 					{
@@ -269,9 +271,11 @@
 				"name" : "Titan's Trove",
 				"access_rules" : [
 					"ruby,airship,titanTrove",
+					"ruby,floater,airBoat,titanTrove,ship",
 					"ruby,ship,canal,titanTrove",
 					"melmondRiver,canoe,ruby,titanTrove",
-					"noTitanTrove,noSardaForest,airship"
+					"noTitanTrove,noSardaForest,airship",
+					"noTitanTrove,noSardaForest,floater,airBoat,ship"
 				],
 				"sections" : [
 					{
@@ -293,6 +297,7 @@
 				"name" : "Earth Cave",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"ship,canal",
 					"melmondRiver,canoe"
 				],
@@ -322,6 +327,7 @@
 				"access_rules" : [
 					"ship,canal,slab",
 					"airship,slab",
+					"floater,airBoat,slab,ship",
 					"melmondRiver,canoe,slab"
 				],
 				"sections" : [
@@ -349,6 +355,7 @@
 				"name" : "Crescent Lake",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"openProgression,canoe",
 					"ship,canal",
 					"extendedOpen,canoe",
@@ -374,6 +381,7 @@
 				"name" : "Ice Cave",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"ship,canoe",
 					"bridge,canoe",
 					"openProgression,canoe",
@@ -399,6 +407,7 @@
 				"name" : "Volcano",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"openProgression,canoe",
 					"extendedOpen,canoe",
 					"ship,canoe"
@@ -459,6 +468,7 @@
 				"name" : "Bahamut's Cave",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -492,6 +502,7 @@
 				"name" : "Cardia Incentive",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"landBridge,cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -524,6 +535,7 @@
 				"name" : "Ordeals",
 				"access_rules" : [
 					"airship,canoe",
+					"floater,airBoat,canoe,ship",
 					"ship,canal,canoe",
 					"lefeinBridge,hwyOrdeals,bridge,canoe"
 				],
@@ -553,6 +565,7 @@
 				"name" : "Lefein",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"lefeinRiver,canoe,ship,canal",
 					"bridge,lefeinBridge",
 					"hwyOrdeals,ship,canal,canoe",
@@ -579,6 +592,7 @@
 				"name" : "Gaia",
 				"access_rules" : [
 					"airship",
+					"floater,airBoat,ship",
 					"lefeinRiver,gaiaMountain,ship,canal,canoe",
 					"northernDocks,hwyOrdeals,gaiaMountain,ship,canal",
 					"hwyOrdeals,gaiaMountain,ship,canal,canoe",
@@ -605,6 +619,7 @@
 				"name" : "Sky Palace",
 				"access_rules" : [
 					"airship,chime,cube",
+					"floater,airBoat,chime,cube,ship",
 					"northernDocks,ship,canal,chime,cube",
 					"lefeinBridge,bridge,hwyOrdeals,chime,cube",
 					"hwyOrdeals,ship,canal,canoe,chime,cube",
@@ -641,6 +656,7 @@
 				"name" : "Waterfall",
 				"access_rules" : [
 					"airship,canoe",
+					"floater,airBoat,canoe,ship",
 					"northernDocks,ship,canal,canoe",
 					"landBridge,ship,canal,canoe",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",
@@ -666,8 +682,9 @@
 				"name" : "Sea Shrine",
 				"access_rules" : [
 					"airship,canoe,oxyale",
+					"floater,airBoat,canoe,oxyale,ship",
 					"northernDocks,ship,canal,oxyale",
-					"northernDocks,airBoat,airship,ship,oxyale",
+					"northernDocks,airBoat,floater,ship,oxyale",
 					"landBridge,ship,canal,oxyale",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale"

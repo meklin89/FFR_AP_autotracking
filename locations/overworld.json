@@ -296,14 +296,18 @@
 				"name": "Overworld - Sarda's Cave",
 				"access_rules": [
 					"airship,noSardaForest",
+					"floater,airBoat,noSardaForest,ship",
 					"ruby,ship,canal",
 					"melmondRiver,canoe,ruby",
-					"sardaForest,airship,ruby"
+					"sardaForest,airship,ruby",
+					"sardaForest,floater,airBoat,ruby,ship"
 				],
 				"sections": [
 					{
 						"name": "Sarda",
-						"access_rules": [ "earlySarda", "vampire" ],
+						"access_rules": [
+							"earlySarda", "vampire"
+						],
 						"hosted_item": "sarda"
 					}
 				],
@@ -319,9 +323,11 @@
 				"name": "Overworld - Titan's Tunnel",
 				"access_rules": [
 					"ruby,airship,titanTrove",
+					"ruby,floater,airBoat,titanTrove,ship",
 					"ruby,ship,canal,titanTrove",
 					"melmondRiver,canoe,ruby,titanTrove",
-					"noTitanTrove,noSardaForest,airship"
+					"noTitanTrove,noSardaForest,airship",
+					"noTitanTrove,noSardaForest,floater,airBoat,ship"
 				],
 				"sections": [
 					{
@@ -346,6 +352,7 @@
 				"name": "Overworld - Earth Cave",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"ship,canal",
 					"melmondRiver,canoe"
 				],
@@ -395,6 +402,7 @@
 				"access_rules": [
 					"ship,canal,slab",
 					"airship,slab",
+					"floater,airBoat,slab,ship",
 					"melmondRiver,canoe,slab"
 				],
 				"sections": [
@@ -415,6 +423,7 @@
 				"name": "Overworld - Crescent Lake",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"openProgression,canoe",
 					"ship,canal",
 					"extendedOpen,canoe",
@@ -439,6 +448,7 @@
 				"name": "Overworld - Ice Cave",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"ship,canoe",
 					"bridge,canoe",
 					"openProgression,canoe",
@@ -477,6 +487,7 @@
 				"name": "Overworld - Gurgu Volcano",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"openProgression,canoe",
 					"extendedOpen,canoe",
 					"ship,canoe"
@@ -531,7 +542,10 @@
 					{
 						"map": "overworld",
 						"x": 2650,
-						"y": 2700
+						"y": 2700,
+						"force_invisibility_rules": [
+							"airBoat"
+						]
 					}
 				]
 			},
@@ -539,6 +553,7 @@
 				"name": "Overworld - Bahamut's Cave",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -575,6 +590,7 @@
 				"name": "Overworld - Cardia Grassy Island",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"landBridge,cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -600,6 +616,7 @@
 				"name": "Overworld - Cardia Swamp Island",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"landBridge,cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -625,6 +642,7 @@
 				"name": "Overworld - Cardia Forest Island",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"landBridge,cardiaDock,ship,canal",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
@@ -654,6 +672,7 @@
 				"name": "Overworld - Castle of Ordeals",
 				"access_rules": [
 					"airship,canoe",
+					"floater,airBoat,canoe,ship",
 					"ship,canal,canoe",
 					"lefeinBridge,hwyOrdeals,bridge,canoe"
 				],
@@ -682,6 +701,7 @@
 				"name": "Overworld - Lefein",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"lefeinRiver,canoe,ship,canal",
 					"lefeinBridge,bridge",
 					"hwyOrdeals,ship,canal,canoe",
@@ -707,6 +727,7 @@
 				"name": "Overworld - Gaia",
 				"access_rules": [
 					"airship",
+					"floater,airBoat,ship",
 					"gaiaMountain,ship,canoe,lefeinRiver,canal",
 					"gaiaMountain,hwyOrdeals,northernDocks,ship,canal",
 					"gaiaMountain,hwyOrdeals,ship,canal,canoe",
@@ -732,6 +753,7 @@
 				"name": "Overworld - Mirage Tower",
 				"access_rules": [
 					"airship,chime",
+					"floater,airBoat,chime,ship",
 					"northernDocks,chime,ship,canal",
 					"lefeinBridge,bridge,hwyOrdeals,chime",
 					"hwyOrdeals,ship,canoe,canal,chime",
@@ -761,6 +783,7 @@
 				"name": "Overworld - Sky Fortress",
 				"access_rules": [
 					"airship,chime,cube",
+					"floater,airBoat,chime,cube,ship",
 					"northernDocks,chime,ship,canal,cube",
 					"lefeinBridge,bridge,hwyOrdeals,chime,cube",
 					"hwyOrdeals,ship,canal,canoe,chime,cube",
@@ -803,6 +826,7 @@
 				"name": "Overworld - Waterfall Cave",
 				"access_rules": [
 					"airship,canoe",
+					"floater,airBoat,canoe,ship",
 					"northernDocks,ship,canal,canoe",
 					"landBridge,ship,canal,canoe",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",
@@ -831,8 +855,10 @@
 				"name": "Overworld - Sea Shrine",
 				"access_rules": [
 					"airship,canoe,oxyale",
+					"floater,airBoat,canoe,oxyale,ship",
 					"northernDocks,ship,canal,oxyale",
 					"northernDocks,airBoat,airship,ship,oxyale",
+					"northernDocks,airBoat,floater,ship,oxyale",
 					"landBridge,ship,canal,canoe,oxyale",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
 					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale"

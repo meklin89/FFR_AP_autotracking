@@ -5,6 +5,7 @@
 		"name": "Cardia Islands",
 		"access_rules": [
 			"airship",
+			"floater,airBoat,ship",
 			"landBridge,cardiaDock,ship,canal",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge",
 			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",

@@ -96,7 +96,7 @@ LOCATION_MAPPING = {
 
 
 
-	[326] = {"@Titan's Tunnel/Titan's Tunnel - Major/Major", "@Overworld/Overworld - Titan's Tunnel/Major", "titansTrove"},
+	[326] = {"@Titan's Tunnel/Titan's Tunnel - Major/Major", "@Overworld/Overworld - Titan's Tunnel/Major", "titanIncentive"},
 	[327] = {"@Titan's Tunnel/Titan's Tunnel - Chest 1/Chest 1", "@Overworld/Overworld - Titan's Tunnel/Chests"},
 	[328] = {"@Titan's Tunnel/Titan's Tunnel - Chest 2/Chest 2", "@Overworld/Overworld - Titan's Tunnel/Chests"},
 	[329] = {"@Titan's Tunnel/Titan's Tunnel - Chest 3/Chest 3", "@Overworld/Overworld - Titan's Tunnel/Chests"},

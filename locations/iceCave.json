@@ -5,6 +5,7 @@
 		"name": "Ice Cave",
 		"access_rules": [
 			"airship",
+			"floater,airBoat,ship",
 			"ship,canoe",
 			"bridge,canoe",
 			"openProgression,canoe",

@@ -5,6 +5,7 @@
 		"name": "Earth Cave",
 		"access_rules": [
 			"airship",
+			"floater,airBoat,ship",
 			"ship,canal",
 			"melmondRiver,canoe"
 		],

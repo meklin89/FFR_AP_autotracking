@@ -5,9 +5,11 @@
 		"name": "Titan's Tunnel",
 		"access_rules": [
 			"ruby,airship,titanTrove",
+			"ruby,floater,airBoat,titanTrove,ship",
 			"ruby,ship,canal,titanTrove",
 			"melmondRiver,canoe,ruby,titanTrove",
-			"noTitanTrove,noSardaForest,airship"
+			"noTitanTrove,noSardaForest,airship",
+			"noTitanTrove,noSardaForest,floater,airBoat,ship"
 		],
 		"children": [
 			{

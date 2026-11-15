@@ -5,6 +5,7 @@
 		"name": "Sky Fortress",
 		"access_rules": [
 			"airship,chime,cube",
+			"floater,airBoat,chime,cube,ship",
 			"northernDocks,chime,ship,canal,cube",
 			"lefeinBridge,bridge,hwyOrdeals,chime,cube",
 			"hwyOrdeals,ship,canal,canoe,chime,cube",
