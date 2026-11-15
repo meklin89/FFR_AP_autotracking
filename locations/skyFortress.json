@@ -4,10 +4,10 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Sky Fortress",
 		"access_rules": [
-            "airship,chime,cube",
-            "northernDocks,chime,ship,canal,cube",
-            "lefeinBridge,bridge,hwyOrdeals,chime,cube",
-            "hwyOrdeals,ship,canal,canoe,chime,cube",
+			"airship,chime,cube",
+			"northernDocks,chime,ship,canal,cube",
+			"lefeinBridge,bridge,hwyOrdeals,chime,cube",
+			"hwyOrdeals,ship,canal,canoe,chime,cube",
 			"landBridge,cardiaDock,ship,canal,chime,cube"
 		],
 		"children": [

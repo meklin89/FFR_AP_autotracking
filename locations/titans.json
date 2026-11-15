@@ -4,9 +4,9 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Titan's Tunnel",
 		"access_rules": [
-            "ruby,airship,titanTrove",
-            "ruby,ship,canal,titanTrove",
-            "melmondRiver,canoe,ruby,titanTrove",
+			"ruby,airship,titanTrove",
+			"ruby,ship,canal,titanTrove",
+			"melmondRiver,canoe,ruby,titanTrove",
 			"noTitanTrove,noSardaForest,airship"
 		],
 		"children": [

@@ -3,14 +3,14 @@
 		"chest_unopened_img": "images/misc/chestUnopened.png",
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Bahamut's Hoard",
-        "access_rules": [
-            "airship",
-            "cardiaDock,ship,canal",
-            "landBridge,lefeinBridge,hwyOrdeals,bridge",
-            "landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
-            "landBridge,northernDocks,hwyOrdeals,ship,canal",
-            "landBridge,northernDocks,canoe,ship,canal"
-        ],
+		"access_rules": [
+			"airship",
+			"cardiaDock,ship,canal",
+			"landBridge,lefeinBridge,hwyOrdeals,bridge",
+			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
+			"landBridge,northernDocks,hwyOrdeals,ship,canal",
+			"landBridge,northernDocks,canoe,ship,canal"
+		],
 		"children": [
 			{
 				"name": "Cardia Grass Island - Entrance",

@@ -247,7 +247,7 @@
 					"airship,noSardaForest",
 					"ruby,ship,canal",
 					"melmondRiver,canoe,ruby",
-            		"sardaForest,airship,ruby"
+					"sardaForest,airship,ruby"
 				],
 				"sections" : [
 					{
@@ -268,10 +268,10 @@
 			{
 				"name" : "Titan's Trove",
 				"access_rules" : [
-                    "ruby,airship,titanTrove",
-                    "ruby,ship,canal,titanTrove",
-                    "melmondRiver,canoe,ruby,titanTrove",
-			        "noTitanTrove,noSardaForest,airship"
+					"ruby,airship,titanTrove",
+					"ruby,ship,canal,titanTrove",
+					"melmondRiver,canoe,ruby,titanTrove",
+					"noTitanTrove,noSardaForest,airship"
 				],
 				"sections" : [
 					{
@@ -431,8 +431,8 @@
 					"ship,canoe",
 					"canoe,extendedOpen",
 					"luffyDock,ship,canal",
-                    "hikingTrail,ship",
-                    "hikingTrail,extendedOpen"
+					"hikingTrail,ship",
+					"hikingTrail,extendedOpen"
 				],
 				"sections" : [
 					{
@@ -457,14 +457,14 @@
 		"children" : [
 			{
 				"name" : "Bahamut's Cave",
-                "access_rules": [
-                    "airship",
-                    "cardiaDock,ship,canal",
-                    "landBridge,lefeinBridge,hwyOrdeals,bridge",
-                    "landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
-                    "landBridge,northernDocks,hwyOrdeals,ship,canal",
-                    "landBridge,northernDocks,canoe,ship,canal"
-                ],
+				"access_rules": [
+					"airship",
+					"cardiaDock,ship,canal",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge",
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
+					"landBridge,northernDocks,hwyOrdeals,ship,canal",
+					"landBridge,northernDocks,canoe,ship,canal"
+				],
 				"sections" : [
 					{
 						"name" : "Bahamut",
@@ -491,13 +491,13 @@
 			{
 				"name" : "Cardia Incentive",
 				"access_rules": [
-                    "airship",
-                    "landBridge,cardiaDock,ship,canal",
-                    "landBridge,lefeinBridge,hwyOrdeals,bridge",
-                    "landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
-                    "landBridge,northernDocks,hwyOrdeals,ship,canal",
-                    "landBridge,northernDocks,canoe,ship,canal"
-                 ],
+					"airship",
+					"landBridge,cardiaDock,ship,canal",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge",
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
+					"landBridge,northernDocks,hwyOrdeals,ship,canal",
+					"landBridge,northernDocks,canoe,ship,canal"
+				],
 				"sections" : [
 					{
 						"name" : "Cardia Incentive",
@@ -680,7 +680,7 @@
 					},
 					{
 						"name" : "Sea Incentive",
-                        "access_rules": [
+						"access_rules": [
 							"noPrison",
 							"key,prison",
 							"[key],prison,lockpicking"

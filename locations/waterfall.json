@@ -4,8 +4,8 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Waterfall Cave",
 		"access_rules": [
-            "airship,canoe",
-            "northernDocks,ship,canal,canoe",
+			"airship,canoe",
+			"northernDocks,ship,canal,canoe",
 			"landBridge,ship,canal,canoe",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",
 			"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe"

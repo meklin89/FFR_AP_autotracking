@@ -4,10 +4,10 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Northwest Castle",
 		"access_rules": [
-            "openProgression,canoe",
-            "ship",
-            "airship",
-            "extendedOpen"
+			"openProgression,canoe",
+			"ship",
+			"airship",
+			"extendedOpen"
 		],
 		"children": [
 			{

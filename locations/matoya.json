@@ -4,11 +4,11 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Matoya's Cave",
 		"access_rules": [
-        	"bridge",
-            "ship",
-            "airship",
-            "extendedOpen,canoe",
-            "openProgression,canoe",
+			"bridge",
+			"ship",
+			"airship",
+			"extendedOpen,canoe",
+			"openProgression,canoe",
 			"lefeinBridge"
 		],
 		"children": [

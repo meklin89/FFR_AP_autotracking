@@ -583,7 +583,7 @@
 				"sections" : [
 					{
 						"name" : "I: Sea Incentive",
-                        "access_rules": [
+						"access_rules": [
 							"noPrison",
 							"key,prison",
 							"[key],prison,lockpicking"

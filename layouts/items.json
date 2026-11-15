@@ -96,7 +96,7 @@
 		}
 	},
 	"shared_shard_hunt_grid": {
-        "type": "itemgrid",
+		"type": "itemgrid",
 		"h_alignment": "center",
 		"item_margin": "1,2",
 		"item_height": 50,
@@ -104,8 +104,8 @@
 		"rows": [
 			[ "shardsRequired" ],
 			[ "shards" ]
-        ]
-    }
+		]
+	}
 }
 
 

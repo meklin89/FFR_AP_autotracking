@@ -4,10 +4,10 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Gurgu Volcano",
 		"access_rules": [
-            "airship",
-            "openProgression,canoe",
-            "extendedOpen,canoe",
-            "ship,canoe"
+			"airship",
+			"openProgression,canoe",
+			"extendedOpen,canoe",
+			"ship,canoe"
 		],
 		"children": [
 			{

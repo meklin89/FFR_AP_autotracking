@@ -33,345 +33,347 @@
 			}
 		]
 	},
-    {
-        "name" : "Open Progression",
-        "type" : "progressive",
-        "stages" : [
-            {
-                "img" : "images/flags/openProgression.png",
-                "codes" : "progressionFlag,openProgression"
-            },
-            {
-                "img" : "images/flags/extendedOpen.png",
-                "codes" : "progressionFlag,extendedOpen"
-            }
-        ]
-    },
-    {
-        "name" : "Northern Docks",
-        "type" : "toggle",
-        "img" : "images/flags/northernDocks.png",
-        "codes" : "northernDocks",
+	{
+		"name" : "Open Progression",
+		"type" : "progressive",
+		"stages" : [
+			{
+				"img" : "images/flags/openProgression.png",
+				"codes" : "progressionFlag,openProgression"
+			},
+			{
+				"img" : "images/flags/extendedOpen.png",
+				"codes" : "progressionFlag,extendedOpen"
+			}
+		]
+	},
+	{
+		"name" : "Northern Docks",
+		"type" : "toggle",
+		"img" : "images/flags/northernDocks.png",
+		"codes" : "northernDocks",
 		"disabled_img" : "images/flags/noNorthernDocks.png"
-    },
-    {
-        "name" : "Ryukahn Desert Dock",
-        "type" : "toggle",
-        "img" : "images/flags/luffyDock.png",
-        "codes" : "luffyDock",
+	},
+	{
+		"name" : "Ryukahn Desert Dock",
+		"type" : "toggle",
+		"img" : "images/flags/luffyDock.png",
+		"codes" : "luffyDock",
 		"disabled_img" : "images/flags/noLuffyDock.png"
-    },
-    {
-        "name" : "Cardia Island Dock",
-        "type" : "toggle",
-        "img" : "images/flags/cardiaDock.png",
-        "codes" : "cardiaDock",
+	},
+	{
+		"name" : "Cardia Island Dock",
+		"type" : "toggle",
+		"img" : "images/flags/cardiaDock.png",
+		"codes" : "cardiaDock",
 		"disabled_img" : "images/flags/noCardiaDock.png"
-    },
-    {
-        "name" : "Lefein River Dock",
-        "type" : "toggle",
-        "img" : "images/flags/lefeinRiver.png",
-        "codes" : "lefeinRiver",
+	},
+	{
+		"name" : "Lefein River Dock",
+		"type" : "toggle",
+		"img" : "images/flags/lefeinRiver.png",
+		"codes" : "lefeinRiver",
 		"disabled_img" : "images/flags/noLefeinRiver.png"
-    },
-    {
-        "name" : "Bridge to Lefein",
-        "type" : "toggle",
-        "img" : "images/flags/lefeinBridge.png",
-        "codes" : "lefeinBridge",
+	},
+	{
+		"name" : "Bridge to Lefein",
+		"type" : "toggle",
+		"img" : "images/flags/lefeinBridge.png",
+		"codes" : "lefeinBridge",
 		"disabled_img" : "images/flags/noLefeinBridge.png"
-    },
-    {
-        "name" : "Gaia Mountain Pass",
-        "type" : "toggle",
-        "img" : "images/flags/gaiaMountain.png",
-        "codes" : "gaiaMountain",
+	},
+	{
+		"name" : "Gaia Mountain Pass",
+		"type" : "toggle",
+		"img" : "images/flags/gaiaMountain.png",
+		"codes" : "gaiaMountain",
 		"disabled_img" : "images/flags/noGaiaMountain.png"
-    },
-    {
-        "name" : "Highway to Ordeals",
-        "type" : "toggle",
-        "img" : "images/flags/hwyToOrdeals.png",
-        "codes" : "hwyOrdeals",
+	},
+	{
+		"name" : "Highway to Ordeals",
+		"type" : "toggle",
+		"img" : "images/flags/hwyToOrdeals.png",
+		"codes" : "hwyOrdeals",
 		"disabled_img" : "images/flags/noHwyToOrdeals.png"
-    },
-    {
-        "name" : "River to Melmond",
-        "type" : "toggle",
-        "img" : "images/flags/melmondRiver.png",
-        "codes" : "melmondRiver",
+	},
+	{
+		"name" : "River to Melmond",
+		"type" : "toggle",
+		"img" : "images/flags/melmondRiver.png",
+		"codes" : "melmondRiver",
 		"disabled_img" : "images/flags/noMelmondRiver.png"
-    },
-    {
-        "name": "Sarda's Forest",
-        "type": "progressive",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/flags/noSardaForest.png",
-                "codes": "noSardaForest",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/flags/sardaForest.png",
-                "codes": "sardaForest",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Hiking Trail to Airship",
-        "type": "toggle",
-        "img": "images/flags/hikingTrail.png",
-        "codes": "hikingTrail",
-        "disabled_img": "images/flags/noHikingTrail.png"
-    },
-    {
-        "name": "Cardia Land Bridge",
-        "type": "toggle",
-        "img": "images/flags/cardiaLandBridge.png",
-        "codes": "landBridge",
-        "disabled_img": "images/flags/noCardiaLandBridge.png"
-    },
-    {
-        "name": "Ship in Drydock",
-        "type": "toggle",
-        "img": "images/flags/drydock.png",
-        "codes": "drydock",
-        "disabled_img": "images/flags/noDrydock.png"
-    },
-    {
-        "name": "Lockpicking",
-        "type": "progressive",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/flags/noLockpicking.png",
-                "codes": "noLockpicking",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/flags/lockpicking.png",
-                "codes": "lockpicking",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Mermaid Prison",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/flags/noPrison.png",
-                "codes": "noPrison",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/flags/prison.png",
-                "codes": "prison",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Titan's Trove",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/flags/noTitanTrove.png",
-                "codes": "noTitanTrove",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/flags/titanTrove.png",
-                "codes": "titanTrove",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "NPCs are Incentive",
-        "type": "toggle",
-        "img": "images/locations/king.png",
-        "codes": "npcsAreIncentive"
-    },
-    {
-        "name": "Fetch Quests are Incentive",
-        "type": "toggle",
-        "img": "images/locations/matoya.png",
-        "codes": "fetchQuestsAreIncentive"
-    },
-    {
-        "name": "Ice Cave is Incentive",
-        "type": "toggle",
-        "img": "images/locations/iceCave.png",
-        "codes": "iceCaveIsIncentive"
-    },
-    {
-        "name": "Ordeals is Incentive",
-        "type": "toggle",
-        "img": "images/locations/ordeals.png",
-        "codes": "ordealsIsIncentive"
-    },
-    {
-        "name": "Marsh is Incentive",
-        "type": "toggle",
-        "img": "images/locations/marsh.png",
-        "codes": "marshIsIncentive"
-    },
-    {
-        "name": "Titan's Trove is Incentive",
-        "type": "toggle",
-        "img": "images/locations/titan.png",
-        "codes": "titansTroveIsIncentive"
-    },
-    {
-        "name": "Earth is Incentive",
-        "type": "toggle",
-        "img" : "images/locations/earth.png",
-        "codes" : "earthIsIncentive"
-    },
-    {
-        "name": "Volcano is Incentive",
-        "type": "toggle",
-        "img": "images/locations/redD.png",
-        "codes": "volcanoIsIncentive"
-    },
-    {
-        "name": "Sky is Incentive",
-        "type": "toggle",
-        "img" : "images/locations/skyPalace.png",
-        "codes": "skyIsIncentive"
-    },
-    {
-        "name": "Sea Shrine is Incentive",
-        "type": "toggle",
-        "img" : "images/locations/seaShrine.png",
-        "codes" : "seaIsIncentive"
-    },
-    {
-        "name": "Coneria Locked is Incentive",
-        "type": "toggle",
-        "img": "images/locations/coneriaLocked.png",
-        "codes": "coneriaLockedIsIncentive"
-    },
-    {
-        "name": "Marsh Locked is Incentive",
-        "type": "toggle",
-        "img": "images/locations/marshLocked.png",
-        "codes": "marshLockedIsIncentive"
-    },
-    {
-        "name": "Cardia Island is Incentive",
-        "type": "toggle",		
-        "img" : "images/locations/cardiaIncentive.png",
-        "codes" : "cardiaIsIncentive"
-    },
-    {
-        "name": "Bahamut Hoard",
-        "type": "toggle",
-        "img": "images/flags/BahamutHoard.png",
-        "codes": "BahamutHoard"
-    },
+	},
 	{
-        "name": "Loose Items",
-        "type": "progressive",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/loose/loose0.png",
-                "img_mods": "@disabled",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose1.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose2.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose3.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose4.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose5.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose6.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose7.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose8.png",
-                "codes": "loose"
-            },
-            {
-                "img": "images/loose/loose9.png",
-                "codes": "loose"
-            }
-        ]
-    },
+		"name": "Sarda's Forest",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/flags/sardaForest.png",
+				"img_mods": "@disabled",
+				"codes": "noSardaForest",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flags/sardaForest.png",
+				"codes": "sardaForest",
+				"inherit_codes": false
+			}
+		]
+	},
 	{
-        "name": "dud Items",
-        "type": "progressive",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/dud/dud0.png",
-                "img_mods": "@disabled",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud1.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud2.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud3.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud4.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud5.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud6.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud7.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud8.png",
-                "codes": "dud"
-            },
-            {
-                "img": "images/dud/dud9.png",
-                "codes": "dud"
-            }
-        ]
-    }
+		"name": "Hiking Trail to Airship",
+		"type": "toggle",
+		"img": "images/flags/hikingTrail.png",
+		"codes": "hikingTrail",
+		"disabled_img": "images/flags/noHikingTrail.png"
+	},
+	{
+		"name": "Cardia Land Bridge",
+		"type": "toggle",
+		"img": "images/flags/cardiaLandBridge.png",
+		"codes": "landBridge",
+		"disabled_img": "images/flags/noCardiaLandBridge.png"
+	},
+	{
+		"name": "Ship in Drydock",
+		"type": "toggle",
+		"img": "images/flags/drydock.png",
+		"codes": "drydock",
+		"disabled_img": "images/flags/noDrydock.png"
+	},
+	{
+		"name": "Lockpicking",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/flags/lockpicking.png",
+				"img_mods": "@disabled",
+				"codes": "noLockpicking",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flags/lockpicking.png",
+				"codes": "lockpicking",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Mermaid Prison",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/flags/prison.png",
+				"img_mods": "@disabled",
+				"codes": "noPrison",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flags/prison.png",
+				"codes": "prison",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Titan's Trove",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/flags/titanTrove.png",
+				"img_mods": "@disabled",
+				"codes": "noTitanTrove",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flags/titanTrove.png",
+				"codes": "titanTrove",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "NPCs are Incentive",
+		"type": "toggle",
+		"img": "images/locations/king.png",
+		"codes": "npcsAreIncentive"
+	},
+	{
+		"name": "Fetch Quests are Incentive",
+		"type": "toggle",
+		"img": "images/locations/matoya.png",
+		"codes": "fetchQuestsAreIncentive"
+	},
+	{
+		"name": "Ice Cave is Incentive",
+		"type": "toggle",
+		"img": "images/locations/iceCave.png",
+		"codes": "iceCaveIsIncentive"
+	},
+	{
+		"name": "Ordeals is Incentive",
+		"type": "toggle",
+		"img": "images/locations/ordeals.png",
+		"codes": "ordealsIsIncentive"
+	},
+	{
+		"name": "Marsh is Incentive",
+		"type": "toggle",
+		"img": "images/locations/marsh.png",
+		"codes": "marshIsIncentive"
+	},
+	{
+		"name": "Titan's Trove is Incentive",
+		"type": "toggle",
+		"img": "images/locations/titan.png",
+		"codes": "titansTroveIsIncentive"
+	},
+	{
+		"name": "Earth is Incentive",
+		"type": "toggle",
+		"img" : "images/locations/earth.png",
+		"codes" : "earthIsIncentive"
+	},
+	{
+		"name": "Volcano is Incentive",
+		"type": "toggle",
+		"img": "images/locations/redD.png",
+		"codes": "volcanoIsIncentive"
+	},
+	{
+		"name": "Sky is Incentive",
+		"type": "toggle",
+		"img" : "images/locations/skyPalace.png",
+		"codes": "skyIsIncentive"
+	},
+	{
+		"name": "Sea Shrine is Incentive",
+		"type": "toggle",
+		"img" : "images/locations/seaShrine.png",
+		"codes" : "seaIsIncentive"
+	},
+	{
+		"name": "Coneria Locked is Incentive",
+		"type": "toggle",
+		"img": "images/locations/coneriaLocked.png",
+		"codes": "coneriaLockedIsIncentive"
+	},
+	{
+		"name": "Marsh Locked is Incentive",
+		"type": "toggle",
+		"img": "images/locations/marshLocked.png",
+		"codes": "marshLockedIsIncentive"
+	},
+	{
+		"name": "Cardia Island is Incentive",
+		"type": "toggle",		
+		"img" : "images/locations/cardiaIncentive.png",
+		"codes" : "cardiaIsIncentive"
+	},
+	{
+		"name": "Bahamut Hoard",
+		"type": "toggle",
+		"img": "images/flags/BahamutHoard.png",
+		"codes": "BahamutHoard"
+	},
+	{
+		"name": "Loose Items",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/loose/loose0.png",
+				"img_mods": "@disabled",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose1.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose2.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose3.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose4.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose5.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose6.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose7.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose8.png",
+				"codes": "loose"
+			},
+			{
+				"img": "images/loose/loose9.png",
+				"codes": "loose"
+			}
+		]
+	},
+	{
+		"name": "dud Items",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/dud/dud0.png",
+				"img_mods": "@disabled",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud1.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud2.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud3.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud4.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud5.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud6.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud7.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud8.png",
+				"codes": "dud"
+			},
+			{
+				"img": "images/dud/dud9.png",
+				"codes": "dud"
+			}
+		]
+	}
 ]

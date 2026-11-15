@@ -1,45 +1,45 @@
 {
-    "name": "Final Fantasy 1 Randomizer AP",
-    "game_name": "Final Fantasy",
-    "game_variant": "Entroper (V4.9.7)",
-    "package_version": "2.0.0",
-    "package_uid": "ff1_rando_ap",
-    "platform": "nes",
-    "author": "jat2980, DarkmoonEX, HaateXIII, SunflashRune, meklin89",
-    "min_poptracker_version": "0.36.0",
-    "target_poptracker_version": "0.36.0",
-    "variants": {
-        "1standardNoMap": {
-            "display_name": "Standard Tracker",
-            "flags" : [ "ap" ]
-        },
-        "2shardHuntNoMap": {
-            "display_name": "Shard Hunt Tracker",
-            "flags" : [ "ap" ]
-        },
-        "3NOverworldNoMap": {
-            "display_name": "NOverworld",
-            "flags" : [ "ap" ]
-        },
-        "4shardHuntNOverworldNoMap": {
-            "display_name": "NOverworld Shard Hunt",
-            "flags" : [ "ap" ]
-        },
-        "5standard": {
-            "display_name": "Standard Map Tracker",
-            "flags" : [ "ap" ]
-        },
-        "6shardHunt": {
-            "display_name": "Shard Hunt Map Tracker",
-            "flags" : [ "ap" ]
-        },
-        "7NOverworld": {
-            "display_name": "NOverworld Map Tracker",
-            "flags" : [ "ap" ]
-        },
-        "8shardHuntNOverworld": {
-            "display_name": "NOverworld Shard Hunt Map Tracker",
-            "flags" : [ "ap" ]
-        }
-    }
+	"name": "Final Fantasy 1 Randomizer AP",
+	"game_name": "Final Fantasy",
+	"game_variant": "Entroper (V4.9.7)",
+	"package_version": "2.0.1",
+	"package_uid": "ff1_rando_ap",
+	"platform": "nes",
+	"author": "jat2980, DarkmoonEX, HaateXIII, SunflashRune, meklin89",
+	"min_poptracker_version": "0.36.0",
+	"target_poptracker_version": "0.36.0",
+	"variants": {
+		"1standardNoMap": {
+			"display_name": "Standard Tracker",
+			"flags" : [ "ap" ]
+		},
+		"2shardHuntNoMap": {
+			"display_name": "Shard Hunt Tracker",
+			"flags" : [ "ap" ]
+		},
+		"3NOverworldNoMap": {
+			"display_name": "NOverworld",
+			"flags" : [ "ap" ]
+		},
+		"4shardHuntNOverworldNoMap": {
+			"display_name": "NOverworld Shard Hunt",
+			"flags" : [ "ap" ]
+		},
+		"5standard": {
+			"display_name": "Standard Map Tracker",
+			"flags" : [ "ap" ]
+		},
+		"6shardHunt": {
+			"display_name": "Shard Hunt Map Tracker",
+			"flags" : [ "ap" ]
+		},
+		"7NOverworld": {
+			"display_name": "NOverworld Map Tracker",
+			"flags" : [ "ap" ]
+		},
+		"8shardHuntNOverworld": {
+			"display_name": "NOverworld Shard Hunt Map Tracker",
+			"flags" : [ "ap" ]
+		}
+	}
 }

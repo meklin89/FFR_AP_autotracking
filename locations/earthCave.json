@@ -4,9 +4,9 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Earth Cave",
 		"access_rules": [
-            "airship",
-            "ship,canal",
-            "melmondRiver,canoe"
+			"airship",
+			"ship,canal",
+			"melmondRiver,canoe"
 		],
 		"children": [
 			{

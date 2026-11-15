@@ -1,158 +1,158 @@
 [
-    {
-        "name": "King",
-        "type": "toggle",
-        "img": "images/locations/king.png",
-        "codes": "king"
-    },
-    {
-        "name": "Sara",
-        "type": "toggle",
-        "img": "images/locations/sara.png",
-        "codes": "sara"
-    },
-    {
-        "name": "Bikke",
-        "type": "toggle",
-        "img": "images/locations/bikke.png",
-        "codes": "bikke"
-    },
-    {
-        "name": "Coneria Locked",
-        "type": "toggle",
-        "img": "images/locations/coneriaLocked.png",
-        "codes": "coneriaLocked"
-    },
-    {
-        "name": "SmithyMcBeardSmith",
-        "type": "toggle",
-        "img": "images/locations/smith.png",
-        "codes": "smith"
-    },
-    {
-        "name": "Nerrick (Vanilla Canal)",
-        "type": "toggle",
-        "img": "images/locations/nerrick.png",
-        "codes": "nerrick"
-    },
-    {
-        "name": "Astos",
-        "type": "toggle",
-        "img": "images/locations/astos.png",
-        "codes": "astos"
-    },
-    {
-        "name": "Sarda",
-        "type": "toggle",
-        "img": "images/locations/sarda.png",
-        "codes": "sarda"
-    },
-    {
-        "name": "Sages",
-        "type": "toggle",
-        "img": "images/locations/sage.png",
-        "codes": "sages"
-    },
-    {
-        "name": "Matoya",
-        "type": "toggle",
-        "img": "images/locations/matoya.png",
-        "codes": "matoya"
-    },
-    {
-        "name": "Elf Prince",
-        "type": "toggle",
-        "img": "images/locations/prince.png",
-        "codes": "elfprince"
-    },
-    {
-        "name": "Fairy",
-        "type": "toggle",
-        "img": "images/locations/fairy.png",
-        "codes": "fairy"
-    },
-    {
-        "name": "Lefein",
-        "type": "toggle",
-        "img": "images/locations/lefein.png",
-        "codes": "lefein"
-    },
-    {
-        "name": "Waterfall Robot",
-        "type": "toggle",
-        "img": "images/locations/waterfall.png",
-        "codes": "robot"
-    },
-    {
-        "name": "Marsh",
-        "type": "toggle",
-        "img": "images/locations/marsh.png",
-        "codes": "marsh"
-    },
-    {
-        "name": "Marsh Locked",
-        "type": "toggle",
-        "img": "images/locations/marshLocked.png",
-        "codes": "marshLocked"
-    },
-    {
-        "name": "Ice Cave",
-        "type": "toggle",
-        "img": "images/locations/iceCave.png",
-        "codes": "iceCave"
-    },
-    {
-        "name": "Ordeals",
-        "type": "toggle",
-        "img": "images/locations/ordeals.png",
-        "codes": "ordeals"
-    },
-    {
-        "name": "Titan's Trove",
-        "type": "toggle",
-        "img": "images/locations/titan.png",
-        "codes": "titanIncentive"
-    },
-    {
-        "name": "Cardia Isle Incentive",
-        "type": "toggle",
-        "img": "images/locations/cardiaIncentive.png",
-        "codes": "cardiaIncentive"
-    },
-    {
-        "name": "Shop Item",
-        "type": "toggle",
-        "img": "images/locations/shopItem.png",
-        "codes": "shopItem"
-    },
-    {
-        "name": "Earth",
-        "type": "toggle",
-        "img": "images/locations/earth.png",
-        "codes": "earth"
-    },
-    {
-        "name": "Volcano",
-        "type": "toggle",
-        "img": "images/locations/redD.png",
-        "codes": "volcano"
-    },
-    {
-        "name": "Sky",
-        "type": "toggle",
-        "img": "images/locations/skyPalace.png",
-        "codes": "sky"
-    },
-    {
-        "name": "Sea Shrine",
-        "type": "toggle",
-        "img": "images/locations/seaShrine.png",
-        "codes": "sea"
-    },
-    {
-        "name": "Chaos",
-        "type": "toggle",
-        "img": "images/misc/chaos.png",
-        "codes": "chaos"
-    }
+	{
+		"name": "King",
+		"type": "toggle",
+		"img": "images/locations/king.png",
+		"codes": "king"
+	},
+	{
+		"name": "Sara",
+		"type": "toggle",
+		"img": "images/locations/sara.png",
+		"codes": "sara"
+	},
+	{
+		"name": "Bikke",
+		"type": "toggle",
+		"img": "images/locations/bikke.png",
+		"codes": "bikke"
+	},
+	{
+		"name": "Coneria Locked",
+		"type": "toggle",
+		"img": "images/locations/coneriaLocked.png",
+		"codes": "coneriaLocked"
+	},
+	{
+		"name": "SmithyMcBeardSmith",
+		"type": "toggle",
+		"img": "images/locations/smith.png",
+		"codes": "smith"
+	},
+	{
+		"name": "Nerrick (Vanilla Canal)",
+		"type": "toggle",
+		"img": "images/locations/nerrick.png",
+		"codes": "nerrick"
+	},
+	{
+		"name": "Astos",
+		"type": "toggle",
+		"img": "images/locations/astos.png",
+		"codes": "astos"
+	},
+	{
+		"name": "Sarda",
+		"type": "toggle",
+		"img": "images/locations/sarda.png",
+		"codes": "sarda"
+	},
+	{
+		"name": "Sages",
+		"type": "toggle",
+		"img": "images/locations/sage.png",
+		"codes": "sages"
+	},
+	{
+		"name": "Matoya",
+		"type": "toggle",
+		"img": "images/locations/matoya.png",
+		"codes": "matoya"
+	},
+	{
+		"name": "Elf Prince",
+		"type": "toggle",
+		"img": "images/locations/prince.png",
+		"codes": "elfprince"
+	},
+	{
+		"name": "Fairy",
+		"type": "toggle",
+		"img": "images/locations/fairy.png",
+		"codes": "fairy"
+	},
+	{
+		"name": "Lefein",
+		"type": "toggle",
+		"img": "images/locations/lefein.png",
+		"codes": "lefein"
+	},
+	{
+		"name": "Waterfall Robot",
+		"type": "toggle",
+		"img": "images/locations/waterfall.png",
+		"codes": "robot"
+	},
+	{
+		"name": "Marsh",
+		"type": "toggle",
+		"img": "images/locations/marsh.png",
+		"codes": "marsh"
+	},
+	{
+		"name": "Marsh Locked",
+		"type": "toggle",
+		"img": "images/locations/marshLocked.png",
+		"codes": "marshLocked"
+	},
+	{
+		"name": "Ice Cave",
+		"type": "toggle",
+		"img": "images/locations/iceCave.png",
+		"codes": "iceCave"
+	},
+	{
+		"name": "Ordeals",
+		"type": "toggle",
+		"img": "images/locations/ordeals.png",
+		"codes": "ordeals"
+	},
+	{
+		"name": "Titan's Trove",
+		"type": "toggle",
+		"img": "images/locations/titan.png",
+		"codes": "titanIncentive"
+	},
+	{
+		"name": "Cardia Isle Incentive",
+		"type": "toggle",
+		"img": "images/locations/cardiaIncentive.png",
+		"codes": "cardiaIncentive"
+	},
+	{
+		"name": "Shop Item",
+		"type": "toggle",
+		"img": "images/locations/shopItem.png",
+		"codes": "shopItem"
+	},
+	{
+		"name": "Earth",
+		"type": "toggle",
+		"img": "images/locations/earth.png",
+		"codes": "earth"
+	},
+	{
+		"name": "Volcano",
+		"type": "toggle",
+		"img": "images/locations/redD.png",
+		"codes": "volcano"
+	},
+	{
+		"name": "Sky",
+		"type": "toggle",
+		"img": "images/locations/skyPalace.png",
+		"codes": "sky"
+	},
+	{
+		"name": "Sea Shrine",
+		"type": "toggle",
+		"img": "images/locations/seaShrine.png",
+		"codes": "sea"
+	},
+	{
+		"name": "Chaos",
+		"type": "toggle",
+		"img": "images/misc/chaos.png",
+		"codes": "chaos"
+	}
 ]

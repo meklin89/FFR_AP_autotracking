@@ -4,8 +4,8 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Sea Shrine",
 		"access_rules": [
-            "airship,canoe,oxyale",
-            "northernDocks,ship,canal,oxyale",
+			"airship,canoe,oxyale",
+			"northernDocks,ship,canal,oxyale",
 			"northernDocks,airBoat,airship,ship,oxyale",
 			"landBridge,ship,canal,canoe,oxyale",
 			"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",

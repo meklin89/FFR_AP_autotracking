@@ -4,9 +4,9 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Castle of Ordeals",
 		"access_rules": [
-            "airship,canoe",
-            "ship,canal,canoe",
-            "lefeinBridge,hwyOrdeals,bridge,canoe"
+			"airship,canoe",
+			"ship,canal,canoe",
+			"lefeinBridge,hwyOrdeals,bridge,canoe"
 		],
 		"children": [
 			{

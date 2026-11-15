@@ -4,11 +4,11 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Ice Cave",
 		"access_rules": [
-            "airship",
-            "ship,canoe",
-            "bridge,canoe",
-            "openProgression,canoe",
-            "extendedOpen,canoe"
+			"airship",
+			"ship,canoe",
+			"bridge,canoe",
+			"openProgression,canoe",
+			"extendedOpen,canoe"
 		],
 		"children": [
 			{
