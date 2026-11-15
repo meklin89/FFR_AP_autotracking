@@ -10,7 +10,7 @@ function hasEnoughShards()
 end
 
 function canBreakOrb()
-	if Tracker.ActiveVariantUID == "shardHunt" then
+	if IS_SHARD_HUNT then
 		return hasEnoughShards()
 	else
 		return Tracker:FindObjectForCode("earthorb").CurrentStage > 0 and Tracker:FindObjectForCode("fireorb").CurrentStage > 0 and Tracker:FindObjectForCode("waterorb").CurrentStage > 0 and Tracker:FindObjectForCode("airorb").CurrentStage > 0
