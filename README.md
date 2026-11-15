@@ -32,4 +32,6 @@ Introducing:  Maps!
 - This is in it's most basic form. These maps were mostly created and shared with the FFR community by DarkmoonEX.
 - Some of the maps are placeholders for the moment.
 	- <del> Hopefully with the next release maps with chest on them will have red/green tracker boxes on them. </del>
-	- *Fixed, with lots of help from Sunflash
+	- *Fixed, with lots of help from SunflashRune
+
+Credits to @SunflashRune for adding location map points along with various other things that didnt get commited to the repo
