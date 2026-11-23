@@ -14,10 +14,10 @@
 		],
 		"children": [
 			{
-				"name": "Cardia Grass Island - Entrance",
+				"name": "Entrance",
 				"sections": [
 					{
-						"name": "Entrance",
+						"name": "Cardia Grass Island - Entrance",
 						"item_count": 1
 					}
 				],
@@ -30,10 +30,10 @@
 				]
 			},
 			{
-				"name": "Cardia Grass Island - Duo Room 1",
+				"name": "Duo Room 1",
 				"sections": [
 					{
-						"name": "Duo Room 1",
+						"name": "Cardia Grass Island - Duo Room 1",
 						"item_count": 1
 					}
 				],
@@ -46,10 +46,10 @@
 				]
 			},
 			{
-				"name": "Cardia Grass Island - Duo Room 2",
+				"name": "Duo Room 2",
 				"sections": [
 					{
-						"name": "Duo Room 2",
+						"name": "Cardia Grass Island - Duo Room 2",
 						"item_count": 1
 					}
 				],
@@ -62,10 +62,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Cardia Swamp Island - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -78,10 +78,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Cardia Swamp Island - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -94,10 +94,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 3",
+				"name": "Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Cardia Swamp Island - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -110,10 +110,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 1",
+				"name": "Entrance 1",
 				"sections": [
 					{
-						"name": "Entrance 1",
+						"name": "Cardia Forest Island - Entrance 1",
 						"item_count": 1
 					}
 				],
@@ -126,10 +126,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 2",
+				"name": "Entrance 2",
 				"sections": [
 					{
-						"name": "Entrance 2",
+						"name": "Cardia Forest Island - Entrance 2",
 						"item_count": 1
 					}
 				],
@@ -142,10 +142,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 3",
+				"name": "Entrance 3",
 				"sections": [
 					{
-						"name": "Entrance 3",
+						"name": "Cardia Forest Island - Entrance 3",
 						"item_count": 1
 					}
 				],
@@ -158,10 +158,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 1",
+				"name": "Incentive 1",
 				"sections": [
 					{
-						"name": "Incentive 1",
+						"name": "Cardia Forest Island - Incentive 1",
 						"item_count": 1
 					}
 				],
@@ -174,10 +174,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 2",
+				"name": "Incentive 2",
 				"sections": [
 					{
-						"name": "Incentive 2",
+						"name": "Cardia Forest Island - Incentive 2",
 						"item_count": 1
 					}
 				],
@@ -190,10 +190,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 3",
+				"name": "Incentive 3",
 				"sections": [
 					{
-						"name": "Incentive 3",
+						"name": "Cardia Forest Island - Incentive 3",
 						"item_count": 1
 					}
 				],
@@ -206,11 +206,11 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive Major",
+				"name": "Incentive Major",
 				"sections": [
 					{
-						"name": "Incentive Major",
-						"hosted_item": "cardiaIncentive"
+						"name": "Cardia Forest Island - Incentive Major",
+						"item_count": 1
 					}
 				],
 				"map_locations": [

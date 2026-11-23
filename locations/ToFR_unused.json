@@ -1,0 +1,152 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "ToFR Unused",
+		"access_rules": [
+			""
+		],
+		"children": [
+			{
+				"name": "Validation 1",
+				"sections": [
+					{
+						"name": "Revisited (3F) - Validation 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofr3F",
+						"x": 311,
+						"y": 268
+					}
+				]
+			},
+			{
+				"name": "Validation 2",
+				"sections": [
+					{
+						"name": "Revisited (3F) - Validation 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofr3F",
+						"x": 407,
+						"y": 268
+					}
+				]
+			},
+			{
+				"name": "Greed Checks 1",
+				"sections": [
+					{
+						"name": "Revisited Kary Floor (6F) - Greed Checks 1",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 129,
+						"y": 495
+					}
+				]
+			},
+			{
+				"name": "Greed Checks 2",
+				"sections": [
+					{
+						"name": "Revisited Kary Floor (6F) - Greed Checks 2",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 369,
+						"y": 495
+					}
+				]
+			},
+			{
+				"name": "Katana Chest",
+				"sections": [
+					{
+						"name": "Revisited Kary Floor (6F) - Katana Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 401,
+						"y": 847
+					}
+				]
+			},
+			{
+				"name": "Vault",
+				"sections": [
+					{
+						"name": "Revisited Kary Floor (6F) - Vault",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrFire",
+						"x": 881,
+						"y": 559
+					}
+				]
+			},
+			{
+				"name": "Masamune Chest",
+				"sections": [
+					{
+						"name": "Revisited Tiamat Floor (8F) - Masamune Chest",
+						"access_rules": [
+							"$canBreakOrb,lute,key,noLockpicking",
+							"$canBreakOrb,lute,[key],lockpicking"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tofrAir",
+						"x": 835,
+						"y": 530
+					}
+				]
+			}
+		]
+	}
+]

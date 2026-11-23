@@ -76,7 +76,21 @@
 				[ "earlySage", "noPrison" ],
 				[ "earlyOrdeals", "noLockpicking" ]
 			]
-
+		}
+	},
+	"NOverworld_other_flags_grid": {
+		"type" : "container",
+		"content" : {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				[ "earlyKing", "noTitanTrove" ],
+				[ "earlySarda", "BahamutHoard" ],
+				[ "earlySage", "noPrison" ],
+				[ "earlyOrdeals", "noLockpicking" ]
+			]
 		}
 	},
 	"shared_incentives_grid": {

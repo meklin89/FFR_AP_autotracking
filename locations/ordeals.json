@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Top Floor (3F) - Single",
+				"name": "Single",
 				"sections": [
 					{
-						"name": "Single",
+						"name": "Top Floor (3F) - Single",
 						"item_count": 1
 					}
 				],
@@ -27,10 +27,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Three-Pack 1",
+				"name": "Three-Pack 1",
 				"sections": [
 					{
-						"name": "Three-Pack 1",
+						"name": "Top Floor (3F) - Three-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -43,10 +43,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Three-Pack 2",
+				"name": "Three-Pack 2",
 				"sections": [
 					{
-						"name": "Three-Pack 2",
+						"name": "Top Floor (3F) - Three-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -59,10 +59,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Three-Pack 3",
+				"name": "Three-Pack 3",
 				"sections": [
 					{
-						"name": "Three-Pack 3",
+						"name": "Top Floor (3F) - Three-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -75,10 +75,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Four-Pack 1",
+				"name": "Four-Pack 1",
 				"sections": [
 					{
-						"name": "Four-Pack 1",
+						"name": "Top Floor (3F) - Four-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -91,10 +91,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Four-Pack 2",
+				"name": "Four-Pack 2",
 				"sections": [
 					{
-						"name": "Four-Pack 2",
+						"name": "Top Floor (3F) - Four-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -107,10 +107,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Four-Pack 3",
+				"name": "Four-Pack 3",
 				"sections": [
 					{
-						"name": "Four-Pack 3",
+						"name": "Top Floor (3F) - Four-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -123,10 +123,10 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Four-Pack 4",
+				"name": "Four-Pack 4",
 				"sections": [
 					{
-						"name": "Four-Pack 4",
+						"name": "Top Floor (3F) - Four-Pack 4",
 						"item_count": 1
 					}
 				],
@@ -139,11 +139,11 @@
 				]
 			},
 			{
-				"name": "Top Floor (3F) - Incentive",
+				"name": "Incentive",
 				"sections": [
 					{
-						"name": "Incentive",
-						"hosted_item": "ordeals"
+						"name": "Top Floor (3F) - Incentive",
+						"item_count": 1
 					}
 				],
 				"map_locations": [

@@ -125,22 +125,19 @@
 		"name": "Hiking Trail to Airship",
 		"type": "toggle",
 		"img": "images/flags/hikingTrail.png",
-		"codes": "hikingTrail",
-		"disabled_img": "images/flags/noHikingTrail.png"
+		"codes": "hikingTrail"
 	},
 	{
 		"name": "Cardia Land Bridge",
 		"type": "toggle",
 		"img": "images/flags/cardiaLandBridge.png",
-		"codes": "landBridge",
-		"disabled_img": "images/flags/noCardiaLandBridge.png"
+		"codes": "landBridge"
 	},
 	{
 		"name": "Ship in Drydock",
 		"type": "toggle",
 		"img": "images/flags/drydock.png",
-		"codes": "drydock",
-		"disabled_img": "images/flags/noDrydock.png"
+		"codes": "drydock"
 	},
 	{
 		"name": "Lockpicking",
@@ -192,6 +189,24 @@
 			{
 				"img": "images/flags/titanTrove.png",
 				"codes": "titanTrove",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Bahamut Hoard",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/flags/BahamutHoard.png",
+				"img_mods": "@disabled",
+				"codes": "noBahamutHoard",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/flags/BahamutHoard.png",
+				"codes": "BahamutHoard",
 				"inherit_codes": false
 			}
 		]
@@ -273,12 +288,6 @@
 		"type": "toggle",		
 		"img" : "images/locations/cardiaIncentive.png",
 		"codes" : "cardiaIsIncentive"
-	},
-	{
-		"name": "Bahamut Hoard",
-		"type": "toggle",
-		"img": "images/flags/BahamutHoard.png",
-		"codes": "BahamutHoard"
 	},
 	{
 		"name": "Loose Items",

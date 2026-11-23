@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Northwest Castle - Treasury 1",
+				"name": "Treasury 1",
 				"sections": [
 					{
-						"name": "Treasury 1",
+						"name": "Northwest Castle - Treasury 1",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -31,10 +31,10 @@
 				]
 			},
 			{
-				"name": "Northwest Castle - Treasury 2",
+				"name": "Treasury 2",
 				"sections": [
 					{
-						"name": "Treasury 2",
+						"name": "Northwest Castle - Treasury 2",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -51,10 +51,10 @@
 				]
 			},
 			{
-				"name": "Northwest Castle - Treasury 3",
+				"name": "Treasury 3",
 				"sections": [
 					{
-						"name": "Treasury 3",
+						"name": "Northwest Castle - Treasury 3",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -71,10 +71,10 @@
 				]
 			},
 			{
-				"name": "Northwest Castle - Astos",
+				"name": "Astos",
 				"sections": [
 					{
-						"name": "Astos",
+						"name": "Northwest Castle - Astos",
 						"access_rules": [
 							"crown"
 						],

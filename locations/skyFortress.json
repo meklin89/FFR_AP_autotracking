@@ -13,10 +13,10 @@
 		],
 		"children": [
 			{
-				"name": "Sky Plus (1F) - Solo",
+				"name": "Solo",
 				"sections": [
 					{
-						"name": "Solo",
+						"name": "Sky Plus (1F) - Solo",
 						"item_count": 1
 					}
 				],
@@ -29,10 +29,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Five-Pack 1",
+				"name": "Five-Pack 1",
 				"sections": [
 					{
-						"name": "Five-Pack 1",
+						"name": "Sky Plus (1F) - Five-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -45,10 +45,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Five-Pack 2",
+				"name": "Five-Pack 2",
 				"sections": [
 					{
-						"name": "Five-Pack 2",
+						"name": "Sky Plus (1F) - Five-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -61,10 +61,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Five-Pack 3",
+				"name": "Five-Pack 3",
 				"sections": [
 					{
-						"name": "Five-Pack 3",
+						"name": "Sky Plus (1F) - Five-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -77,10 +77,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Five-Pack 4",
+				"name": "Five-Pack 4",
 				"sections": [
 					{
-						"name": "Five-Pack 4",
+						"name": "Sky Plus (1F) - Five-Pack 4",
 						"item_count": 1
 					}
 				],
@@ -93,10 +93,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Five-Pack 5",
+				"name": "Five-Pack 5",
 				"sections": [
 					{
-						"name": "Five-Pack 5",
+						"name": "Sky Plus (1F) - Five-Pack 5",
 						"item_count": 1
 					}
 				],
@@ -109,10 +109,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Four-Pack 1",
+				"name": "Four-Pack 1",
 				"sections": [
 					{
-						"name": "Four-Pack 1",
+						"name": "Sky Plus (1F) - Four-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -125,10 +125,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Four-Pack 2",
+				"name": "Four-Pack 2",
 				"sections": [
 					{
-						"name": "Four-Pack 2",
+						"name": "Sky Plus (1F) - Four-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -141,10 +141,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Four-Pack 3",
+				"name": "Four-Pack 3",
 				"sections": [
 					{
-						"name": "Four-Pack 3",
+						"name": "Sky Plus (1F) - Four-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -157,10 +157,10 @@
 				]
 			},
 			{
-				"name": "Sky Plus (1F) - Four-Pack 4",
+				"name": "Four-Pack 4",
 				"sections": [
 					{
-						"name": "Four-Pack 4",
+						"name": "Sky Plus (1F) - Four-Pack 4",
 						"item_count": 1
 					}
 				],
@@ -173,10 +173,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Cheap Room 1",
+				"name": "Cheap Room 1",
 				"sections": [
 					{
-						"name": "Cheap Room 1",
+						"name": "Sky Spider (2F) - Cheap Room 1",
 						"item_count": 1
 					}
 				],
@@ -189,10 +189,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Cheap Room 2",
+				"name": "Cheap Room 2",
 				"sections": [
 					{
-						"name": "Cheap Room 2",
+						"name": "Sky Spider (2F) - Cheap Room 2",
 						"item_count": 1
 					}
 				],
@@ -205,10 +205,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Vault 1",
+				"name": "Vault 1",
 				"sections": [
 					{
-						"name": "Vault 1",
+						"name": "Sky Spider (2F) - Vault 1",
 						"item_count": 1
 					}
 				],
@@ -221,10 +221,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Vault 2",
+				"name": "Vault 2",
 				"sections": [
 					{
-						"name": "Vault 2",
+						"name": "Sky Spider (2F) - Vault 2",
 						"item_count": 1
 					}
 				],
@@ -237,10 +237,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Gauntlet Room",
+				"name": "Gauntlet Room",
 				"sections": [
 					{
-						"name": "Gauntlet Room",
+						"name": "Sky Spider (2F) - Gauntlet Room",
 						"item_count": 1
 					}
 				],
@@ -253,10 +253,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Ribbon Room 1",
+				"name": "Ribbon Room 1",
 				"sections": [
 					{
-						"name": "Ribbon Room 1",
+						"name": "Sky Spider (2F) - Ribbon Room 1",
 						"item_count": 1
 					}
 				],
@@ -269,10 +269,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Ribbon Room 2",
+				"name": "Ribbon Room 2",
 				"sections": [
 					{
-						"name": "Ribbon Room 2",
+						"name": "Sky Spider (2F) - Ribbon Room 2",
 						"item_count": 1
 					}
 				],
@@ -285,10 +285,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Wardrobe 1",
+				"name": "Wardrobe 1",
 				"sections": [
 					{
-						"name": "Wardrobe 1",
+						"name": "Sky Spider (2F) - Wardrobe 1",
 						"item_count": 1
 					}
 				],
@@ -301,10 +301,10 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Wardrobe 2",
+				"name": "Wardrobe 2",
 				"sections": [
 					{
-						"name": "Wardrobe 2",
+						"name": "Sky Spider (2F) - Wardrobe 2",
 						"item_count": 1
 					}
 				],
@@ -317,11 +317,11 @@
 				]
 			},
 			{
-				"name": "Sky Spider (2F) - Incentive",
+				"name": "Incentive",
 				"sections": [
 					{
-						"name": "Incentive",
-						"hosted_item": "sky"
+						"name": "Sky Spider (2F) - Incentive",
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -333,10 +333,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 1",
+				"name": "Six-Pack 1",
 				"sections": [
 					{
-						"name": "Six-Pack 1",
+						"name": "Sky Provides (3F) - Six-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -349,10 +349,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 2",
+				"name": "Six-Pack 2",
 				"sections": [
 					{
-						"name": "Six-Pack 2",
+						"name": "Sky Provides (3F) - Six-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -365,10 +365,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 3",
+				"name": "Six-Pack 3",
 				"sections": [
 					{
-						"name": "Six-Pack 3",
+						"name": "Sky Provides (3F) - Six-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -381,10 +381,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 4",
+				"name": "Six-Pack 4",
 				"sections": [
 					{
-						"name": "Six-Pack 4",
+						"name": "Sky Provides (3F) - Six-Pack 4",
 						"item_count": 1
 					}
 				],
@@ -397,10 +397,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 5",
+				"name": "Six-Pack 5",
 				"sections": [
 					{
-						"name": "Six-Pack 5",
+						"name": "Sky Provides (3F) - Six-Pack 5",
 						"item_count": 1
 					}
 				],
@@ -413,10 +413,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Six-Pack 6",
+				"name": "Six-Pack 6",
 				"sections": [
 					{
-						"name": "Six-Pack 6",
+						"name": "Sky Provides (3F) - Six-Pack 6",
 						"item_count": 1
 					}
 				],
@@ -429,10 +429,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - CC's Gambit 1",
+				"name": "CC's Gambit 1",
 				"sections": [
 					{
-						"name": "CC's Gambit 1",
+						"name": "Sky Provides (3F) - CC's Gambit 1",
 						"item_count": 1
 					}
 				],
@@ -445,10 +445,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - CC's Gambit 2",
+				"name": "CC's Gambit 2",
 				"sections": [
 					{
-						"name": "CC's Gambit 2",
+						"name": "Sky Provides (3F) - CC's Gambit 2",
 						"item_count": 1
 					}
 				],
@@ -461,10 +461,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - CC's Gambit 3",
+				"name": "CC's Gambit 3",
 				"sections": [
 					{
-						"name": "CC's Gambit 3",
+						"name": "Sky Provides (3F) - CC's Gambit 3",
 						"item_count": 1
 					}
 				],
@@ -477,10 +477,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - CC's Gambit 4",
+				"name": "CC's Gambit 4",
 				"sections": [
 					{
-						"name": "CC's Gambit 4",
+						"name": "Sky Provides (3F) - CC's Gambit 4",
 						"item_count": 1
 					}
 				],
@@ -493,10 +493,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Greed 1",
+				"name": "Greed 1",
 				"sections": [
 					{
-						"name": "Greed 1",
+						"name": "Sky Provides (3F) - Greed 1",
 						"item_count": 1
 					}
 				],
@@ -509,10 +509,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Greed 2",
+				"name": "Greed 2",
 				"sections": [
 					{
-						"name": "Greed 2",
+						"name": "Sky Provides (3F) - Greed 2",
 						"item_count": 1
 					}
 				],
@@ -525,10 +525,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Greed 3",
+				"name": "Greed 3",
 				"sections": [
 					{
-						"name": "Greed 3",
+						"name": "Sky Provides (3F) - Greed 3",
 						"item_count": 1
 					}
 				],
@@ -541,10 +541,10 @@
 				]
 			},
 			{
-				"name": "Sky Provides (3F) - Greed 4",
+				"name": "Greed 4",
 				"sections": [
 					{
-						"name": "Greed 4",
+						"name": "Sky Provides (3F) - Greed 4",
 						"item_count": 1
 					}
 				],
@@ -557,10 +557,10 @@
 				]
 			},
 			{
-				"name": "Tiamat's Floor (5) - Air Orb",
+				"name": "Air Orb",
 				"sections": [
 					{
-						"name": "Air Orb",
+						"name": "Tiamat's Floor (5) - Air Orb",
 						"hosted_item": "airorblit"
 					}
 				],

@@ -4,17 +4,16 @@
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Dwarf Cave",
 		"access_rules": [
-			"openProgression",
+			"progressionFlag",
 			"ship",
-			"airship",
-			"extendedOpen"
+			"airship"
 		],
 		"children": [
 			{
-				"name": "Dwarf Cave - Entrance 1",
+				"name": "Entrance 1",
 				"sections": [
 					{
-						"name": "Entrance 1",
+						"name": "Dwarf Cave - Entrance 1",
 						"item_count": 1
 					}
 				],
@@ -27,10 +26,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Entrance 2",
+				"name": "Entrance 2",
 				"sections": [
 					{
-						"name": "Entrance 2",
+						"name": "Dwarf Cave - Entrance 2",
 						"item_count": 1
 					}
 				],
@@ -43,10 +42,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 1",
+				"name": "Treasury 1",
 				"sections": [
 					{
-						"name": "Treasury 1",
+						"name": "Dwarf Cave - Treasury 1",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -63,10 +62,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 2",
+				"name": "Treasury 2",
 				"sections": [
 					{
-						"name": "Treasury 2",
+						"name": "Dwarf Cave - Treasury 2",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -83,10 +82,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 3",
+				"name": "Treasury 3",
 				"sections": [
 					{
-						"name": "Treasury 3",
+						"name": "Dwarf Cave - Treasury 3",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -103,10 +102,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 4",
+				"name": "Treasury 4",
 				"sections": [
 					{
-						"name": "Treasury 4",
+						"name": "Dwarf Cave - Treasury 4",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -123,10 +122,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 5",
+				"name": "Treasury 5",
 				"sections": [
 					{
-						"name": "Treasury 5",
+						"name": "Dwarf Cave - Treasury 5",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -143,10 +142,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 6",
+				"name": "Treasury 6",
 				"sections": [
 					{
-						"name": "Treasury 6",
+						"name": "Dwarf Cave - Treasury 6",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -163,10 +162,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 7",
+				"name": "Treasury 7",
 				"sections": [
 					{
-						"name": "Treasury 7",
+						"name": "Dwarf Cave - Treasury 7",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -183,10 +182,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Treasury 8",
+				"name": "Treasury 8",
 				"sections": [
 					{
-						"name": "Treasury 8",
+						"name": "Dwarf Cave - Treasury 8",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -203,10 +202,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Smith",
+				"name": "Smith",
 				"sections": [
 					{
-						"name": "Smith",
+						"name": "Dwarf Cave - Smith",
 						"access_rules": [
 							"adamant"
 						],
@@ -222,10 +221,10 @@
 				]
 			},
 			{
-				"name": "Dwarf Cave - Nerrick",
+				"name": "Nerrick",
 				"sections": [
 					{
-						"name": "Nerrick",
+						"name": "Dwarf Cave - Nerrick",
 						"access_rules": [
 							"tnt"
 						],

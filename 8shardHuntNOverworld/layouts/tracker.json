@@ -35,7 +35,7 @@
 							"dock": "left",
 							"content": {
 								"type": "layout",
-								"key": "other_flags_grid"
+								"key": "NOverworld_other_flags_grid"
 							}
 						},
 						{
@@ -377,7 +377,7 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Top (B1)",
+															"title" : "Top & Middle (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "marshB2" ]

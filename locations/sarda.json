@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Sarda's Cave - Sarda",
+				"name": "Sarda",
 				"sections": [
 					{
-						"name": "Sarda",
+						"name": "Sarda's Cave - Sarda",
 						"access_rules": [
 							"earlySarda",
 							"vampire"

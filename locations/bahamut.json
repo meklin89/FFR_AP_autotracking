@@ -2,7 +2,7 @@
 	{
 		"chest_unopened_img": "images/misc/chestUnopened.png",
 		"chest_opened_img": "images/misc/chestOpened.png",
-		"name": "Bahamut's Hoard",
+		"name": "Bahamut's Lair",
 		"access_rules": [
 			"airship",
 			"floater,airBoat,ship",
@@ -14,10 +14,27 @@
 		],
 		"children": [
 			{
-				"name": "Cardia Grass Island - Entrance",
+				"name": "Bahamut",
 				"sections": [
 					{
-						"name": "Entrance",
+						"name": "Promotion",
+						"access_rules": [ "tail" ],
+						"hosted_item": "bahamut"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "bahamut",
+						"x": 247,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Bahamut's Hoard - Entrance",
+				"sections": [
+					{
+						"name": "Bahamut's Hoard Grass Island - Entrance",
 						"item_count": 1
 					}
 				],
@@ -33,10 +50,10 @@
 				]
 			},
 			{
-				"name": "Cardia Grass Island - Duo Room 1",
+				"name": "Bahamut's Hoard - Duo Room 1",
 				"sections": [
 					{
-						"name": "Duo Room 1",
+						"name": "Bahamut's Hoard Grass Island - Duo Room 1",
 						"item_count": 1
 					}
 				],
@@ -52,10 +69,10 @@
 				]
 			},
 			{
-				"name": "Cardia Grass Island - Duo Room 2",
+				"name": "Bahamut's Hoard - Duo Room 2",
 				"sections": [
 					{
-						"name": "Duo Room 2",
+						"name": "Bahamut's Hoard Grass Island - Duo Room 2",
 						"item_count": 1
 					}
 				],
@@ -71,10 +88,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 1",
+				"name": "Bahamut's Hoard - Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Bahamut's Hoard Swamp Island - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -90,10 +107,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 2",
+				"name": "Bahamut's Hoard - Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Bahamut's Hoard Swamp Island - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -109,10 +126,10 @@
 				]
 			},
 			{
-				"name": "Cardia Swamp Island - Chest 3",
+				"name": "Bahamut's Hoard - Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Bahamut's Hoard Swamp Island - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -128,10 +145,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 1",
+				"name": "Bahamut's Hoard - Entrance 1",
 				"sections": [
 					{
-						"name": "Entrance 1",
+						"name": "Bahamut's Hoard Forest Island - Entrance 1",
 						"item_count": 1
 					}
 				],
@@ -147,10 +164,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 2",
+				"name": "Bahamut's Hoard - Entrance 2",
 				"sections": [
 					{
-						"name": "Entrance 2",
+						"name": "Bahamut's Hoard Forest Island - Entrance 2",
 						"item_count": 1
 					}
 				],
@@ -166,10 +183,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Entrance 3",
+				"name": "Bahamut's Hoard - Entrance 3",
 				"sections": [
 					{
-						"name": "Entrance 3",
+						"name": "Bahamut's Hoard Forest Island - Entrance 3",
 						"item_count": 1
 					}
 				],
@@ -185,10 +202,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 1",
+				"name": "Bahamut's Hoard - Incentive 1",
 				"sections": [
 					{
-						"name": "Incentive 1",
+						"name": "Bahamut's Hoard Forest Island - Incentive 1",
 						"item_count": 1
 					}
 				],
@@ -204,10 +221,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 2",
+				"name": "Bahamut's Hoard - Incentive 2",
 				"sections": [
 					{
-						"name": "Incentive 2",
+						"name": "Bahamut's Hoard Forest Island - Incentive 2",
 						"item_count": 1
 					}
 				],
@@ -223,10 +240,10 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive 3",
+				"name": "Bahamut's Hoard - Incentive 3",
 				"sections": [
 					{
-						"name": "Incentive 3",
+						"name": "Bahamut's Hoard Forest Island - Incentive 3",
 						"item_count": 1
 					}
 				],
@@ -242,11 +259,11 @@
 				]
 			},
 			{
-				"name": "Cardia Forest Island - Incentive Major",
+				"name": "Bahamut's Hoard - Incentive Major",
 				"sections": [
 					{
-						"name": "Incentive Major",
-						"hosted_item": "cardiaIncentive"
+						"name": "Bahamut's Hoard Forest Island - Incentive Major",
+						"item_count": 1
 					}
 				],
 				"map_locations": [

@@ -13,10 +13,10 @@
 		],
 		"children": [
 			{
-				"name": "Mirage Tower (1F) - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Mirage Tower (1F) - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -29,10 +29,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Mirage Tower (1F) - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -45,10 +45,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 3",
+				"name": "Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Mirage Tower (1F) - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -61,10 +61,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 4",
+				"name": "Chest 4",
 				"sections": [
 					{
-						"name": "Chest 4",
+						"name": "Mirage Tower (1F) - Chest 4",
 						"item_count": 1
 					}
 				],
@@ -77,10 +77,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 5",
+				"name": "Chest 5",
 				"sections": [
 					{
-						"name": "Chest 5",
+						"name": "Mirage Tower (1F) - Chest 5",
 						"item_count": 1
 					}
 				],
@@ -93,10 +93,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 6",
+				"name": "Chest 6",
 				"sections": [
 					{
-						"name": "Chest 6",
+						"name": "Mirage Tower (1F) - Chest 6",
 						"item_count": 1
 					}
 				],
@@ -109,10 +109,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 7",
+				"name": "Chest 7",
 				"sections": [
 					{
-						"name": "Chest 7",
+						"name": "Mirage Tower (1F) - Chest 7",
 						"item_count": 1
 					}
 				],
@@ -125,10 +125,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (1F) - Chest 8",
+				"name": "Chest 8",
 				"sections": [
 					{
-						"name": "Chest 8",
+						"name": "Mirage Tower (1F) - Chest 8",
 						"item_count": 1
 					}
 				],
@@ -141,10 +141,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Lesser 1",
+				"name": "Lesser 1",
 				"sections": [
 					{
-						"name": "Lesser 1",
+						"name": "Mirage Tower (2F) - Lesser 1",
 						"item_count": 1
 					}
 				],
@@ -157,10 +157,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Lesser 2",
+				"name": "Lesser 2",
 				"sections": [
 					{
-						"name": "Lesser 2",
+						"name": "Mirage Tower (2F) - Lesser 2",
 						"item_count": 1
 					}
 				],
@@ -173,10 +173,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Lesser 3",
+				"name": "Lesser 3",
 				"sections": [
 					{
-						"name": "Lesser 3",
+						"name": "Mirage Tower (2F) - Lesser 3",
 						"item_count": 1
 					}
 				],
@@ -189,10 +189,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Lesser 4",
+				"name": "Lesser 4",
 				"sections": [
 					{
-						"name": "Lesser 4",
+						"name": "Mirage Tower (2F) - Lesser 4",
 						"item_count": 1
 					}
 				],
@@ -205,10 +205,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Lesser 5",
+				"name": "Lesser 5",
 				"sections": [
 					{
-						"name": "Lesser 5",
+						"name": "Mirage Tower (2F) - Lesser 5",
 						"item_count": 1
 					}
 				],
@@ -221,10 +221,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Greater 1",
+				"name": "Greater 1",
 				"sections": [
 					{
-						"name": "Greater 1",
+						"name": "Mirage Tower (2F) - Greater 1",
 						"item_count": 1
 					}
 				],
@@ -237,10 +237,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Greater 2",
+				"name": "Greater 2",
 				"sections": [
 					{
-						"name": "Greater 2",
+						"name": "Mirage Tower (2F) - Greater 2",
 						"item_count": 1
 					}
 				],
@@ -253,10 +253,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Greater 3",
+				"name": "Greater 3",
 				"sections": [
 					{
-						"name": "Greater 3",
+						"name": "Mirage Tower (2F) - Greater 3",
 						"item_count": 1
 					}
 				],
@@ -269,10 +269,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Greater 4",
+				"name": "Greater 4",
 				"sections": [
 					{
-						"name": "Greater 4",
+						"name": "Mirage Tower (2F) - Greater 4",
 						"item_count": 1
 					}
 				],
@@ -285,10 +285,10 @@
 				]
 			},
 			{
-				"name": "Mirage Tower (2F) - Greater 5",
+				"name": "Greater 5",
 				"sections": [
 					{
-						"name": "Greater 5",
+						"name": "Mirage Tower (2F) - Greater 5",
 						"item_count": 1
 					}
 				],

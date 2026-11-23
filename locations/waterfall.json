@@ -13,10 +13,10 @@
 		],
 		"children": [
 			{
-				"name": "Waterfall Cave - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Waterfall Cave - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -29,10 +29,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Waterfall Cave - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -45,10 +45,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Chest 3",
+				"name": "Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Waterfall Cave - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -61,10 +61,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Chest 4",
+				"name": "Chest 4",
 				"sections": [
 					{
-						"name": "Chest 4",
+						"name": "Waterfall Cave - Chest 4",
 						"item_count": 1
 					}
 				],
@@ -77,10 +77,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Chest 5",
+				"name": "Chest 5",
 				"sections": [
 					{
-						"name": "Chest 5",
+						"name": "Waterfall Cave - Chest 5",
 						"item_count": 1
 					}
 				],
@@ -93,10 +93,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Chest 6",
+				"name": "Chest 6",
 				"sections": [
 					{
-						"name": "Chest 6",
+						"name": "Waterfall Cave - Chest 6",
 						"item_count": 1
 					}
 				],
@@ -109,10 +109,10 @@
 				]
 			},
 			{
-				"name": "Waterfall Cave - Robot",
+				"name": "Robot",
 				"sections": [
 					{
-						"name": "Robot",
+						"name": "Waterfall Cave - Robot",
 						"hosted_item": "robot"
 					}
 				],

@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Giant's Floor (B1) - Single",
+				"name": "Single",
 				"sections": [
 					{
-						"name": "Single",
+						"name": "Giant's Floor (B1) - Single",
 						"item_count": 1
 					}
 				],
@@ -27,10 +27,10 @@
 				]
 			},
 			{
-				"name": "Giant's Floor (B1) - Appendix 1",
+				"name": "Appendix 1",
 				"sections": [
 					{
-						"name": "Appendix 1",
+						"name": "Giant's Floor (B1) - Appendix 1",
 						"item_count": 1
 					}
 				],
@@ -43,10 +43,10 @@
 				]
 			},
 			{
-				"name": "Giant's Floor (B1) - Appendix 2",
+				"name": "Appendix 2",
 				"sections": [
 					{
-						"name": "Appendix 2",
+						"name": "Giant's Floor (B1) - Appendix 2",
 						"item_count": 1
 					}
 				],
@@ -59,10 +59,10 @@
 				]
 			},
 			{
-				"name": "Giant's Floor (B1) - Side Path 1",
+				"name": "Side Path 1",
 				"sections": [
 					{
-						"name": "Side Path 1",
+						"name": "Giant's Floor (B1) - Side Path 1",
 						"item_count": 1
 					}
 				],
@@ -75,10 +75,10 @@
 				]
 			},
 			{
-				"name": "Giant's Floor (B1) - Side Path 2",
+				"name": "Side Path 2",
 				"sections": [
 					{
-						"name": "Side Path 2",
+						"name": "Giant's Floor (B1) - Side Path 2",
 						"item_count": 1
 					}
 				],
@@ -91,10 +91,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Side Room 1",
+				"name": "Side Room 1",
 				"sections": [
 					{
-						"name": "Side Room 1",
+						"name": "Earth Cave (B2) - Side Room 1",
 						"item_count": 1
 					}
 				],
@@ -107,10 +107,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Side Room 2",
+				"name": "Side Room 2",
 				"sections": [
 					{
-						"name": "Side Room 2",
+						"name": "Earth Cave (B2) - Side Room 2",
 						"item_count": 1
 					}
 				],
@@ -123,10 +123,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Side Room 3",
+				"name": "Side Room 3",
 				"sections": [
 					{
-						"name": "Side Room 3",
+						"name": "Earth Cave (B2) - Side Room 3",
 						"item_count": 1
 					}
 				],
@@ -139,10 +139,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Guarded 1",
+				"name": "Guarded 1",
 				"sections": [
 					{
-						"name": "Guarded 1",
+						"name": "Earth Cave (B2) - Guarded 1",
 						"item_count": 1
 					}
 				],
@@ -155,10 +155,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Guarded 2",
+				"name": "Guarded 2",
 				"sections": [
 					{
-						"name": "Guarded 2",
+						"name": "Earth Cave (B2) - Guarded 2",
 						"item_count": 1
 					}
 				],
@@ -171,10 +171,10 @@
 				]
 			},
 			{
-				"name": "(B2) - Guarded 3",
+				"name": "Guarded 3",
 				"sections": [
 					{
-						"name": "Guarded 3",
+						"name": "Earth Cave (B2) - Guarded 3",
 						"item_count": 1
 					}
 				],
@@ -187,10 +187,10 @@
 				]
 			},
 			{
-				"name": "Vampire Floor (B3) - Side Room",
+				"name": "Side Room",
 				"sections": [
 					{
-						"name": "Side Room",
+						"name": "Vampire Floor (B3) - Side Room",
 						"item_count": 1
 					}
 				],
@@ -203,10 +203,10 @@
 				]
 			},
 			{
-				"name": "Vampire Floor (B3) - TFC",
+				"name": "TFC",
 				"sections": [
 					{
-						"name": "TFC",
+						"name": "Vampire Floor (B3) - TFC",
 						"item_count": 1
 					}
 				],
@@ -219,7 +219,7 @@
 				]
 			},
 			{
-				"name": "Vampire Floor (B3) - Asher Trunk",
+				"name": "Asher Trunk",
 				"sections": [
 					{
 						"name": "Asher Trunk",
@@ -235,10 +235,10 @@
 				]
 			},
 			{
-				"name": "Vampire Floor (B3) - Vampire's Closet",
+				"name": "Vampire's Closet",
 				"sections": [
 					{
-						"name": "Vampire's Closet",
+						"name": "Vampire Floor (B3) - Vampire's Closet",
 						"item_count": 1
 					}
 				],
@@ -251,11 +251,11 @@
 				]
 			},
 			{
-				"name": "Vampire Floor (B3) - Incentive",
+				"name": "Incentive",
 				"sections": [
 					{
-						"name": "Incentive",
-						"hosted_item": "earth"
+						"name": "Vampire Floor (B3) - Incentive",
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -267,10 +267,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Armory 1",
+				"name": "Armory 1",
 				"sections": [
 					{
-						"name": "Armory 1",
+						"name": "Rod Locked Floor (B4) - Armory 1",
 						"access_rules": [
 							"rod"
 						],
@@ -286,10 +286,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Armory 2",
+				"name": "Armory 2",
 				"sections": [
 					{
-						"name": "Armory 2",
+						"name": "Rod Locked Floor (B4) - Armory 2",
 						"access_rules": [
 							"rod"
 						],
@@ -305,10 +305,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Armory 3",
+				"name": "Armory 3",
 				"sections": [
 					{
-						"name": "Armory 3",
+						"name": "Rod Locked Floor (B4) - Armory 3",
 						"access_rules": [
 							"rod"
 						],
@@ -324,10 +324,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Armory 4",
+				"name": "Armory 4",
 				"sections": [
 					{
-						"name": "Armory 4",
+						"name": "Rod Locked Floor (B4) - Armory 4",
 						"access_rules": [
 							"rod"
 						],
@@ -343,10 +343,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Armory 5",
+				"name": "Armory 5",
 				"sections": [
 					{
-						"name": "Armory 5",
+						"name": "Rod Locked Floor (B4) - Armory 5",
 						"access_rules": [
 							"rod"
 						],
@@ -362,10 +362,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Lich's Closet 1",
+				"name": "Lich's Closet 1",
 				"sections": [
 					{
-						"name": "Lich's Closet 1",
+						"name": "Rod Locked Floor (B4) - Lich's Closet 1",
 						"access_rules": [
 							"rod"
 						],
@@ -381,10 +381,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Lich's Closet 2",
+				"name": "Lich's Closet 2",
 				"sections": [
 					{
-						"name": "Lich's Closet 2",
+						"name": "Rod Locked Floor (B4) - Lich's Closet 2",
 						"access_rules": [
 							"rod"
 						],
@@ -400,10 +400,10 @@
 				]
 			},
 			{
-				"name": "Rod Locked Floor (B4) - Lich's Closet 3",
+				"name": "Lich's Closet 3",
 				"sections": [
 					{
-						"name": "Lich's Closet 3",
+						"name": "Rod Locked Floor (B4) - Lich's Closet 3",
 						"access_rules": [
 							"rod"
 						],
@@ -419,10 +419,10 @@
 				]
 			},
 			{
-				"name": "Lich's Floor (B5) - Earth Orb",
+				"name": "Earth Orb",
 				"sections": [
 					{
-						"name": "Earth Orb",
+						"name": "Rod Locked Floor (B5) - Earth Orb",
 						"access_rules": [
 							"rod"
 						],

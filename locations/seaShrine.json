@@ -14,10 +14,10 @@
 		],
 		"children": [
 			{
-				"name": "Split Floor (B3) - Kraken Side",
+				"name": "Kraken Side",
 				"sections": [
 					{
-						"name": "Kraken Side",
+						"name": "Split Floor (B3) - Kraken Side",
 						"item_count": 1
 					}
 				],
@@ -30,7 +30,7 @@
 				]
 			},
 			{
-				"name": "Split Floor (B3) - Mermaid Side",
+				"name": "Mermaid Side",
 				"sections": [
 					{
 						"access_rules": [
@@ -38,7 +38,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Mermaid Side",
+						"name": "Split Floor (B3) - Mermaid Side",
 						"item_count": 1
 					}
 				],
@@ -51,10 +51,10 @@
 				]
 			},
 			{
-				"name": "Greed Floor (B3) - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Greed Floor (B3) - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -67,10 +67,10 @@
 				]
 			},
 			{
-				"name": "Greed Floor (B3) - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Greed Floor (B3) - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -83,10 +83,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Dengbait 1",
+				"name": "Dengbait 1",
 				"sections": [
 					{
-						"name": "Dengbait 1",
+						"name": "Sharknado Floor (B4) - Dengbait 1",
 						"item_count": 1
 					}
 				],
@@ -99,10 +99,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Dengbait 2",
+				"name": "Dengbait 2",
 				"sections": [
 					{
-						"name": "Dengbait 2",
+						"name": "Sharknado Floor (B4) - Dengbait 2",
 						"item_count": 1
 					}
 				],
@@ -115,10 +115,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Side Corner 1",
+				"name": "Side Corner 1",
 				"sections": [
 					{
-						"name": "Side Corner 1",
+						"name": "Sharknado Floor (B4) - Side Corner 1",
 						"item_count": 1
 					}
 				],
@@ -131,10 +131,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Side Corner 2",
+				"name": "Side Corner 2",
 				"sections": [
 					{
-						"name": "Side Corner 2",
+						"name": "Sharknado Floor (B4) - Side Corner 2",
 						"item_count": 1
 					}
 				],
@@ -147,10 +147,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Side Corner 3",
+				"name": "Side Corner 3",
 				"sections": [
 					{
-						"name": "Side Corner 3",
+						"name": "Sharknado Floor (B4) - Side Corner 3",
 						"item_count": 1
 					}
 				],
@@ -163,10 +163,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Exit",
+				"name": "Exit",
 				"sections": [
 					{
-						"name": "Exit",
+						"name": "Sharknado Floor (B4) - Exit",
 						"item_count": 1
 					}
 				],
@@ -179,10 +179,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Greed Room 1",
+				"name": "Greed Room 1",
 				"sections": [
 					{
-						"name": "Greed Room 1",
+						"name": "Sharknado Floor (B4) - Greed Room 1",
 						"item_count": 1
 					}
 				],
@@ -195,10 +195,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Greed Room 2",
+				"name": "Greed Room 2",
 				"sections": [
 					{
-						"name": "Greed Room 2",
+						"name": "Sharknado Floor (B4) - Greed Room 2",
 						"item_count": 1
 					}
 				],
@@ -211,10 +211,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Greed Room 3",
+				"name": "Greed Room 3",
 				"sections": [
 					{
-						"name": "Greed Room 3",
+						"name": "Sharknado Floor (B4) - Greed Room 3",
 						"item_count": 1
 					}
 				],
@@ -227,10 +227,10 @@
 				]
 			},
 			{
-				"name": "Sharknado Floor (B4) - Greed Room 4",
+				"name": "Greed Room 4",
 				"sections": [
 					{
-						"name": "Greed Room 4",
+						"name": "Sharknado Floor (B4) - Greed Room 4",
 						"item_count": 1
 					}
 				],
@@ -243,10 +243,10 @@
 				]
 			},
 			{
-				"name": "TFC Floor (B2) - TFC",
+				"name": "TFC",
 				"sections": [
 					{
-						"name": "TFC",
+						"name": "TFC Floor (B2) - TFC",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -263,10 +263,10 @@
 				]
 			},
 			{
-				"name": "TFC Floor (B2) - TFC North",
+				"name": "TFC North",
 				"sections": [
 					{
-						"name": "TFC North",
+						"name": "TFC Floor (B2) - TFC North",
 						"item_count": 1
 					}
 				],
@@ -279,10 +279,10 @@
 				]
 			},
 			{
-				"name": "TFC Floor (B2) - Side Corner",
+				"name": "Side Corner",
 				"sections": [
 					{
-						"name": "Side Corner",
+						"name": "TFC Floor (B2) - Side Corner",
 						"item_count": 1
 					}
 				],
@@ -295,10 +295,10 @@
 				]
 			},
 			{
-				"name": "TFC Floor (B2) - First Greed",
+				"name": "First Greed",
 				"sections": [
 					{
-						"name": "First Greed",
+						"name": "TFC Floor (B2) - First Greed",
 						"item_count": 1
 					}
 				],
@@ -311,10 +311,10 @@
 				]
 			},
 			{
-				"name": "TFC Floor (B2) - Second Greed",
+				"name": "Second Greed",
 				"sections": [
 					{
-						"name": "Second Greed",
+						"name": "TFC Floor (B2) - Second Greed",
 						"item_count": 1
 					}
 				],
@@ -327,7 +327,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Passby",
+				"name": "Passby",
 				"sections": [
 					{
 						"access_rules": [
@@ -335,7 +335,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Passby",
+						"name": "Mermaids (B1) - Passby",
 						"item_count": 1
 					}
 				],
@@ -348,7 +348,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Bubbles 1",
+				"name": "Bubbles 1",
 				"sections": [
 					{
 						"access_rules": [
@@ -356,7 +356,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Bubbles 1",
+						"name": "Mermaids (B1) - Bubbles 1",
 						"item_count": 1
 					}
 				],
@@ -369,7 +369,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Bubbles 2",
+				"name": "Bubbles 2",
 				"sections": [
 					{
 						"access_rules": [
@@ -377,7 +377,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Bubbles 2",
+						"name": "Mermaids (B1) - Bubbles 2",
 						"item_count": 1
 					}
 				],
@@ -390,7 +390,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Incentive 1",
+				"name": "Incentive 1",
 				"sections": [
 					{
 						"access_rules": [
@@ -398,7 +398,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Incentive 1",
+						"name": "Mermaids (B1) - Incentive 1",
 						"item_count": 1
 					}
 				],
@@ -411,7 +411,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Incentive 2",
+				"name": "Incentive 2",
 				"sections": [
 					{
 						"access_rules": [
@@ -419,7 +419,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Incentive 2",
+						"name": "Mermaids (B1) - Incentive 2",
 						"item_count": 1
 					}
 				],
@@ -432,7 +432,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Incentive Major",
+				"name": "Incentive Major",
 				"sections": [
 					{
 						"access_rules": [
@@ -440,8 +440,8 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Incentive Major",
-						"hosted_item": "sea"
+						"name": "Mermaids (B1) - Incentive Major",
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -453,7 +453,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Entrance 1",
+				"name": "Entrance 1",
 				"sections": [
 					{
 						"access_rules": [
@@ -461,7 +461,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Entrance 1",
+						"name": "Mermaids (B1) - Entrance 1",
 						"item_count": 1
 					}
 				],
@@ -474,7 +474,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Entrance 2",
+				"name": "Entrance 2",
 				"sections": [
 					{
 						"access_rules": [
@@ -482,7 +482,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Entrance 2",
+						"name": "Mermaids (B1) - Entrance 2",
 						"item_count": 1
 					}
 				],
@@ -495,7 +495,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Entrance 3",
+				"name": "Entrance 3",
 				"sections": [
 					{
 						"access_rules": [
@@ -503,7 +503,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Entrance 3",
+						"name": "Mermaids (B1) - Entrance 3",
 						"item_count": 1
 					}
 				],
@@ -516,7 +516,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Four-Corner First",
+				"name": "Four-Corner First",
 				"sections": [
 					{
 						"access_rules": [
@@ -524,7 +524,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Four-Corner First",
+						"name": "Mermaids (B1) - Four-Corner First",
 						"item_count": 1
 					}
 				],
@@ -537,7 +537,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Four-Corner Second",
+				"name": "Four-Corner Second",
 				"sections": [
 					{
 						"access_rules": [
@@ -545,7 +545,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Four-Corner Second",
+						"name": "Mermaids (B1) - Four-Corner Second",
 						"item_count": 1
 					}
 				],
@@ -558,7 +558,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Four-Corner Third",
+				"name": "Four-Corner Third",
 				"sections": [
 					{
 						"access_rules": [
@@ -566,7 +566,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Four-Corner Third",
+						"name": "Mermaids (B1) - Four-Corner Third",
 						"item_count": 1
 					}
 				],
@@ -579,7 +579,7 @@
 				]
 			},
 			{
-				"name": "Mermaids (B1) - Four-Corner Fourth",
+				"name": "Four-Corner Fourth",
 				"sections": [
 					{
 						"access_rules": [
@@ -587,7 +587,7 @@
 							"key,prison",
 							"[key],prison,lockpicking"
 						],
-						"name": "Four-Corner Fourth",
+						"name": "Mermaids (B1) - Four-Corner Fourth",
 						"item_count": 1
 					}
 				],
@@ -600,10 +600,10 @@
 				]
 			},
 			{
-				"name": "Kraken's Floor (B5) - Water Orb",
+				"name": "Water Orb",
 				"sections": [
 					{
-						"name": "Water Orb",
+						"name": "Kraken's Floor (B5) - Water Orb",
 						"hosted_item": "waterorblit"
 					}
 				],

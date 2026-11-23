@@ -13,10 +13,10 @@
 		],
 		"children": [
 			{
-				"name": "Bottom (B3) - IceD Room 1",
+				"name": "IceD Room 1",
 				"sections": [
 					{
-						"name": "IceD Room 1",
+						"name": "Bottom (B3) - IceD Room 1",
 						"item_count": 1
 					}
 				],
@@ -29,10 +29,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - IceD Room 2",
+				"name": "IceD Room 2",
 				"sections": [
 					{
-						"name": "IceD Room 2",
+						"name": "Bottom (B3) - IceD Room 2",
 						"item_count": 1
 					}
 				],
@@ -45,10 +45,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 1",
+				"name": "Six-Pack 1",
 				"sections": [
 					{
-						"name": "Six-Pack 1",
+						"name": "Bottom (B3) - Six-Pack 1",
 						"item_count": 1
 					}
 				],
@@ -61,10 +61,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 2",
+				"name": "Six-Pack 2",
 				"sections": [
 					{
-						"name": "Six-Pack 2",
+						"name": "Bottom (B3) - Six-Pack 2",
 						"item_count": 1
 					}
 				],
@@ -77,10 +77,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 3",
+				"name": "Six-Pack 3",
 				"sections": [
 					{
-						"name": "Six-Pack 3",
+						"name": "Bottom (B3) - Six-Pack 3",
 						"item_count": 1
 					}
 				],
@@ -93,10 +93,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 4",
+				"name": "Six-Pack 4",
 				"sections": [
 					{
-						"name": "Six-Pack 4",
+						"name": "Bottom (B3) - Six-Pack 4",
 						"item_count": 1
 					}
 				],
@@ -109,10 +109,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 5",
+				"name": "Six-Pack 5",
 				"sections": [
 					{
-						"name": "Six-Pack 5",
+						"name": "Bottom (B3) - Six-Pack 5",
 						"item_count": 1
 					}
 				],
@@ -125,10 +125,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B3) - Six-Pack 6",
+				"name": "Six-Pack 6",
 				"sections": [
 					{
-						"name": "Six-Pack 6",
+						"name": "Bottom (B3) - Six-Pack 6",
 						"item_count": 1
 					}
 				],
@@ -141,10 +141,10 @@
 				]
 			},
 			{
-				"name": "Incentive Floor (B2) - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Incentive Floor (B2) - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -157,10 +157,10 @@
 				]
 			},
 			{
-				"name": "Incentive Floor (B2) - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Incentive Floor (B2) - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -173,11 +173,11 @@
 				]
 			},
 			{
-				"name": "Incentive Floor (B2) - Major",
+				"name": "Major",
 				"sections": [
 					{
-						"name": "Major",
-						"hosted_item": "iceCave"
+						"name": "Incentive Floor (B2) - Major",
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -189,10 +189,10 @@
 				]
 			},
 			{
-				"name": "Exit Floor (B1) - Greeds Checks 1",
+				"name": "Greeds Checks 1",
 				"sections": [
 					{
-						"name": "Greeds Checks 1",
+						"name": "Exit Floor (B1) - Greeds Checks 1",
 						"item_count": 1
 					}
 				],
@@ -205,10 +205,10 @@
 				]
 			},
 			{
-				"name": "Exit Floor (B1) - Greeds Checks 2",
+				"name": "Greeds Checks 2",
 				"sections": [
 					{
-						"name": "Greeds Checks 2",
+						"name": "Exit Floor (B1) - Greeds Checks 2",
 						"item_count": 1
 					}
 				],
@@ -221,10 +221,10 @@
 				]
 			},
 			{
-				"name": "Exit Floor (B1) - Drop Room 1",
+				"name": "Drop Room 1",
 				"sections": [
 					{
-						"name": "Drop Room 1",
+						"name": "Exit Floor (B1) - Drop Room 1",
 						"item_count": 1
 					}
 				],
@@ -237,10 +237,10 @@
 				]
 			},
 			{
-				"name": "Exit Floor (B1) - Drop Room 2",
+				"name": "Drop Room 2",
 				"sections": [
 					{
-						"name": "Drop Room 2",
+						"name": "Exit Floor (B1) - Drop Room 2",
 						"item_count": 1
 					}
 				],
@@ -253,10 +253,10 @@
 				]
 			},
 			{
-				"name": "Exit Floor (B1) - Drop Room 3",
+				"name": "Drop Room 3",
 				"sections": [
 					{
-						"name": "Drop Room 3",
+						"name": "Exit Floor (B1) - Drop Room 3",
 						"item_count": 1
 					}
 				],

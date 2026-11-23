@@ -1,0 +1,180 @@
+[
+    
+	{
+		"name": "Towns",
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"color": "#000000",
+		"children": [
+			{
+				"name": "Coneria",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Pravoka",
+				"access_rules": [
+					"bridge",
+					"ship",
+					"airship",
+					"progressionFlag,canoe",
+					"lefeinBridge"
+				],
+				"sections": [
+					{
+						"name": "Bikke",
+						"access_rules": [],
+						"hosted_item": "bikke"
+					},
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Elfland",
+				"access_rules": [
+					"ship",
+					"airship",
+					"progressionFlag,canoe",
+					"bridge,canoe"
+				],
+				"sections": [
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Melmond",
+				"access_rules": [
+					"ship,canal,slab",
+					"airship,slab",
+					"floater,airBoat,slab,ship",
+					"melmondRiver,canoe,slab"
+				],
+				"sections": [
+					{
+						"name": "Dr Unne",
+						"hosted_item": "slabTranslated"
+					},
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1,
+						"visibility_rules": [ "vampireAttack" ]
+					}
+				]
+			},
+			{
+				"name": "Crescent Lake",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"progressionFlag,canoe",
+					"ship,canal",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Sages",
+						"access_rules": [ "earlySage", "earthorblit"],
+						"hosted_item": "sages"
+					},
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Onrac",
+				"access_rules": [
+					"airship,canoe,oxyale",
+					"floater,airBoat,canoe,oxyale,ship",
+					"northernDocks,ship,canal,oxyale",
+					"northernDocks,airBoat,floater,ship,oxyale",
+					"landBridge,ship,canal,canoe,oxyale",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale",
+					"landBridge,cardiaDock,ship,canal,canoe,oxyale"
+				],
+				"sections": [
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Gaia",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"gaiaMountain,ship,canoe,lefeinRiver,canal",
+					"gaiaMountain,hwyOrdeals,northernDocks,ship,canal",
+					"gaiaMountain,hwyOrdeals,ship,canal,canoe",
+					"lefeinBridge,gaiaMountain,bridge",
+					"landBridge,cardiaDock,ship,canal,hwyOrdeals,gaiaMountain"
+				],
+				"sections": [
+					{
+						"name": "Fairy",
+						"access_rules": [ "bottle" ],
+						"hosted_item": "fairy"
+					},
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Lefein",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"lefeinRiver,canoe,ship,canal",
+					"lefeinBridge,bridge",
+					"hwyOrdeals,ship,canal,canoe",
+					"northernDocks,ship,canal,hwyOrdeals",
+					"landBridge,cardiaDock,ship,canal,hwyOrdeals"
+				],
+				"sections": [
+					{
+						"name": "Lefein",
+						"access_rules": [ "slabTranslated", "slabDone" ],
+						"hosted_item": "lefein"
+					}
+				]
+			}
+		]
+	}
+]

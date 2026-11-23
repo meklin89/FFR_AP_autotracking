@@ -9,14 +9,15 @@
 			"airship",
 			"extendedOpen,canoe",
 			"openProgression,canoe",
-			"lefeinBridge"
+			"lefeinBridge",
+			"ship,airBoat"
 		],
 		"children": [
 			{
-				"name": "Matoya's Cave - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Matoya's Cave - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -29,10 +30,10 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Matoya's Cave - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -45,10 +46,10 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave - Chest 3",
+				"name": "Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Matoya's Cave - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -61,10 +62,10 @@
 				]
 			},
 			{
-				"name": "Matoya's Cave - Matoya",
+				"name": "Matoya",
 				"sections": [
 					{
-						"name": "Matoya",
+						"name": "Matoya's Cave - Matoya",
 						"access_rules": [
 							"crystal"
 						],

@@ -3,242 +3,42 @@
 		"chest_unopened_img": "images/misc/chestUnopened.png",
 		"chest_opened_img": "images/misc/chestOpened.png",
 		"name": "Overworld",
-		"color": "#808080",
+		"color": "#000000",
 		"children": [
 			{
-				"name": "Overworld - Coneria Castle",
+				"name": "Coneria",
 				"access_rules": [],
 				"sections": [
 					{
-						"name": "King",
-						"access_rules": [ "earlyKing", "garland" ],
-						"hosted_item": "king"
-					},
-					{
-						"name": "Sara",
-						"access_rules": [ "garland" ],
-						"hosted_item": "sara"
-					},
-					{
-						"name": "Treasury",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 5
-					},
-					{
-						"name": "Treasury Major",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"hosted_item": "coneriaLocked"
+						"name": "Shop Item",
+						"ref": "Towns/Coneria/Shop Item"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
 						"x": 1840,
-						"y": 1740
+						"y": 1835
 					}
 				]
 			},
 			{
-				"name": "Overworld - Temple of Fiends",
-				"access_rules": [],
-				"sections": [
-					{
-						"name": "Garland",
-						"hosted_item": "garland"
-					},
-					{
-						"name": "Unlocked",
-						"clear_as_group": false,
-						"item_count": 3
-					},
-					{
-						"name": "Locked",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 3
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 1540,
-						"y": 1300
-					}
-				]
-			},
-			{
-				"name": "Overworld - Temple of Fiends Revisited",
-				"access_rules": [ "$canBreakOrb,lute,key,noLockpicking", "$canBreakOrb,lute,[key],lockpicking" ],
-				"sections": [
-					{
-						"name": "Lute Plate Room",
-						"clear_as_group": false,
-						"item_count": 2
-					},
-					{
-						"name": "Kary Floor",
-						"clear_as_group": false,
-						"item_count": 4
-					},
-					{
-						"name": "Vanilla Masamune",
-						"item_count": 1
-					},
-					{
-						"name": "Chaos",
-						"hosted_item": "chaos"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 1540,
-						"y": 1220
-					}
-				]
-			},
-			{
-				"name": "Overworld - Dwarf Cave",
-				"access_rules": [
-					"openProgression",
-					"ship",
-					"airship",
-					"extendedOpen"
-				],
-				"sections": [
-					{
-						"name": "Entrance",
-						"clear_as_group": false,
-						"item_count": 2
-					},
-					{
-						"name": "Treasury",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 8
-					},
-					{
-						"name": "Smithy McBeardSmith",
-						"access_rules": [ "adamant" ],
-						"hosted_item": "smith"
-					},
-					{
-						"name": "Nerrick (Vanilla Canal)",
-						"access_rules": [ "tnt" ],
-						"hosted_item": "nerrick"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 1220,
-						"y": 1730
-					}
-				]
-			},
-			{
-				"name": "Overworld - Northwest Castle",
-				"access_rules": [
-					"openProgression,canoe",
-					"ship",
-					"airship",
-					"extendedOpen"
-				],
-				"sections": [
-					{
-						"name": "Astos",
-						"access_rules": [ "crown" ],
-						"hosted_item": "astos"
-					},
-					{
-						"name": "Treasury",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 3
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 1230,
-						"y": 2070
-					}
-				]
-			},
-			{
-				"name": "Overworld - Matoya's Cave",
+				"name": "Pravoka",
 				"access_rules": [
 					"bridge",
 					"ship",
 					"airship",
-					"extendedOpen,canoe",
-					"openProgression,canoe",
-					"lefeinBridge"
-				],
-				"sections": [
-					{
-						"name": "Matoya",
-						"access_rules": [ "crystal" ],
-						"hosted_item": "matoya"
-					},
-					{
-						"name": "Chests",
-						"clear_as_group": false,
-						"item_count": 3
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 2040,
-						"y": 1240
-					}
-				]
-			},
-			{
-				"name": "Overworld - Elf Castle",
-				"access_rules": [
-					"openProgression,canoe",
-					"ship",
-					"airship",
-					"extendedOpen"
-				],
-				"sections": [
-					{
-						"name": "Elf Prince",
-						"access_rules": [ "herb" ],
-						"hosted_item": "elfprince"
-					},
-					{
-						"name": "Treasury",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 4
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 1640,
-						"y": 2500
-					}
-				]
-			},
-			{
-				"name": "Overworld - Pravoka",
-				"access_rules": [
-					"bridge",
-					"ship",
-					"airship",
-					"extendedOpen,canoe",
-					"openProgression,canoe",
+					"progressionFlag,canoe",
 					"lefeinBridge"
 				],
 				"sections": [
 					{
 						"name": "Bikke",
-						"hosted_item": "bikke"
+						"ref": "Towns/Pravoka/Bikke"
+					},
+					{
+						"name": "Shop Item",
+						"ref": "Towns/Pravoka/Shop Item"
 					}
 				],
 				"map_locations": [
@@ -250,155 +50,29 @@
 				]
 			},
 			{
-				"name": "Overworld - Marsh Cave",
+				"name": "Elfland",
 				"access_rules": [
-					"openProgression,canoe",
 					"ship",
 					"airship",
-					"extendedOpen"
+					"progressionFlag,canoe",
+					"bridge,canoe"
 				],
 				"sections": [
 					{
-						"name": "Top (B1)",
-						"clear_as_group": false,
-						"item_count": 4
-					},
-					{
-						"name": "Bottom (B2)",
-						"clear_as_group": false,
-						"item_count": 5
-					},
-					{
-						"name": "Bottom (B2) - Incentive",
-						"hosted_item": "marsh"
-					},
-					{
-						"name": "Bottom (B2) - Locked",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"clear_as_group": false,
-						"item_count": 2
-					},
-					{
-						"name": "Bottom (B2) - Locked Incentive",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"hosted_item": "marshLocked"
+						"name": "Shop Item",
+						"ref": "Towns/Elfland/Shop Item"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 1230,
-						"y": 2680
+						"x": 1640,
+						"y": 2595
 					}
 				]
 			},
 			{
-				"name": "Overworld - Sarda's Cave",
-				"access_rules": [
-					"airship,noSardaForest",
-					"floater,airBoat,noSardaForest,ship",
-					"ruby,ship,canal",
-					"melmondRiver,canoe,ruby",
-					"sardaForest,airship,ruby",
-					"sardaForest,floater,airBoat,ruby,ship"
-				],
-				"sections": [
-					{
-						"name": "Sarda",
-						"access_rules": [
-							"earlySarda", "vampire"
-						],
-						"hosted_item": "sarda"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 370,
-						"y": 2150
-					}
-				]
-			},
-			{
-				"name": "Overworld - Titan's Tunnel",
-				"access_rules": [
-					"ruby,airship,titanTrove",
-					"ruby,floater,airBoat,titanTrove,ship",
-					"ruby,ship,canal,titanTrove",
-					"melmondRiver,canoe,ruby,titanTrove",
-					"noTitanTrove,noSardaForest,airship",
-					"noTitanTrove,noSardaForest,floater,airBoat,ship"
-				],
-				"sections": [
-					{
-						"name": "Major",
-						"hosted_item": "titanIncentive"
-					},
-					{
-						"name": "Chests",
-						"clear_as_group": false,
-						"item_count": 3
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 400,
-						"y": 1950
-					}
-				]
-			},
-			{
-				"name": "Overworld - Earth Cave",
-				"access_rules": [
-					"airship",
-					"floater,airBoat,ship",
-					"ship,canal",
-					"melmondRiver,canoe"
-				],
-				"sections": [
-					{
-						"name": "Earth Orb",
-						"access_rules": [ "rod" ],
-						"hosted_item": "earthorblit"
-					},
-					{
-						"name": "Giant's Floor (B1)",
-						"item_count": 5,
-						"clear_as_group": false
-					},
-					{
-						"name": "(B2)",
-						"item_count": 6,
-						"clear_as_group": false
-					},
-					{
-						"name": "Vampire Floor (B3)",
-						"item_count": 4,
-						"clear_as_group": false
-					},
-					{
-						"name": "Earth Cave Incentive (B3)",
-						"hosted_item": "earth",
-						"clear_as_group": false
-					},
-					{
-						"name": "Rod Locked Floor (B4)",
-						"access_rules": [ "rod" ],
-						"item_count": 8,
-						"clear_as_group": false
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 790,
-						"y": 2080
-					}
-				]
-			},
-			{
-				"name": "Overworld - Melmond",
+				"name": "Melmond",
 				"access_rules": [
 					"ship,canal,slab",
 					"airship,slab",
@@ -408,7 +82,11 @@
 				"sections": [
 					{
 						"name": "Dr Unne",
-						"hosted_item": "slabTranslated"
+						"ref": "Towns/Melmond/Dr Unne"
+					},
+					{
+						"name": "Shop Item",
+						"ref": "Towns/Melmond/Shop Item"
 					}
 				],
 				"map_locations": [
@@ -420,20 +98,22 @@
 				]
 			},
 			{
-				"name": "Overworld - Crescent Lake",
+				"name": "Crescent Lake",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
-					"openProgression,canoe",
+					"progressionFlag,canoe",
 					"ship,canal",
-					"extendedOpen,canoe",
 					"ship,canoe"
 				],
 				"sections": [
 					{
 						"name": "Sages",
-						"access_rules": [ "earlySage", "earthorblit"],
-						"hosted_item": "sages"
+						"ref": "Towns/Crescent Lake/Sages"
+					},
+					{
+						"name": "Shop Item",
+						"ref": "Towns/Crescent Lake/Shop Item"
 					}
 				],
 				"map_locations": [
@@ -445,88 +125,116 @@
 				]
 			},
 			{
-				"name": "Overworld - Ice Cave",
+				"name": "Onrac",
 				"access_rules": [
-					"airship",
-					"floater,airBoat,ship",
-					"ship,canoe",
-					"bridge,canoe",
-					"openProgression,canoe",
-					"extendedOpen,canoe"
+					"airship,canoe,oxyale",
+					"floater,airBoat,canoe,oxyale,ship",
+					"northernDocks,ship,canal,oxyale",
+					"northernDocks,airBoat,floater,ship,oxyale",
+					"landBridge,ship,canal,canoe,oxyale",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale",
+					"landBridge,cardiaDock,ship,canal,canoe,oxyale"
 				],
 				"sections": [
 					{
-						"name": "Incentive Floor (B2) - Major",
-						"hosted_item": "iceCave"
-					},
-					{
-						"name": "Incentive Floor (B2)",
-						"item_count": 2,
-						"clear_as_group": false
-					},
-					{
-						"name": "Bottom Floor (B3)",
-						"item_count": 8,
-						"clear_as_group": false
-					},
-					{
-						"name": "Exit Floor (B1)",
-						"item_count": 5,
-						"clear_as_group": false
+						"name": "Shop Item",
+						"ref": "Towns/Onrac/Shop Item"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 2380,
-						"y": 2050
+						"x": 740,
+						"y": 565
 					}
 				]
 			},
 			{
-				"name": "Overworld - Gurgu Volcano",
+				"name": "Gaia",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
-					"openProgression,canoe",
-					"extendedOpen,canoe",
-					"ship,canoe"
+					"gaiaMountain,ship,canoe,lefeinRiver,canal",
+					"gaiaMountain,hwyOrdeals,northernDocks,ship,canal",
+					"gaiaMountain,hwyOrdeals,ship,canal,canoe",
+					"lefeinBridge,gaiaMountain,bridge",
+					"landBridge,cardiaDock,ship,canal,hwyOrdeals,gaiaMountain"
 				],
 				"sections": [
 					{
-						"name": "Fire Orb",
-						"hosted_item": "fireorblit"
+						"name": "Fairy",
+						"ref": "Towns/Gaia/Fairy"
 					},
 					{
-						"name": "Armory Floor (B2)",
-						"item_count": 18,
-						"clear_as_group": false
-					},
-					{
-						"name": "Agama Floor (B4)",
-						"item_count": 14,
-						"clear_as_group": false
-					},
-					{
-						"name": "Volcano Incentive (B5)",
-						"hosted_item": "volcano",
-						"clear_as_group": false
+						"name": "Shop Item",
+						"ref": "Towns/Gaia/Shop Item"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 2280,
-						"y": 2280
+						"x": 2650,
+						"y": 200
 					}
 				]
 			},
 			{
-				"name": "Overworld - Ryukahn Desert",
+				"name": "Lefein",
 				"access_rules": [
-					"canoe,openProgression",
+					"airship",
+					"floater,airBoat,ship",
+					"lefeinRiver,canoe,ship,canal",
+					"lefeinBridge,bridge",
+					"hwyOrdeals,ship,canal,canoe",
+					"northernDocks,ship,canal,hwyOrdeals",
+					"landBridge,cardiaDock,ship,canal,hwyOrdeals"
+				],
+				"sections": [
+					{
+						"name": "Lefein",
+						"ref": "Towns/Lefein/Lefein"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 2850,
+						"y": 1040
+					}
+				]
+			},
+			{
+				"name": "Caravan",
+				"access_rules": [ 
+					"airship",
+					"floater,airBoat",
+					"northernDocks,ship,canoe,canal",
+					"landBridge,ship,canal,canoe",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe"
+				],
+				"sections": [
+					{
+						"name": "Shop Item",
+						"access_rules": ["{}"],
+						"chest_opened_img": "images/locations/shopItemOFF.png",
+						"chest_unopened_img": "images/locations/shopItem.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 310,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "Ryukahn Desert",
+				"access_rules": [
+					"canoe,progressionFlag",
 					"ship,canoe",
-					"canoe,extendedOpen",
 					"luffyDock,ship,canal",
 					"hikingTrail,ship",
 					"hikingTrail,extendedOpen"
@@ -550,7 +258,778 @@
 				]
 			},
 			{
-				"name": "Overworld - Bahamut's Cave",
+				"name": "Coneria Castle",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Coneria Castle - King",
+						"ref": "Coneria Castle/King/Coneria Castle - King"
+					},
+					{
+						"name": "Coneria Castle - Sara",
+						"ref": "Coneria Castle/Sara/Coneria Castle - Sara"
+					},
+					{
+						"name": "Coneria Castle - Treasury 1",
+						"ref": "Coneria Castle/Treasury 1/Coneria Castle - Treasury 1"
+					},
+					{
+						"name": "Coneria Castle - Treasury 2",
+						"ref": "Coneria Castle/Treasury 2/Coneria Castle - Treasury 2"
+					},
+					{
+						"name": "Coneria Castle - Treasury 3",
+						"ref": "Coneria Castle/Treasury 3/Coneria Castle - Treasury 3"
+					},
+					{
+						"name": "Coneria Castle - Treasury 4",
+						"ref": "Coneria Castle/Treasury 4/Coneria Castle - Treasury 4"
+					},
+					{
+						"name": "Coneria Castle - Treasury 5",
+						"ref": "Coneria Castle/Treasury 5/Coneria Castle - Treasury 5"	
+					},
+					{
+						"name": "Coneria Castle - Treasury Major",
+						"ref": "Coneria Castle/Treasury Major/Coneria Castle - Treasury Major"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1840,
+						"y": 1740
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Garland",
+						"hosted_item": "garland"
+					},
+					{
+						"name": "Temple of Fiends - Unlocked Single",
+						"ref": "Temple of Fiends/Unlocked Single/Temple of Fiends - Unlocked Single"
+					},
+					{
+						"name": "Temple of Fiends - Unlocked Duo 1",
+						"ref": "Temple of Fiends/Unlocked Duo 1/Temple of Fiends - Unlocked Duo 1"
+					},
+					{
+						"name": "Temple of Fiends - Unlocked Duo 2",
+						"ref": "Temple of Fiends/Unlocked Duo 2/Temple of Fiends - Unlocked Duo 2"
+					},
+					{
+						"name": "Temple of Fiends - Locked Single",
+						"ref": "Temple of Fiends/Locked Single/Temple of Fiends - Locked Single"
+					},
+					{
+						"name": "Temple of Fiends - Locked Duo 1",
+						"ref": "Temple of Fiends/Locked Duo 1/Temple of Fiends - Locked Duo 1"
+					},
+					{
+						"name": "Temple of Fiends - Locked Duo 2",
+						"ref": "Temple of Fiends/Locked Duo 2/Temple of Fiends - Locked Duo 2"
+					}
+
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1540,
+						"y": 1345
+					}
+				]
+			},
+			{
+				"name": "Temple of Fiends Revisited",
+				"access_rules": [
+					"$canBreakOrb,lute,key,noLockpicking",
+					"$canBreakOrb,lute,[key],lockpicking"
+				],
+				"sections": [
+					{
+						"name": "Chaos",
+						"hosted_item": "chaos"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1540,
+						"y": 1250
+					}
+				]
+			},
+			{
+				"name": "Matoya's Cave",
+				"access_rules": [
+					"bridge",
+					"ship",
+					"airship",
+					"progressionFlag,canoe",
+					"lefeinBridge"
+				],
+				"sections": [
+					{
+						"name": "Matoya's Cave - Matoya",
+						"ref": "Matoya's Cave/Matoya/Matoya's Cave - Matoya"
+					},
+					{
+						"name": "Matoya's Cave - Chest 1",
+						"ref": "Matoya's Cave/Chest 1/Matoya's Cave - Chest 1"
+					},
+					{
+						"name": "Matoya's Cave - Chest 2",
+						"ref": "Matoya's Cave/Chest 2/Matoya's Cave - Chest 2"
+					},
+					{
+						"name": "Matoya's Cave - Chest 3",
+						"ref": "Matoya's Cave/Chest 3/Matoya's Cave - Chest 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 2040,
+						"y": 1240
+					}
+				]
+			},
+			{
+				"name": "Dwarf Cave",
+				"access_rules": [
+					"progressionFlag",
+					"ship",
+					"airship"
+				],
+				"sections": [
+					{
+						"name": "Dwarf Cave - Entrance 1",
+						"ref": "Dwarf Cave/Entrance 1/Dwarf Cave - Entrance 1"
+					},
+					{
+						"name": "Dwarf Cave - Entrance 2",
+						"ref": "Dwarf Cave/Entrance 2/Dwarf Cave - Entrance 2"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 1",
+						"ref": "Dwarf Cave/Treasury 1/Dwarf Cave - Treasury 1"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 2",
+						"ref": "Dwarf Cave/Treasury 2/Dwarf Cave - Treasury 2"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 3",
+						"ref": "Dwarf Cave/Treasury 3/Dwarf Cave - Treasury 3"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 4",
+						"ref": "Dwarf Cave/Treasury 4/Dwarf Cave - Treasury 4"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 5",
+						"ref": "Dwarf Cave/Treasury 5/Dwarf Cave - Treasury 5"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 6",
+						"ref": "Dwarf Cave/Treasury 6/Dwarf Cave - Treasury 6"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 7",
+						"ref": "Dwarf Cave/Treasury 7/Dwarf Cave - Treasury 7"
+					},
+					{
+						"name": "Dwarf Cave - Treasury 8",
+						"ref": "Dwarf Cave/Treasury 8/Dwarf Cave - Treasury 8"
+					},
+					{
+						"name": "Dwarf Cave - Smith",
+						"ref": "Dwarf Cave/Smith/Dwarf Cave - Smith"
+					},
+					{
+						"name": "Dwarf Cave - Nerrick",
+						"ref": "Dwarf Cave/Nerrick/Dwarf Cave - Nerrick"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1220,
+						"y": 1730
+					}
+				]
+			},
+			{
+				"name": "Elf Castle",
+				"access_rules": [
+					"progressionFlag,canoe",
+					"ship",
+					"airship"
+				],
+				"sections": [
+					{
+						"name": "Elf Castle - Elf Prince",
+						"ref": "Elf Castle/Elf Prince/Elf Castle - Elf Prince"
+					},
+					{
+						"name": "Elf Castle - Treasury 1",
+						"ref": "Elf Castle/Treasury 1/Elf Castle - Treasury 1"
+					},
+					{
+						"name": "Elf Castle - Treasury 2",
+						"ref": "Elf Castle/Treasury 2/Elf Castle - Treasury 2"
+					},
+					{
+						"name": "Elf Castle - Treasury 3",
+						"ref": "Elf Castle/Treasury 3/Elf Castle - Treasury 3"
+					},
+					{
+						"name": "Elf Castle - Treasury 4",
+						"ref": "Elf Castle/Treasury 4/Elf Castle - Treasury 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1640,
+						"y": 2500
+					}
+				]
+			},
+			{
+				"name": "Marsh Cave",
+				"access_rules": [
+					"progressionFlag,canoe",
+					"ship",
+					"airship",
+					"extendedOpen"
+				],
+				"sections": [
+					{
+						"name": "Top (B1) - Single",
+						"ref": "Marsh Cave/Single/Top (B1) - Single"
+					},
+					{
+						"name": "Top (B1) - Corner",
+						"ref": "Marsh Cave/Corner/Top (B1) - Corner"
+					},
+					{
+						"name": "Top (B1) - Duo 1",
+						"ref": "Marsh Cave/Duo 1/Top (B1) - Duo 1"
+					},
+					{
+						"name": "Top (B1) - Duo 2",
+						"ref": "Marsh Cave/Duo 2/Top (B1) - Duo 2"
+					},
+					{
+						"name": "Bottom (B2) - Tetris-Z First",
+						"ref": "Marsh Cave/Tetris-Z First/Bottom (B2) - Tetris-Z First"
+					},
+					{
+						"name": "Bottom (B2) - Tetris-Z Middle 1",
+						"ref": "Marsh Cave/Tetris-Z Middle 1/Bottom (B2) - Tetris-Z Middle 1"
+					},
+					{
+						"name": "Bottom (B2) - Tetris-Z Middle 2",
+						"ref": "Marsh Cave/Tetris-Z Middle 2/Bottom (B2) - Tetris-Z Middle 2"
+					},
+					{
+						"name": "Bottom (B2) - Tetris-Z Incentive",
+						"ref": "Marsh Cave/Tetris-Z Incentive/Bottom (B2) - Tetris-Z Incentive"
+					},
+					{
+						"name": "Bottom (B2) - Tetris-Z Last",
+						"ref": "Marsh Cave/Tetris-Z Last/Bottom (B2) - Tetris-Z Last"
+					},
+					{
+						"name": "Bottom (B2) - Distant",
+						"ref": "Marsh Cave/Distant/Bottom (B2) - Distant"
+					},
+					{
+						"name": "Bottom (B2) - Locked Corner",
+						"ref": "Marsh Cave/Locked Corner/Bottom (B2) - Locked Corner"
+					},
+					{
+						"name": "Bottom (B2) - Locked Middle",
+						"ref": "Marsh Cave/Locked Middle/Bottom (B2) - Locked Middle"
+					},
+					{
+						"name": "Bottom (B2) - Locked Incentive",
+						"ref": "Marsh Cave/Locked Incentive/Bottom (B2) - Locked Incentive"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1230,
+						"y": 2680
+					}
+				]
+			},
+			{
+				"name": "Northwest Castle",
+				"access_rules": [
+					"progressionFlag,canoe",
+					"ship",
+					"airship"
+				],
+				"sections": [
+					{
+						"name": "Astos",
+						"access_rules": [ "crown" ],
+						"hosted_item": "astos"
+					},
+					{
+						"name": "Northwest Castle - Treasury 1",
+						"ref": "Northwest Castle/Treasury 1/Northwest Castle - Treasury 1"
+					},
+					{
+						"name": "Northwest Castle - Treasury 2",
+						"ref": "Northwest Castle/Treasury 2/Northwest Castle - Treasury 2"
+					},
+					{
+						"name": "Northwest Castle - Treasury 3",
+						"ref": "Northwest Castle/Treasury 3/Northwest Castle - Treasury 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1230,
+						"y": 2070
+					}
+				]
+			},
+			{
+				"name": "Titan's Tunnel",
+				"access_rules": [
+					"ruby,airship,titanTrove",
+					"ruby,floater,airBoat,titanTrove,ship",
+					"ruby,ship,canal,titanTrove",
+					"melmondRiver,canoe,ruby,titanTrove",
+					"noTitanTrove,noSardaForest,airship",
+					"noTitanTrove,noSardaForest,floater,airBoat,ship"
+				],
+				"sections": [
+					{
+						"name": "Titan's Tunnel - Chest 1",
+						"ref": "Titan's Tunnel/Chest 1/Titan's Tunnel - Chest 1"
+					},
+					{
+						"name": "Titan's Tunnel - Chest 2",
+						"ref": "Titan's Tunnel/Chest 2/Titan's Tunnel - Chest 2"
+					},
+					{
+						"name": "Titan's Tunnel - Chest 3",
+						"ref": "Titan's Tunnel/Chest 3/Titan's Tunnel - Chest 3"
+					},
+					{
+						"name": "Titan's Tunnel - Chest 4",
+						"ref": "Titan's Tunnel/Chest 4/Titan's Tunnel - Chest 4"
+					},
+					{
+						"name": "Titan's Tunnel - Major",
+						"ref": "Titan's Tunnel/Major/Titan's Tunnel - Major"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 400,
+						"y": 1950
+					}
+				]
+			},
+			{
+				"name": "Sarda's Cave",
+				"access_rules": [
+					"airship,noSardaForest",
+					"floater,airBoat,noSardaForest,ship",
+					"ruby,ship,canal",
+					"melmondRiver,canoe,ruby",
+					"sardaForest,airship,ruby",
+					"sardaForest,floater,airBoat,ruby,ship"
+				],
+				"sections": [
+					{
+						"name": "Sarda",
+						"access_rules": [
+							"earlySarda",
+							"vampire"
+						],
+						"hosted_item": "sarda"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 370,
+						"y": 2150
+					}
+				]
+			},
+			{
+				"name": "Earth Cave",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"ship,canal",
+					"melmondRiver,canoe"
+				],
+				"sections": [
+					{
+						"name": "Giant's Floor (B1) - Single",
+						"ref": "Earth Cave/Single/Giant's Floor (B1) - Single"
+					},
+					{
+						"name": "Giant's Floor (B1) - Appendix 1",
+						"ref": "Earth Cave/Appendix 1/Giant's Floor (B1) - Appendix 1"
+					},
+					{
+						"name": "Giant's Floor (B1) - Appendix 2",
+						"ref": "Earth Cave/Appendix 2/Giant's Floor (B1) - Appendix 2"
+					},
+					{
+						"name": "Giant's Floor (B1) - Side Path 1",
+						"ref": "Earth Cave/Side Path 1/Giant's Floor (B1) - Side Path 1"
+					},
+					{
+						"name": "Giant's Floor (B1) - Side Path 2",
+						"ref": "Earth Cave/Side Path 2/Giant's Floor (B1) - Side Path 2"
+					},
+					{
+						"name": "Earth Cave (B2) - Side Room 1",
+						"ref": "Earth Cave/Side Room 1/Earth Cave (B2) - Side Room 1"
+					},
+					{
+						"name": "Earth Cave (B2) - Side Room 2",
+						"ref": "Earth Cave/Side Room 2/Earth Cave (B2) - Side Room 2"
+					},
+					{
+						"name": "Earth Cave (B2) - Side Room 3",
+						"ref": "Earth Cave/Side Room 3/Earth Cave (B2) - Side Room 3"
+					},
+					{
+						"name": "Earth Cave (B2) - Guarded 1",
+						"ref": "Earth Cave/Guarded 1/Earth Cave (B2) - Guarded 1"
+					},
+					{
+						"name": "Earth Cave (B2) - Guarded 2",
+						"ref": "Earth Cave/Guarded 2/Earth Cave (B2) - Guarded 2"
+					},
+					{
+						"name": "Earth Cave (B2) - Guarded 3",
+						"ref": "Earth Cave/Guarded 3/Earth Cave (B2) - Guarded 3"
+					},
+					{
+						"name": "Vampire Floor (B3) - Side Room",
+						"ref": "Earth Cave/Side Room/Vampire Floor (B3) - Side Room"
+					},
+					{
+						"name": "Vampire Floor (B3) - TFC",
+						"ref": "Earth Cave/TFC/Vampire Floor (B3) - TFC"
+					},
+					{
+						"name": "Asher Trunk",
+						"ref": "Earth Cave/Asher Trunk/Asher Trunk"
+					},
+					{
+						"name": "Vampire Floor (B3) - Vampire's Closet",
+						"ref": "Earth Cave/Vampire's Closet/Vampire Floor (B3) - Vampire's Closet"
+					},
+					{
+						"name": "Vampire Floor (B3) - Incentive",
+						"ref": "Earth Cave/Incentive/Vampire Floor (B3) - Incentive"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Armory 1",
+						"ref": "Earth Cave/Armory 1/Rod Locked Floor (B4) - Armory 1"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Armory 2",
+						"ref": "Earth Cave/Armory 2/Rod Locked Floor (B4) - Armory 2"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Armory 3",
+						"ref": "Earth Cave/Armory 3/Rod Locked Floor (B4) - Armory 3"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Armory 4",
+						"ref": "Earth Cave/Armory 4/Rod Locked Floor (B4) - Armory 4"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Armory 5",
+						"ref": "Earth Cave/Armory 5/Rod Locked Floor (B4) - Armory 5"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Lich's Closet 1",
+						"ref": "Earth Cave/Lich's Closet 1/Rod Locked Floor (B4) - Lich's Closet 1"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Lich's Closet 2",
+						"ref": "Earth Cave/Lich's Closet 2/Rod Locked Floor (B4) - Lich's Closet 2"
+					},
+					{
+						"name": "Rod Locked Floor (B4) - Lich's Closet 3",
+						"ref": "Earth Cave/Lich's Closet 3/Rod Locked Floor (B4) - Lich's Closet 3"
+					},
+					{
+						"name": "Rod Locked Floor (B5) - Earth Orb",
+						"ref": "Earth Cave/Earth Orb/Rod Locked Floor (B5) - Earth Orb"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 790,
+						"y": 2080
+					}
+				]
+			},
+			{
+				"name": "Ice Cave",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"ship,canoe",
+					"bridge,canoe",
+					"progressionFlag,canoe"
+				],
+				"sections": [
+					{
+						"name": "Bottom (B3) - IceD Room 1",
+						"ref": "Ice Cave/IceD Room 1/Bottom (B3) - IceD Room 1"
+					},
+					{
+						"name": "Bottom (B3) - IceD Room 2",
+						"ref": "Ice Cave/IceD Room 2/Bottom (B3) - IceD Room 2"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 1",
+						"ref": "Ice Cave/Six-Pack 1/Bottom (B3) - Six-Pack 1"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 2",
+						"ref": "Ice Cave/Six-Pack 2/Bottom (B3) - Six-Pack 2"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 3",
+						"ref": "Ice Cave/Six-Pack 3/Bottom (B3) - Six-Pack 3"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 4",
+						"ref": "Ice Cave/Six-Pack 4/Bottom (B3) - Six-Pack 4"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 5",
+						"ref": "Ice Cave/Six-Pack 5/Bottom (B3) - Six-Pack 5"
+					},
+					{
+						"name": "Bottom (B3) - Six-Pack 6",
+						"ref": "Ice Cave/Six-Pack 6/Bottom (B3) - Six-Pack 6"
+					},
+					{
+						"name": "Exit Floor (B1) - Greeds Checks 1",
+						"ref": "Ice Cave/Greeds Checks 1/Exit Floor (B1) - Greeds Checks 1"
+					},
+					{
+						"name": "Exit Floor (B1) - Greeds Checks 2",
+						"ref": "Ice Cave/Greeds Checks 2/Exit Floor (B1) - Greeds Checks 2"
+					},
+					{
+						"name": "Exit Floor (B1) - Drop Room 1",
+						"ref": "Ice Cave/Drop Room 1/Exit Floor (B1) - Drop Room 1"
+					},
+					{
+						"name": "Exit Floor (B1) - Drop Room 2",
+						"ref": "Ice Cave/Drop Room 2/Exit Floor (B1) - Drop Room 2"
+					},
+					{
+						"name": "Exit Floor (B1) - Drop Room 3",
+						"ref": "Ice Cave/Drop Room 3/Exit Floor (B1) - Drop Room 3"
+					},
+					{
+						"name": "Incentive Floor (B2) - Chest 1",
+						"ref": "Ice Cave/Chest 1/Incentive Floor (B2) - Chest 1"
+					},
+					{
+						"name": "Incentive Floor (B2) - Chest 2",
+						"ref": "Ice Cave/Chest 2/Incentive Floor (B2) - Chest 2"
+					},
+					{
+						"name": "Incentive Floor (B2) - Major",
+						"ref": "Ice Cave/Major/Incentive Floor (B2) - Major"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 2380,
+						"y": 2050
+					}
+				]
+			},
+			{
+				"name": "Gurgu Volcano",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"progressionFlag,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory Floor (B2) - Guarded",
+						"ref": "Gurgu Volcano/Guarded/Armory Floor (B2) - Guarded"
+					},
+					{
+						"name": "Armory Floor (B2) - Center",
+						"ref": "Gurgu Volcano/Center/Armory Floor (B2) - Center"
+					},
+					{
+						"name": "Armory Floor (B2) - Hairpins",
+						"ref": "Gurgu Volcano/Hairpins/Armory Floor (B2) - Hairpins"
+					},
+					{
+						"name": "Armory Floor (B2) - Shortpins",
+						"ref": "Gurgu Volcano/Shortpins/Armory Floor (B2) - Shortpins"
+					},
+					{
+						"name": "Armory Floor (B2) - Vertpins 1",
+						"ref": "Gurgu Volcano/Vertpins 1/Armory Floor (B2) - Vertpins 1"
+					},
+					{
+						"name": "Armory Floor (B2) - Vertpins 2",
+						"ref": "Gurgu Volcano/Vertpins 2/Armory Floor (B2) - Vertpins 2"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 1",
+						"ref": "Gurgu Volcano/Armory 1/Armory Floor (B2) - Armory 1"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 2",
+						"ref": "Gurgu Volcano/Armory 2/Armory Floor (B2) - Armory 2"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 3",
+						"ref": "Gurgu Volcano/Armory 3/Armory Floor (B2) - Armory 3"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 4",
+						"ref": "Gurgu Volcano/Armory 4/Armory Floor (B2) - Armory 4"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 5",
+						"ref": "Gurgu Volcano/Armory 5/Armory Floor (B2) - Armory 5"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 6",
+						"ref": "Gurgu Volcano/Armory 6/Armory Floor (B2) - Armory 6"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 7",
+						"ref": "Gurgu Volcano/Armory 7/Armory Floor (B2) - Armory 7"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 8",
+						"ref": "Gurgu Volcano/Armory 8/Armory Floor (B2) - Armory 8"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 9",
+						"ref": "Gurgu Volcano/Armory 9/Armory Floor (B2) - Armory 9"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 10",
+						"ref": "Gurgu Volcano/Armory 10/Armory Floor (B2) - Armory 10"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 11",
+						"ref": "Gurgu Volcano/Armory 11/Armory Floor (B2) - Armory 11"
+					},
+					{
+						"name": "Armory Floor (B2) - Armory 12",
+						"ref": "Gurgu Volcano/Armory 12/Armory Floor (B2) - Armory 12"
+					},
+					{
+						"name": "Agama Floor (B4) - Entrance 1",
+						"ref": "Gurgu Volcano/Entrance 1/Agama Floor (B4) - Entrance 1"
+					},
+					{
+						"name": "Agama Floor (B4) - Entrance 2",
+						"ref": "Gurgu Volcano/Entrance 2/Agama Floor (B4) - Entrance 2"
+					},
+					{
+						"name": "Agama Floor (B4) - First Greed",
+						"ref": "Gurgu Volcano/First Greed/Agama Floor (B4) - First Greed"
+					},
+					{
+						"name": "Agama Floor (B4) - Worm Room 1",
+						"ref": "Gurgu Volcano/Worm Room 1/Agama Floor (B4) - Worm Room 1"
+					},
+					{
+						"name": "Agama Floor (B4) - Worm Room 2",
+						"ref": "Gurgu Volcano/Worm Room 2/Agama Floor (B4) - Worm Room 2"
+					},
+					{
+						"name": "Agama Floor (B4) - Worm Room 3",
+						"ref": "Gurgu Volcano/Worm Room 3/Agama Floor (B4) - Worm Room 3"
+					},
+					{
+						"name": "Agama Floor (B4) - Worm Room 4",
+						"ref": "Gurgu Volcano/Worm Room 4/Agama Floor (B4) - Worm Room 4"
+					},
+					{
+						"name": "Agama Floor (B4) - Worm Room 5",
+						"ref": "Gurgu Volcano/Worm Room 5/Agama Floor (B4) - Worm Room 5"
+					},
+					{
+						"name": "Agama Floor (B4) - Second Greed 1",
+						"ref": "Gurgu Volcano/Second Greed 1/Agama Floor (B4) - Second Greed 1"
+					},
+					{
+						"name": "Agama Floor (B4) - Second Greed 2",
+						"ref": "Gurgu Volcano/Second Greed 2/Agama Floor (B4) - Second Greed 2"
+					},
+					{
+						"name": "Agama Floor (B4) - Side Room 1",
+						"ref": "Gurgu Volcano/Side Room 1/Agama Floor (B4) - Side Room 1"
+					},
+					{
+						"name": "Agama Floor (B4) - Side Room 2",
+						"ref": "Gurgu Volcano/Side Room 2/Agama Floor (B4) - Side Room 2"
+					},
+					{
+						"name": "Agama Floor (B4) - Grind Room 1",
+						"ref": "Gurgu Volcano/Grind Room 1/Agama Floor (B4) - Grind Room 1"
+					},
+					{
+						"name": "Agama Floor (B4) - Grind Room 2",
+						"ref": "Gurgu Volcano/Grind Room 2/Agama Floor (B4) - Grind Room 2"
+					},
+					{
+						"name": "Kary Floor (B5) - Incentive",
+						"ref": "Gurgu Volcano/Incentive/Kary Floor (B5) - Incentive"
+					},
+					{
+						"name": "Kary Floor (B5) - Fire Orb",
+						"ref": "Gurgu Volcano/Fire Orb/Kary Floor (B5) - Fire Orb"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 2280,
+						"y": 2280
+					}
+				]
+			},
+			{
+				"name": "Bahamut's Lair",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
@@ -562,32 +1041,103 @@
 				],
 				"sections": [
 					{
-						"name": "Bahamut",
-						"access_rules": [ "tail" ],
-						"hosted_item": "bahamut"
-					},
-					{
-						"name" : "Bahamut's Hoard (Cardia Chests)",
-						"visibility_rules" : [ "BahamutHoard" ],
-						"item_count": 12,
-						"clear_as_group": false
-					},
-					{
-						"name" : "Bahamut's Hoard (Cardia Incentive)",
-						"visibility_rules" : [ "BahamutHoard" ],
-						"hosted_item" : "cardiaIncentive"
+						"name": "Bahamut - Promotion",
+						"ref": "Bahamut's Lair/Bahamut/Promotion"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
 						"x": 1200,
-						"y": 480
+						"y": 480,
+						"restrict_visibility_rules": [
+							"noBahamutHoard"
+						]
 					}
 				]
 			},
 			{
-				"name": "Overworld - Cardia Grassy Island",
+				"name": "Bahamut's Lair",
+				"access_rules": [
+					"airship",
+					"floater,airBoat,ship",
+					"cardiaDock,ship,canal",
+					"landBridge,lefeinBridge,hwyOrdeals,bridge",
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
+					"landBridge,northernDocks,hwyOrdeals,ship,canal",
+					"landBridge,northernDocks,canoe,ship,canal"
+				],
+				"sections": [
+					{
+						"name": "Bahamut - Promotion",
+						"ref": "Bahamut's Lair/Bahamut/Promotion"
+					},
+					{
+						"name" : "Bahamut's Hoard Grass Island - Entrance",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Entrance/Bahamut's Hoard Grass Island - Entrance"
+					},
+					{
+						"name" : "Bahamut's Hoard Grass Island - Duo Room 1",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Duo Room 1/Bahamut's Hoard Grass Island - Duo Room 1"
+					},
+					{
+						"name" : "Bahamut's Hoard Grass Island - Duo Room 2",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Duo Room 2/Bahamut's Hoard Grass Island - Duo Room 2"
+					},
+					{
+						"name" : "Bahamut's Hoard Swamp Island - Chest 1",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Chest 1/Bahamut's Hoard Swamp Island - Chest 1"
+					},
+					{
+						"name" : "Bahamut's Hoard Swamp Island - Chest 2",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Chest 2/Bahamut's Hoard Swamp Island - Chest 2"
+					},
+					{
+						"name" : "Bahamut's Hoard Swamp Island - Chest 3",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Chest 3/Bahamut's Hoard Swamp Island - Chest 3"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Entrance 1",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Entrance 1/Bahamut's Hoard Forest Island - Entrance 1"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Entrance 2",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Entrance 2/Bahamut's Hoard Forest Island - Entrance 2"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Entrance 3",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Entrance 3/Bahamut's Hoard Forest Island - Entrance 3"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Incentive 1",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Incentive 1/Bahamut's Hoard Forest Island - Incentive 1"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Incentive 2",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Incentive 2/Bahamut's Hoard Forest Island - Incentive 2"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Incentive 3",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Incentive 3/Bahamut's Hoard Forest Island - Incentive 3"
+					},
+					{
+						"name" : "Bahamut's Hoard Forest Island - Incentive Major",
+						"ref" : "Bahamut's Lair/Bahamut's Hoard - Incentive Major/Bahamut's Hoard Forest Island - Incentive Major"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1200,
+						"y": 480,
+						"restrict_visibility_rules": [
+							"BahamutHoard"
+						]
+					}
+				]
+			},
+			{
+				"name": "Cardia Grassy Island",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
@@ -599,9 +1149,16 @@
 				],
 				"sections": [
 					{
-						"name": "Chests",
-						"item_count": 3,
-						"clear_as_group": false
+						"name": "Cardia Grassy Island - Entrance",
+						"ref": "Cardia Islands/Entrance/Cardia Grass Island - Entrance"
+					},
+					{
+						"name": "Cardia Grassy Island - Duo Room 1",
+						"ref": "Cardia Islands/Duo Room 1/Cardia Grass Island - Duo Room 1"
+					},
+					{
+						"name": "Cardia Grassy Island - Duo Room 2",
+						"ref": "Cardia Islands/Duo Room 2/Cardia Grass Island - Duo Room 2"
 					}
 				],
 				"map_locations": [
@@ -613,7 +1170,7 @@
 				]
 			},
 			{
-				"name": "Overworld - Cardia Swamp Island",
+				"name": "Cardia Swamp Island",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
@@ -625,9 +1182,16 @@
 				],
 				"sections": [
 					{
-						"name": "Chests",
-						"item_count": 3,
-						"clear_as_group": false
+						"name": "Cardia Swamp Island - Chest 1",
+						"ref": "Cardia Islands/Chest 1/Cardia Swamp Island - Chest 1"
+					},
+					{
+						"name": "Cardia Swamp Island - Chest 2",
+						"ref": "Cardia Islands/Chest 2/Cardia Swamp Island - Chest 2"
+					},
+					{
+						"name": "Cardia Swamp Island - Chest 3",
+						"ref": "Cardia Islands/Chest 3/Cardia Swamp Island - Chest 3"
 					}
 				],
 				"map_locations": [
@@ -639,7 +1203,7 @@
 				]
 			},
 			{
-				"name": "Overworld - Cardia Forest Island",
+				"name": "Cardia Forest Island",
 				"access_rules": [
 					"airship",
 					"floater,airBoat,ship",
@@ -651,13 +1215,32 @@
 				],
 				"sections": [
 					{
-						"name": "Incentive Major",
-						"hosted_item": "cardiaIncentive"
+						"name": "Cardia Forest Island - Entrance 1",
+						"ref": "Cardia Islands/Entrance 1/Cardia Forest Island - Entrance 1"
 					},
 					{
-						"name": "Chests",
-						"item_count": 6,
-						"clear_as_group": false
+						"name": "Cardia Forest Island - Entrance 2",
+						"ref": "Cardia Islands/Entrance 2/Cardia Forest Island - Entrance 2"
+					},
+					{
+						"name": "Cardia Forest Island - Entrance 3",
+						"ref": "Cardia Islands/Entrance 3/Cardia Forest Island - Entrance 3"
+					},
+					{
+						"name": "Cardia Forest Island - Incentive 1",
+						"ref": "Cardia Islands/Incentive 1/Cardia Forest Island - Incentive 1"
+					},
+					{
+						"name": "Cardia Forest Island - Incentive 2",
+						"ref": "Cardia Islands/Incentive 2/Cardia Forest Island - Incentive 2"
+					},
+					{
+						"name": "Cardia Forest Island - Incentive 3",
+						"ref": "Cardia Islands/Incentive 3/Cardia Forest Island - Incentive 3"
+					},
+					{
+						"name": "Cardia Forest Island - Incentive Major",
+						"ref": "Cardia Islands/Incentive Major/Cardia Forest Island - Incentive Major"
 					}
 				],
 				"map_locations": [
@@ -669,24 +1252,53 @@
 				]
 			},
 			{
-				"name": "Overworld - Castle of Ordeals",
+				"name": "Castle of Ordeals",
 				"access_rules": [
-					"airship,canoe",
-					"floater,airBoat,canoe,ship",
-					"ship,canal,canoe",
-					"lefeinBridge,hwyOrdeals,bridge,canoe"
+					"airship,canoe,earlyOrdeals",
+					"airship,canoe,crown",
+					"floater,airBoat,canoe,ship,earlyOrdeals",
+					"floater,airBoat,canoe,ship,crown",
+					"ship,canal,canoe,earlyOrdeals",
+					"ship,canal,canoe,crown",
+					"lefeinBridge,hwyOrdeals,bridge,canoe,earlyOrdeals",
+					"lefeinBridge,hwyOrdeals,bridge,canoe,crown"
 				],
 				"sections": [
 					{
-						"name": "Chests",
-						"access_rules": [ "earlyOrdeals", "crown" ],
-						"clear_as_group": false,
-						"item_count": 8
+						"name": "Top Floor (3F) - Single",
+						"ref": "Castle of Ordeals/Single/Top Floor (3F) - Single"
 					},
 					{
-						"name": "Incentive",
-						"access_rules": [ "earlyOrdeals", "crown" ],
-						"hosted_item": "ordeals"
+						"name": "Top Floor (3F) - Three-Pack 1",
+						"ref": "Castle of Ordeals/Three-Pack 1/Top Floor (3F) - Three-Pack 1"
+					},
+					{
+						"name": "Top Floor (3F) - Three-Pack 2",
+						"ref": "Castle of Ordeals/Three-Pack 2/Top Floor (3F) - Three-Pack 2"
+					},
+					{
+						"name": "Top Floor (3F) - Three-Pack 3",
+						"ref": "Castle of Ordeals/Three-Pack 3/Top Floor (3F) - Three-Pack 3"
+					},
+					{
+						"name": "Top Floor (3F) - Four-Pack 1",
+						"ref": "Castle of Ordeals/Four-Pack 1/Top Floor (3F) - Four-Pack 1"
+					},
+					{
+						"name": "Top Floor (3F) - Four-Pack 2",
+						"ref": "Castle of Ordeals/Four-Pack 2/Top Floor (3F) - Four-Pack 2"
+					},
+					{
+						"name": "Top Floor (3F) - Four-Pack 3",
+						"ref": "Castle of Ordeals/Four-Pack 3/Top Floor (3F) - Four-Pack 3"
+					},
+					{
+						"name": "Top Floor (3F) - Four-Pack 4",
+						"ref": "Castle of Ordeals/Four-Pack 4/Top Floor (3F) - Four-Pack 4"
+					},
+					{
+						"name": "Top Floor (3F) - Incentive",
+						"ref": "Castle of Ordeals/Incentive/Top Floor (3F) - Incentive"
 					}
 				],
 				"map_locations": [
@@ -698,149 +1310,44 @@
 				]
 			},
 			{
-				"name": "Overworld - Lefein",
-				"access_rules": [
-					"airship",
-					"floater,airBoat,ship",
-					"lefeinRiver,canoe,ship,canal",
-					"lefeinBridge,bridge",
-					"hwyOrdeals,ship,canal,canoe",
-					"northernDocks,ship,canal,hwyOrdeals",
-					"landBridge,cardiaDock,ship,canal,hwyOrdeals"
-				],
-				"sections": [
-					{
-						"name": "Incentive",
-						"access_rules": [ "slabTranslated", "slabDone" ],
-						"hosted_item": "lefein"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 2850,
-						"y": 1040
-					}
-				]
-			},
-			{
-				"name": "Overworld - Gaia",
-				"access_rules": [
-					"airship",
-					"floater,airBoat,ship",
-					"gaiaMountain,ship,canoe,lefeinRiver,canal",
-					"gaiaMountain,hwyOrdeals,northernDocks,ship,canal",
-					"gaiaMountain,hwyOrdeals,ship,canal,canoe",
-					"lefeinBridge,gaiaMountain,bridge",
-					"landBridge,cardiaDock,ship,canal,hwyOrdeals,gaiaMountain"
-				],
-				"sections": [
-					{
-						"name": "Fairy",
-						"access_rules": [ "bottle" ],
-						"hosted_item": "fairy"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 2650,
-						"y": 200
-					}
-				]
-			},
-			{
-				"name": "Overworld - Mirage Tower",
-				"access_rules": [
-					"airship,chime",
-					"floater,airBoat,chime,ship",
-					"northernDocks,chime,ship,canal",
-					"lefeinBridge,bridge,hwyOrdeals,chime",
-					"hwyOrdeals,ship,canoe,canal,chime",
-					"landBridge,cardiaDock,ship,canal,chime"
-				],
-				"sections": [
-					{
-						"name": "(1F)",
-						"clear_as_group": false,
-						"item_count": 8
-					},
-					{
-						"name": "(2F)",
-						"clear_as_group": false,
-						"item_count": 10
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 2300,
-						"y": 660
-					}
-				]
-			},
-			{
-				"name": "Overworld - Sky Fortress",
-				"access_rules": [
-					"airship,chime,cube",
-					"floater,airBoat,chime,cube,ship",
-					"northernDocks,chime,ship,canal,cube",
-					"lefeinBridge,bridge,hwyOrdeals,chime,cube",
-					"hwyOrdeals,ship,canal,canoe,chime,cube",
-					"landBridge,cardiaDock,ship,canal,chime,cube"
-				],
-				"sections": [
-					{
-						"name": "Air Orb",
-						"hosted_item": "airorblit"
-					},
-					{
-						"name": "Sky Plus (1F)",
-						"clear_as_group": false,
-						"item_count": 10
-					},
-					{
-						"name": "Sky Spider (2F)",
-						"clear_as_group": false,
-						"item_count": 9
-					},
-					{
-						"name": "Sky Incentive (2F)",
-						"hosted_item": "sky"
-					},
-					{
-						"name": "Sky Provides (3F)",
-						"clear_as_group": false,
-						"item_count": 14
-					}
-				],
-				"map_locations": [
-					{
-						"map": "overworld",
-						"x": 2300,
-						"y": 580
-					}
-				]
-			},
-			{
-				"name": "Overworld - Waterfall Cave",
+				"name": "Waterfall Cave",
 				"access_rules": [
 					"airship,canoe",
 					"floater,airBoat,canoe,ship",
 					"northernDocks,ship,canal,canoe",
 					"landBridge,ship,canal,canoe",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe",
-					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe"
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe",
+					"landBridge,cardiaDock,ship,canal,canoe"
 				],
 				"sections": [
 					{
-						"name": "Robot",
-						"hosted_item": "robot"
+						"name": "Waterfall Cave - Chest 1",
+						"ref": "Waterfall Cave/Chest 1/Waterfall Cave - Chest 1"
 					},
 					{
-						"name": "Chests",
-						"clear_as_group": false,
-						"item_count": 6
+						"name": "Waterfall Cave - Chest 2",
+						"ref": "Waterfall Cave/Chest 2/Waterfall Cave - Chest 2"
+					},
+					{
+						"name": "Waterfall Cave - Chest 3",
+						"ref": "Waterfall Cave/Chest 3/Waterfall Cave - Chest 3"
+					},
+					{
+						"name": "Waterfall Cave - Chest 4",
+						"ref": "Waterfall Cave/Chest 4/Waterfall Cave - Chest 4"
+					},
+					{
+						"name": "Waterfall Cave - Chest 5",
+						"ref": "Waterfall Cave/Chest 5/Waterfall Cave - Chest 5"
+					},
+					{
+						"name": "Waterfall Cave - Chest 6",
+						"ref": "Waterfall Cave/Chest 6/Waterfall Cave - Chest 6"
+					},
+					{
+						"name": "Waterfall Cave - Robot",
+						"ref": "Waterfall Cave/Robot/Waterfall Cave - Robot"
 					}
 				],
 				"map_locations": [
@@ -852,65 +1359,149 @@
 				]
 			},
 			{
-				"name": "Overworld - Sea Shrine",
+				"name": "Sea Shrine",
 				"access_rules": [
 					"airship,canoe,oxyale",
 					"floater,airBoat,canoe,oxyale,ship",
 					"northernDocks,ship,canal,oxyale",
-					"northernDocks,airBoat,airship,ship,oxyale",
 					"northernDocks,airBoat,floater,ship,oxyale",
 					"landBridge,ship,canal,canoe,oxyale",
 					"landBridge,lefeinBridge,hwyOrdeals,bridge,canoe,oxyale",
-					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale"
+					"landBridge,lefeinRiver,hwyOrdeals,ship,canal,canoe,oxyale",
+					"landBridge,cardiaDock,ship,canal,canoe,oxyale"
 				],
 				"sections": [
 					{
-						"name": "Water Orb",
-						"hosted_item": "waterorblit"
+						"name": "Split Floor (B3) - Kraken Side",
+						"ref": "Sea Shrine/Kraken Side/Split Floor (B3) - Kraken Side"
 					},
 					{
-						"name": "Split Floor (B3)",
-						"clear_as_group": false,
-						"item_count": 2
+						"name": "Split Floor (B3) - Mermaid Side",
+						"ref": "Sea Shrine/Mermaid Side/Split Floor (B3) - Mermaid Side"
 					},
 					{
-						"name": "TFC Floor (B2)",
-						"clear_as_group": false,
-						"item_count": 4
+						"name": "TFC Floor (B2) - TFC",
+						"ref": "Sea Shrine/TFC/TFC Floor (B2) - TFC"
 					},
 					{
-						"name": "TFC (B2)",
-						"access_rules": [ "key,noLockpicking", "[key],lockpicking" ],
-						"item_count": 1
+						"name": "TFC Floor (B2) - TFC North",
+						"ref": "Sea Shrine/TFC North/TFC Floor (B2) - TFC North"
 					},
 					{
-						"name": "Mermaids (B1)",
-						"clear_as_group": false,
-						"item_count": 12,
-						"access_rules": [
-							"noPrison",
-							"key,prison",
-							"[key],prison,lockpicking"
-						]
+						"name": "TFC Floor (B2) - Side Corner",
+						"ref": "Sea Shrine/Side Corner/TFC Floor (B2) - Side Corner"
 					},
 					{
-						"name": "Sea Incentive (B1)",
-						"hosted_item": "sea",
-						"access_rules": [
-							"noPrison",
-							"key,prison",
-							"[key],prison,lockpicking"
-						]
+						"name": "TFC Floor (B2) - First Greed",
+						"ref": "Sea Shrine/First Greed/TFC Floor (B2) - First Greed"
 					},
 					{
-						"name": "Greed Floor (B3)",
-						"clear_as_group": false,
-						"item_count": 2
+						"name": "TFC Floor (B2) - Second Greed",
+						"ref": "Sea Shrine/Second Greed/TFC Floor (B2) - Second Greed"
 					},
 					{
-						"name": "Sharknado Floor (B4)",
-						"clear_as_group": false,
-						"item_count": 10
+						"name": "Mermaids (B1) - Entrance 1",
+						"ref": "Sea Shrine/Entrance 1/Mermaids (B1) - Entrance 1"
+					},
+					{
+						"name": "Mermaids (B1) - Entrance 2",
+						"ref": "Sea Shrine/Entrance 2/Mermaids (B1) - Entrance 2"
+					},
+					{
+						"name": "Mermaids (B1) - Entrance 3",
+						"ref": "Sea Shrine/Entrance 3/Mermaids (B1) - Entrance 3"
+					},
+					{
+						"name": "Mermaids (B1) - Passby",
+						"ref": "Sea Shrine/Passby/Mermaids (B1) - Passby"
+					},
+					{
+						"name": "Mermaids (B1) - Incentive 1",
+						"ref": "Sea Shrine/Incentive 1/Mermaids (B1) - Incentive 1"
+					},
+					{
+						"name": "Mermaids (B1) - Incentive 2",
+						"ref": "Sea Shrine/Incentive 2/Mermaids (B1) - Incentive 2"
+					},
+					{
+						"name": "Mermaids (B1) - Incentive Major",
+						"ref": "Sea Shrine/Incentive Major/Mermaids (B1) - Incentive Major"
+					},
+					{
+						"name": "Mermaids (B1) - Four-Corner First",
+						"ref": "Sea Shrine/Four-Corner First/Mermaids (B1) - Four-Corner First"
+					},
+					{
+						"name": "Mermaids (B1) - Four-Corner Second",
+						"ref": "Sea Shrine/Four-Corner Second/Mermaids (B1) - Four-Corner Second"
+					},
+					{
+						"name": "Mermaids (B1) - Four-Corner Third",
+						"ref": "Sea Shrine/Four-Corner Third/Mermaids (B1) - Four-Corner Third"
+					},
+					{
+						"name": "Mermaids (B1) - Four-Corner Fourth",
+						"ref": "Sea Shrine/Four-Corner Fourth/Mermaids (B1) - Four-Corner Fourth"
+					},
+					{
+						"name": "Mermaids (B1) - Bubbles 1",
+						"ref": "Sea Shrine/Bubbles 1/Mermaids (B1) - Bubbles 1"
+					},
+					{
+						"name": "Mermaids (B1) - Bubbles 2",
+						"ref": "Sea Shrine/Bubbles 2/Mermaids (B1) - Bubbles 2"
+					},
+					{
+						"name": "Greed Floor (B3) - Chest 1",
+						"ref": "Sea Shrine/Chest 1/Greed Floor (B3) - Chest 1"
+					},
+					{
+						"name": "Greed Floor (B3) - Chest 2",
+						"ref": "Sea Shrine/Chest 2/Greed Floor (B3) - Chest 2"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Greed Room 1",
+						"ref": "Sea Shrine/Greed Room 1/Sharknado Floor (B4) - Greed Room 1"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Greed Room 2",
+						"ref": "Sea Shrine/Greed Room 2/Sharknado Floor (B4) - Greed Room 2"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Greed Room 3",
+						"ref": "Sea Shrine/Greed Room 3/Sharknado Floor (B4) - Greed Room 3"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Greed Room 4",
+						"ref": "Sea Shrine/Greed Room 4/Sharknado Floor (B4) - Greed Room 4"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Dengbait 1",
+						"ref": "Sea Shrine/Dengbait 1/Sharknado Floor (B4) - Dengbait 1"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Dengbait 2",
+						"ref": "Sea Shrine/Dengbait 2/Sharknado Floor (B4) - Dengbait 2"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Side Corner 1",
+						"ref": "Sea Shrine/Side Corner 1/Sharknado Floor (B4) - Side Corner 1"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Side Corner 2",
+						"ref": "Sea Shrine/Side Corner 2/Sharknado Floor (B4) - Side Corner 2"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Side Corner 3",
+						"ref": "Sea Shrine/Side Corner 3/Sharknado Floor (B4) - Side Corner 3"
+					},
+					{
+						"name": "Sharknado Floor (B4) - Exit",
+						"ref": "Sea Shrine/Exit/Sharknado Floor (B4) - Exit"
+					},
+					{
+						"name": "Kraken's Floor (B5) - Water Orb",
+						"ref": "Sea Shrine/Water Orb/Kraken's Floor (B5) - Water Orb"
 					}
 				],
 				"map_locations": [
@@ -922,19 +1513,254 @@
 				]
 			},
 			{
-				"name": "Overworld - Caravan or Town Shop",
-				"access_rules": [ "{}" ],
+				"name": "Mirage Tower",
+				"access_rules": [
+					"airship,chime",
+					"floater,airBoat,chime,ship",
+					"northernDocks,chime,ship,canal",
+					"lefeinBridge,bridge,hwyOrdeals,chime",
+					"hwyOrdeals,ship,canoe,canal,chime",
+					"landBridge,cardiaDock,ship,canal,chime"
+				],
 				"sections": [
 					{
-						"name": "Shop Item",
-						"hosted_item": "shopItem"
+						"name": "Mirage Tower (1F) - Chest 1",
+						"ref": "Mirage Tower/Chest 1/Mirage Tower (1F) - Chest 1"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 2",
+						"ref": "Mirage Tower/Chest 2/Mirage Tower (1F) - Chest 2"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 3",
+						"ref": "Mirage Tower/Chest 3/Mirage Tower (1F) - Chest 3"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 4",
+						"ref": "Mirage Tower/Chest 4/Mirage Tower (1F) - Chest 4"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 5",
+						"ref": "Mirage Tower/Chest 5/Mirage Tower (1F) - Chest 5"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 6",
+						"ref": "Mirage Tower/Chest 6/Mirage Tower (1F) - Chest 6"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 7",
+						"ref": "Mirage Tower/Chest 7/Mirage Tower (1F) - Chest 7"
+					},
+					{
+						"name": "Mirage Tower (1F) - Chest 8",
+						"ref": "Mirage Tower/Chest 8/Mirage Tower (1F) - Chest 8"
+					},
+					{
+						"name": "Mirage Tower (2F) - Lesser 1",
+						"ref": "Mirage Tower/Lesser 1/Mirage Tower (2F) - Lesser 1"
+					},
+					{
+						"name": "Mirage Tower (2F) - Lesser 2",
+						"ref": "Mirage Tower/Lesser 2/Mirage Tower (2F) - Lesser 2"
+					},
+					{
+						"name": "Mirage Tower (2F) - Lesser 3",
+						"ref": "Mirage Tower/Lesser 3/Mirage Tower (2F) - Lesser 3"
+					},
+					{
+						"name": "Mirage Tower (2F) - Lesser 4",
+						"ref": "Mirage Tower/Lesser 4/Mirage Tower (2F) - Lesser 4"
+					},
+					{
+						"name": "Mirage Tower (2F) - Lesser 5",
+						"ref": "Mirage Tower/Lesser 5/Mirage Tower (2F) - Lesser 5"
+					},
+					{
+						"name": "Mirage Tower (2F) - Greater 1",
+						"ref": "Mirage Tower/Greater 1/Mirage Tower (2F) - Greater 1"
+					},
+					{
+						"name": "Mirage Tower (2F) - Greater 2",
+						"ref": "Mirage Tower/Greater 2/Mirage Tower (2F) - Greater 2"
+					},
+					{
+						"name": "Mirage Tower (2F) - Greater 3",
+						"ref": "Mirage Tower/Greater 3/Mirage Tower (2F) - Greater 3"
+					},
+					{
+						"name": "Mirage Tower (2F) - Greater 4",
+						"ref": "Mirage Tower/Greater 4/Mirage Tower (2F) - Greater 4"
+					},
+					{
+						"name": "Mirage Tower (2F) - Greater 5",
+						"ref": "Mirage Tower/Greater 5/Mirage Tower (2F) - Greater 5"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 310,
-						"y": 460
+						"x": 2300,
+						"y": 660
+					}
+				]
+			},
+			{
+				"name": "Sky Fortress",
+				"access_rules": [
+					"airship,chime,cube",
+					"floater,airBoat,chime,cube,ship",
+					"northernDocks,chime,ship,canal,cube",
+					"lefeinBridge,bridge,hwyOrdeals,chime,cube",
+					"hwyOrdeals,ship,canal,canoe,chime,cube",
+					"landBridge,cardiaDock,ship,canal,chime,cube"
+				],
+				"sections": [
+					{
+						"name": "Sky Plus (1F) - Solo",
+						"ref": "Sky Fortress/Solo/Sky Plus (1F) - Solo"
+					},
+					{
+						"name": "Sky Plus (1F) - Five-Pack 1",
+						"ref": "Sky Fortress/Five-Pack 1/Sky Plus (1F) - Five-Pack 1"
+					},
+					{
+						"name": "Sky Plus (1F) - Five-Pack 2",
+						"ref": "Sky Fortress/Five-Pack 2/Sky Plus (1F) - Five-Pack 2"
+					},
+					{
+						"name": "Sky Plus (1F) - Five-Pack 3",
+						"ref": "Sky Fortress/Five-Pack 3/Sky Plus (1F) - Five-Pack 3"
+					},
+					{
+						"name": "Sky Plus (1F) - Five-Pack 4",
+						"ref": "Sky Fortress/Five-Pack 4/Sky Plus (1F) - Five-Pack 4"
+					},
+					{
+						"name": "Sky Plus (1F) - Five-Pack 5",
+						"ref": "Sky Fortress/Five-Pack 5/Sky Plus (1F) - Five-Pack 5"
+					},
+					{
+						"name": "Sky Plus (1F) - Four-Pack 1",
+						"ref": "Sky Fortress/Four-Pack 1/Sky Plus (1F) - Four-Pack 1"
+					},
+					{
+						"name": "Sky Plus (1F) - Four-Pack 2",
+						"ref": "Sky Fortress/Four-Pack 2/Sky Plus (1F) - Four-Pack 2"
+					},
+					{
+						"name": "Sky Plus (1F) - Four-Pack 3",
+						"ref": "Sky Fortress/Four-Pack 3/Sky Plus (1F) - Four-Pack 3"
+					},
+					{
+						"name": "Sky Plus (1F) - Four-Pack 4",
+						"ref": "Sky Fortress/Four-Pack 4/Sky Plus (1F) - Four-Pack 4"
+					},
+					{
+						"name": "Sky Spider (2F) - Cheap Room 1",
+						"ref": "Sky Fortress/Cheap Room 1/Sky Spider (2F) - Cheap Room 1"
+					},
+					{
+						"name": "Sky Spider (2F) - Cheap Room 2",
+						"ref": "Sky Fortress/Cheap Room 2/Sky Spider (2F) - Cheap Room 2"
+					},
+					{
+						"name": "Sky Spider (2F) - Vault 1",
+						"ref": "Sky Fortress/Vault 1/Sky Spider (2F) - Vault 1"
+					},
+					{
+						"name": "Sky Spider (2F) - Vault 2",
+						"ref": "Sky Fortress/Vault 2/Sky Spider (2F) - Vault 2"
+					},
+					{
+						"name": "Sky Spider (2F) - Gauntlet Room",
+						"ref": "Sky Fortress/Gauntlet Room/Sky Spider (2F) - Gauntlet Room"
+					},
+					{
+						"name": "Sky Spider (2F) - Ribbon Room 1",
+						"ref": "Sky Fortress/Ribbon Room 1/Sky Spider (2F) - Ribbon Room 1"
+					},
+					{
+						"name": "Sky Spider (2F) - Ribbon Room 2",
+						"ref": "Sky Fortress/Ribbon Room 2/Sky Spider (2F) - Ribbon Room 2"
+					},
+					{
+						"name": "Sky Spider (2F) - Wardrobe 1",
+						"ref": "Sky Fortress/Wardrobe 1/Sky Spider (2F) - Wardrobe 1"
+					},
+					{
+						"name": "Sky Spider (2F) - Wardrobe 2",
+						"ref": "Sky Fortress/Wardrobe 2/Sky Spider (2F) - Wardrobe 2"
+					},
+					{
+						"name": "Sky Spider (2F) - Incentive",
+						"ref": "Sky Fortress/Incentive/Sky Spider (2F) - Incentive"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 1",
+						"ref": "Sky Fortress/Six-Pack 1/Sky Provides (3F) - Six-Pack 1"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 2",
+						"ref": "Sky Fortress/Six-Pack 2/Sky Provides (3F) - Six-Pack 2"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 3",
+						"ref": "Sky Fortress/Six-Pack 3/Sky Provides (3F) - Six-Pack 3"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 4",
+						"ref": "Sky Fortress/Six-Pack 4/Sky Provides (3F) - Six-Pack 4"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 5",
+						"ref": "Sky Fortress/Six-Pack 5/Sky Provides (3F) - Six-Pack 5"
+					},
+					{
+						"name": "Sky Provides (3F) - Six-Pack 6",
+						"ref": "Sky Fortress/Six-Pack 6/Sky Provides (3F) - Six-Pack 6"
+					},
+					{
+						"name": "Sky Provides (3F) - CC's Gambit 1",
+						"ref": "Sky Fortress/CC's Gambit 1/Sky Provides (3F) - CC's Gambit 1"
+					},
+					{
+						"name": "Sky Provides (3F) - CC's Gambit 2",
+						"ref": "Sky Fortress/CC's Gambit 2/Sky Provides (3F) - CC's Gambit 2"
+					},
+					{
+						"name": "Sky Provides (3F) - CC's Gambit 3",
+						"ref": "Sky Fortress/CC's Gambit 3/Sky Provides (3F) - CC's Gambit 3"
+					},
+					{
+						"name": "Sky Provides (3F) - CC's Gambit 4",
+						"ref": "Sky Fortress/CC's Gambit 4/Sky Provides (3F) - CC's Gambit 4"
+					},
+					{
+						"name": "Sky Provides (3F) - Greed 1",
+						"ref": "Sky Fortress/Greed 1/Sky Provides (3F) - Greed 1"
+					},
+					{
+						"name": "Sky Provides (3F) - Greed 2",
+						"ref": "Sky Fortress/Greed 2/Sky Provides (3F) - Greed 2"
+					},
+					{
+						"name": "Sky Provides (3F) - Greed 3",
+						"ref": "Sky Fortress/Greed 3/Sky Provides (3F) - Greed 3"
+					},
+					{
+						"name": "Sky Provides (3F) - Greed 4",
+						"ref": "Sky Fortress/Greed 4/Sky Provides (3F) - Greed 4"
+					},
+					{
+						"name": "Tiamat's Floor (5) - Air Orb",
+						"ref": "Sky Fortress/Air Orb/Tiamat's Floor (5) - Air Orb"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 2300,
+						"y": 565
 					}
 				]
 			}

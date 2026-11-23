@@ -8,10 +8,10 @@
 		],
 		"children": [
 			{
-				"name": "Coneria Castle - Treasury 1",
+				"name": "Treasury 1",
 				"sections": [
 					{
-						"name": "Treasury 1",
+						"name": "Coneria Castle - Treasury 1",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -28,10 +28,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Treasury 2",
+				"name": "Treasury 2",
 				"sections": [
 					{
-						"name": "Treasury 2",
+						"name": "Coneria Castle - Treasury 2",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -48,10 +48,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Treasury 3",
+				"name": "Treasury 3",
 				"sections": [
 					{
-						"name": "Treasury 3",
+						"name": "Coneria Castle - Treasury 3",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -68,10 +68,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Treasury 4",
+				"name": "Treasury 4",
 				"sections": [
 					{
-						"name": "Treasury 4",
+						"name": "Coneria Castle - Treasury 4",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -88,10 +88,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Treasury 5",
+				"name": "Treasury 5",
 				"sections": [
 					{
-						"name": "Treasury 5",
+						"name": "Coneria Castle - Treasury 5",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -108,15 +108,15 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Treasury Major",
+				"name": "Treasury Major",
 				"sections": [
 					{
-						"name": "Treasury Major",
+						"name": "Coneria Castle - Treasury Major",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
-						],
-						"hosted_item": "coneriaLocked"
+							],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -128,10 +128,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - Sara",
+				"name": "Sara",
 				"sections": [
 					{
-						"name": "Sara",
+						"name": "Coneria Castle - Sara",
 						"access_rules": [
 							"garland"
 						],
@@ -147,10 +147,10 @@
 				]
 			},
 			{
-				"name": "Coneria Castle - King",
+				"name": "King",
 				"sections": [
 					{
-						"name": "King",
+						"name": "Coneria Castle - King",
 						"access_rules": [
 							"earlyKing",
 							"garland"

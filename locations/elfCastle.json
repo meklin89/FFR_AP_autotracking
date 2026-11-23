@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Elf Castle - Treasury 1",
+				"name": "Treasury 1",
 				"sections": [
 					{
-						"name": "Treasury 1",
+						"name": "Elf Castle - Treasury 1",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -31,10 +31,10 @@
 				]
 			},
 			{
-				"name": "Elf Castle - Treasury 2",
+				"name": "Treasury 2",
 				"sections": [
 					{
-						"name": "Treasury 2",
+						"name": "Elf Castle - Treasury 2",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -51,10 +51,10 @@
 				]
 			},
 			{
-				"name": "Elf Castle - Treasury 3",
+				"name": "Treasury 3",
 				"sections": [
 					{
-						"name": "Treasury 3",
+						"name": "Elf Castle - Treasury 3",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -71,10 +71,10 @@
 				]
 			},
 			{
-				"name": "Elf Castle - Treasury 4",
+				"name": "Treasury 4",
 				"sections": [
 					{
-						"name": "Treasury 4",
+						"name": "Elf Castle - Treasury 4",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -91,10 +91,10 @@
 				]
 			},
 			{
-				"name": "Elf Castle - Prince's Room",
+				"name": "Elf Prince",
 				"sections": [
 					{
-						"name": "Elf Prince",
+						"name": "Elf Castle - Elf Prince",
 						"access_rules": [
 							"herb"
 						],

@@ -11,10 +11,10 @@
 		],
 		"children": [
 			{
-				"name": "Top (B1) - Single",
+				"name": "Single",
 				"sections": [
 					{
-						"name": "Single",
+						"name": "Top (B1) - Single",
 						"item_count": 1
 					}
 				],
@@ -27,10 +27,10 @@
 				]
 			},
 			{
-				"name": "Top (B1) - Corner",
+				"name": "Corner",
 				"sections": [
 					{
-						"name": "Corner",
+						"name": "Top (B1) - Corner",
 						"item_count": 1
 					}
 				],
@@ -43,10 +43,10 @@
 				]
 			},
 			{
-				"name": "Top (B1) - Duo 1",
+				"name": "Duo 1",
 				"sections": [
 					{
-						"name": "Duo 1",
+						"name": "Top (B1) - Duo 1",
 						"item_count": 1
 					}
 				],
@@ -59,10 +59,10 @@
 				]
 			},
 			{
-				"name": "Top (B1) - Duo 2",
+				"name": "Duo 2",
 				"sections": [
 					{
-						"name": "Duo 2",
+						"name": "Top (B1) - Duo 2",
 						"item_count": 1
 					}
 				],
@@ -75,10 +75,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Distant",
+				"name": "Distant",
 				"sections": [
 					{
-						"name": "Distant",
+						"name": "Bottom (B2) - Distant",
 						"item_count": 1
 					}
 				],
@@ -91,10 +91,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Tetris-Z First",
+				"name": "Tetris-Z First",
 				"sections": [
 					{
-						"name": "Tetris-Z First",
+						"name": "Bottom (B2) - Tetris-Z First",
 						"item_count": 1
 					}
 				],
@@ -107,10 +107,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Tetris-Z Middle 1",
+				"name": "Tetris-Z Middle 1",
 				"sections": [
 					{
-						"name": "Tetris-Z Middle 1",
+						"name": "Bottom (B2) - Tetris-Z Middle 1",
 						"item_count": 1
 					}
 				],
@@ -123,10 +123,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Tetris-Z Middle 2",
+				"name": "Tetris-Z Middle 2",
 				"sections": [
 					{
-						"name": "Tetris-Z Middle 2",
+						"name": "Bottom (B2) - Tetris-Z Middle 2",
 						"item_count": 1
 					}
 				],
@@ -139,10 +139,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Tetris-Z Incentive",
+				"name": "Tetris-Z Incentive",
 				"sections": [
 					{
-						"name": "Tetris-Z Incentive",
+						"name": "Bottom (B2) - Tetris-Z Incentive",
 						"item_count": 1
 					}
 				],
@@ -155,10 +155,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Tetris-Z Last",
+				"name": "Tetris-Z Last",
 				"sections": [
 					{
-						"name": "Tetris-Z Last",
+						"name": "Bottom (B2) - Tetris-Z Last",
 						"item_count": 1
 					}
 				],
@@ -171,10 +171,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Locked Corner",
+				"name": "Locked Corner",
 				"sections": [
 					{
-						"name": "Locked Corner",
+						"name": "Bottom (B2) - Locked Corner",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -191,10 +191,10 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Locked Middle",
+				"name": "Locked Middle",
 				"sections": [
 					{
-						"name": "Locked Middle",
+						"name": "Bottom (B2) - Locked Middle",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -211,15 +211,15 @@
 				]
 			},
 			{
-				"name": "Bottom (B2) - Locked Incentive",
+				"name": "Locked Incentive",
 				"sections": [
 					{
-						"name": "Locked Incentive",
+						"name": "Bottom (B2) - Locked Incentive",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
 						],
-						"hosted_item": "marsh"
+						"item_count": 1
 					}
 				],
 				"map_locations": [

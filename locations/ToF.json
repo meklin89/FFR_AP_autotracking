@@ -8,10 +8,10 @@
 		],
 		"children": [
 			{
-				"name": "Temple of Fiends - Unlocked Single",
+				"name": "Unlocked Single",
 				"sections": [
 					{
-						"name": "Unlocked Single",
+						"name": "Temple of Fiends - Unlocked Single",
 						"item_count": 1
 					}
 				],
@@ -24,10 +24,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Unlocked Duo 1",
+				"name": "Unlocked Duo 1",
 				"sections": [
 					{
-						"name": "Unlocked Duo 1",
+						"name": "Temple of Fiends - Unlocked Duo 1",
 						"item_count": 1
 					}
 				],
@@ -40,10 +40,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Unlocked Duo 2",
+				"name": "Unlocked Duo 2",
 				"sections": [
 					{
-						"name": "Unlocked Duo 2",
+						"name": "Temple of Fiends - Unlocked Duo 2",
 						"item_count": 1
 					}
 				],
@@ -56,10 +56,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Locked Single",
+				"name": "Locked Single",
 				"sections": [
 					{
-						"name": "Locked Single",
+						"name": "Temple of Fiends - Locked Single",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -76,10 +76,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Locked Duo 1",
+				"name": "Locked Duo 1",
 				"sections": [
 					{
-						"name": "Locked Duo 1",
+						"name": "Temple of Fiends - Locked Duo 1",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -96,10 +96,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Locked Duo 2",
+				"name": "Locked Duo 2",
 				"sections": [
 					{
-						"name": "Locked Duo 2",
+						"name": "Temple of Fiends - Locked Duo 2",
 						"access_rules": [
 							"key,noLockpicking",
 							"[key],lockpicking"
@@ -116,10 +116,10 @@
 				]
 			},
 			{
-				"name": "Temple of Fiends - Garland",
+				"name": "Garland",
 				"sections": [
 					{
-						"name": "Garland",
+						"name": "Temple of Fiends - Garland",
 						"hosted_item": "garland"
 					}
 				],
@@ -128,146 +128,6 @@
 						"map": "tof",
 						"x": 404,
 						"y": 341
-					}
-				]
-			},
-			{
-				"name": "Revisited (3F) - Validation 1",
-				"sections": [
-					{
-						"name": "Validation 1",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofr3F",
-						"x": 311,
-						"y": 268
-					}
-				]
-			},
-			{
-				"name": "Revisited (3F) - Validation 2",
-				"sections": [
-					{
-						"name": "Validation 2",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofr3F",
-						"x": 407,
-						"y": 268
-					}
-				]
-			},
-			{
-				"name": "Revisited Kary Floor (6F) - Greed Checks 1",
-				"sections": [
-					{
-						"name": "Greed Checks 1",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofrFire",
-						"x": 129,
-						"y": 495
-					}
-				]
-			},
-			{
-				"name": "Revisited Kary Floor (6F) - Greed Checks 2",
-				"sections": [
-					{
-						"name": "Greed Checks 2",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofrFire",
-						"x": 369,
-						"y": 495
-					}
-				]
-			},
-			{
-				"name": "Revisited Kary Floor (6F) - Katana Chest",
-				"sections": [
-					{
-						"name": "Katana Chest",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofrFire",
-						"x": 401,
-						"y": 847
-					}
-				]
-			},
-			{
-				"name": "Revisited Kary Floor (6F) - Vault",
-				"sections": [
-					{
-						"name": "Vault",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofrFire",
-						"x": 881,
-						"y": 559
-					}
-				]
-			},
-			{
-				"name": "Revisited Tiamat Floor (8F) - Masamune Chest",
-				"sections": [
-					{
-						"name": "Masamune Chest",
-						"access_rules": [
-							"$canBreakOrb,lute,key,noLockpicking",
-							"$canBreakOrb,lute,[key],lockpicking"
-						],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tofrAir",
-						"x": 835,
-						"y": 530
 					}
 				]
 			}

@@ -13,10 +13,10 @@
 		],
 		"children": [
 			{
-				"name": "Titan's Tunnel - Chest 1",
+				"name": "Chest 1",
 				"sections": [
 					{
-						"name": "Chest 1",
+						"name": "Titan's Tunnel - Chest 1",
 						"item_count": 1
 					}
 				],
@@ -29,10 +29,10 @@
 				]
 			},
 			{
-				"name": "Titan's Tunnel - Chest 2",
+				"name": "Chest 2",
 				"sections": [
 					{
-						"name": "Chest 2",
+						"name": "Titan's Tunnel - Chest 2",
 						"item_count": 1
 					}
 				],
@@ -45,10 +45,10 @@
 				]
 			},
 			{
-				"name": "Titan's Tunnel - Chest 3",
+				"name": "Chest 3",
 				"sections": [
 					{
-						"name": "Chest 3",
+						"name": "Titan's Tunnel - Chest 3",
 						"item_count": 1
 					}
 				],
@@ -61,11 +61,11 @@
 				]
 			},
 			{
-				"name": "Titan's Tunnel - Major",
+				"name": "Major",
 				"sections": [
 					{
-						"name": "Major",
-						"hosted_item": "titanIncentive"
+						"name": "Titan's Tunnel - Major",
+						"item_count": 1
 					}
 				],
 				"map_locations": [

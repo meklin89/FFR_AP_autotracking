@@ -386,7 +386,7 @@
 													"type" : "tabbed",
 													"tabs" : [
 														{
-															"title" : "Top (B1)",
+															"title" : "Top & Middle (B1)",
 															"content" : {
 																"type" : "map",
 																"maps" : [ "marshB2" ]
